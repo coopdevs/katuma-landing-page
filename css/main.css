@@ -44,10 +44,13 @@ body {
   font-size: 30px;
   margin-bottom: 50px;
 }
-.signin #mce-EMAIL {
+.signin .form-group {
+  width: 400px;
+}
+.signin .form-group #mce-EMAIL {
   border: 2px solid #423349;
   border-radius: 5px;
-  width: 340px;
+  width: 100%;
   padding: 5px 13px 8px;
 }
 .signin #mc-embedded-subscribe {
@@ -95,4 +98,9 @@ body {
 }
 .footer a {
   color: white;
+}
+@media (max-width: 500px) {
+  .signin .form-group {
+    width: 100%;
+  }
 }
