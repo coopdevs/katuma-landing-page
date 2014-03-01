@@ -44,6 +44,40 @@ body {
   font-size: 30px;
   margin-bottom: 50px;
 }
+.signin #mce-EMAIL {
+  border: 2px solid #423349;
+  border-radius: 5px;
+  width: 340px;
+  padding: 5px 13px 8px;
+}
+.signin #mc-embedded-subscribe {
+  color: white;
+  background-color: #423349;
+  border: none;
+  border-radius: 5px;
+  height: 44px;
+  width: 130px;
+  vertical-align: top;
+}
+.signin input.mce_inline_error {
+  border-color: red;
+}
+.signin div.mce_inline_error {
+  background: none !important;
+  color: red !important;
+  padding: 10px 0 !important;
+  font-weight: normal !important;
+  margin: 0 !important;
+}
+.signin .response {
+  margin: 10px 0 0 0;
+}
+.signin .response#mce-success-response {
+  color: green;
+}
+.signin .response#mce-error-response {
+  color: red;
+}
 .footer {
   font-size: 18px;
   color: white;
