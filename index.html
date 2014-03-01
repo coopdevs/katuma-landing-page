@@ -11,15 +11,11 @@
         <meta name="viewport" content="width=device-width">
 
         <link rel="stylesheet" href="css/bootstrap.min.css">
-        <style>
-            body {
-                padding-top: 50px;
-                padding-bottom: 20px;
-            }
-        </style>
         <link rel="stylesheet" href="css/bootstrap-theme.min.css">
         <link rel="stylesheet" href="css/main.css">
+        <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 
+        
         <!--[if lt IE 9]>
             <script src="js/vendor/html5-3.6-respond-1.1.0.min.js"></script>
         <![endif]-->
@@ -28,93 +24,86 @@
         <!--[if lt IE 7]>
             <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
         <![endif]-->
-    <div class="navbar navbar-inverse navbar-fixed-top">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#">Project name</a>
-        </div>
-        <div class="navbar-collapse collapse">
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
-              <ul class="dropdown-menu">
-                <li><a href="#">Action</a></li>
-                <li><a href="#">Another action</a></li>
-                <li><a href="#">Something else here</a></li>
-                <li class="divider"></li>
-                <li class="dropdown-header">Nav header</li>
-                <li><a href="#">Separated link</a></li>
-                <li><a href="#">One more separated link</a></li>
-              </ul>
-            </li>
-          </ul>
-          <form class="navbar-form navbar-right">
-            <div class="form-group">
-              <input type="text" placeholder="Email" class="form-control">
-            </div>
-            <div class="form-group">
-              <input type="password" placeholder="Password" class="form-control">
-            </div>
-            <button type="submit" class="btn btn-success">Sign in</button>
-          </form>
-        </div><!--/.navbar-collapse -->
-      </div>
-    </div>
+    
 
     <!-- Main jumbotron for a primary marketing message or call to action -->
     <div class="jumbotron">
-      <div class="container">
-        <h1>Hello, world!</h1>
-        <p>This is a template for a simple marketing or informational website. It includes a large callout called the hero unit and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
-        <p><a class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
+      <div class="container horizontal flex">
+        <div class="row header">
+          <h1>KATUMA</h1>
+          <p class="slogan">Skip the middleman, buy directly from the providers.</p>
+        </div>
+      </div><!--container-->
+      <div class="services">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-4">          
+                <p>Easily create collaborative consumption groups</p>          
+              </div>
+              <div class="col-lg-4">          
+                <p>Build a meaningful relationship with the providers</p>          
+              </div>
+              <div class="col-lg-4">          
+                <p>An alternative marketplace for providers</p>          
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <div class="container signin">
+      <!-- Example row of columns -->
+      <div class="row description">
+        <div class="col-lg-12">
+          <p><strong>KATUMA</strong> is a <strong>tool</strong> for <strong>collaborative consumption</strong> administrators, members and providers</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12">
+          <form class="form-inline" role="form">
+            <div class="form-group">
+              <p>Want to be the <strong>first to know</strong> when we realease the beta?</p>
+            </div>
+            <br>
+            <div class="form-group">
+              <label class="sr-only" for="exampleInputEmail2">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail2" placeholder="Enter email">
+            </div>
+            <button type="submit" class="btn btn-default">Sign in</button>
+          </form>
+        </div>
       </div>
     </div>
 
-    <div class="container">
-      <!-- Example row of columns -->
-      <div class="row">
-        <div class="col-lg-4">
-          <h2>Heading</h2>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <p><a class="btn btn-default" href="#">View details &raquo;</a></p>
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+            <div class="col-lg-4">          
+              <p><i class="fa fa-github"></i> <a href="https://github.com/coopdevs">KATUMA is open source</a></p>
+            </div>
+            <div class="col-lg-4">          
+              <p><i class="fa fa-twitter"></i> <a href="https://twitter.com/katuma_org">Follow on twitter</a></p>
+           </div>
+            <div class="col-lg-4">          
+              <p><i class="fa fa-envelope"></i> <a href="mailto:info@katuma.org">Contact us</a></p>          
+            </div>          
+          </div>
         </div>
-        <div class="col-lg-4">
-          <h2>Heading</h2>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <p><a class="btn btn-default" href="#">View details &raquo;</a></p>
-       </div>
-        <div class="col-lg-4">
-          <h2>Heading</h2>
-          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-          <p><a class="btn btn-default" href="#">View details &raquo;</a></p>
-        </div>
-      </div>
+      </div> <!-- /container -->
+    </div>
 
-      <hr>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.1.min.js"><\/script>')</script>
 
-      <footer>
-        <p>&copy; Company 2013</p>
-      </footer>
-    </div> <!-- /container -->        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.1.min.js"><\/script>')</script>
+    <script src="js/vendor/bootstrap.min.js"></script>
 
-        <script src="js/vendor/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
 
-        <script src="js/main.js"></script>
-
-        <script>
-            var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
-            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-            g.src='//www.google-analytics.com/ga.js';
-            s.parentNode.insertBefore(g,s)}(document,'script'));
-        </script>
-    </body>
+    <script>
+        var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+        (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+        g.src='//www.google-analytics.com/ga.js';
+        s.parentNode.insertBefore(g,s)}(document,'script'));
+    </script>
+</body>
 </html>

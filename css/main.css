@@ -1,22 +1,64 @@
-
-
-/* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+@import url('http://fonts.googleapis.com/css?family=Roboto:100,300,400|Roboto+Slab:300');
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+}
+.jumbotron {
+  font-size: 20px;
+  font-weight: 300;
+  background-image: url('../img/sheep.jpg');
+  background-size: cover;
+  height: 700px;
+  padding: 0;
+  color: white;
+  position: relative;
+}
+.jumbotron .header {
+  height: 400px;
+  padding: 85px 0 0 50px;
+}
+.jumbotron h1 {
+  font-family: 'Roboto Slab', serif;
+  font-size: 70px;
+  font-weight: 300;
+}
+.jumbotron .slogan {
+  font-size: 30px;
+  font-weight: 100;
+}
+.jumbotron .services {
+  padding: 50px 0;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.jumbotron .services .col-lg-4 {
+  padding: 0 50px;
+}
+.signin {
+  padding: 50px;
+}
+.signin .description {
+  font-size: 30px;
+  margin-bottom: 50px;
+}
+.footer {
+  font-size: 18px;
+  color: white;
+  background-color: #423349;
+  line-height: 67px;
+  vertical-align: middle;
+  text-align: center;
+  width: 100%;
+}
+.footer p {
+  margin: 0px !important;
+}
+.footer p i {
+  margin-right: 5px;
+}
+.footer a {
+  color: white;
+}
