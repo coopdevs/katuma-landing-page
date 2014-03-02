@@ -10,10 +10,11 @@ body {
   background-image: url('../img/sheep.jpg');
   background-size: cover;
   height: 700px;
-  padding: 0;
   color: white;
   position: relative;
   text-shadow: 0px 2px 5px #000000;
+  margin-bottom: 0;
+  padding: 0;
 }
 .jumbotron .header {
   height: 400px;
@@ -40,22 +41,23 @@ body {
   padding: 0 50px;
 }
 .signin {
-  padding: 50px;
+  padding: 65px 50px;
 }
 .signin .description {
   font-size: 30px;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
 }
-.signin .form-group {
-  width: 400px;
+.signin .register .form-group {
+  width: 100%;
+  max-width: 400px;
 }
-.signin .form-group #mce-EMAIL {
+.signin .register .form-group #mce-EMAIL {
   border: 2px solid #423349;
   border-radius: 5px;
   width: 100%;
   padding: 5px 13px 8px;
 }
-.signin #mc-embedded-subscribe {
+.signin .register #mc-embedded-subscribe {
   color: white;
   background-color: #423349;
   border: none;
@@ -65,23 +67,23 @@ body {
   vertical-align: top;
   font-size: 16px;
 }
-.signin input.mce_inline_error {
+.signin .register input.mce_inline_error {
   border-color: red;
 }
-.signin div.mce_inline_error {
+.signin .register div.mce_inline_error {
   background: none !important;
   color: red !important;
   padding: 10px 0 !important;
   font-weight: normal !important;
   margin: 0 !important;
 }
-.signin .response {
+.signin .register .response {
   margin: 10px 0 0 0;
 }
-.signin .response#mce-success-response {
+.signin .register .response#mce-success-response {
   color: green;
 }
-.signin .response#mce-error-response {
+.signin .register .response#mce-error-response {
   color: red;
 }
 .footer {
