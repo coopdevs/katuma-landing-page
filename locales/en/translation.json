@@ -1,0 +1,22 @@
+{
+  "header": {
+    "title": "KATUMA",
+    "slogan": "Skip the middleman, buy directly from the providers."
+  },
+  "services": {
+    "1": "Easily create collaborative consumption groups.",
+    "2": "Build a meaningful relationship with the providers.",
+    "3": "An alternative marketplace for providers."
+  },
+  "signin": {
+    "description": "<strong>KATUMA</strong> is a <strong>tool</strong> for <strong>collaborative consumption</strong> administrators, members and providers.",
+    "question": "Want to be the <strong>first to know</strong> when we realease the beta?",
+    "placeholder": "Your email",
+    "submit": "SUBSCRIBE"
+  },
+  "footer": {
+    "github": "KATUMA is open source",
+    "twitter": "Follow us on Twitter",
+    "contact": "Contact us"
+  }
+}

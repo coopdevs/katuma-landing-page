@@ -1,4 +1,20 @@
+/* Code for i18next
+ *
+ */
+$(document).ready(function(){
+  // var language = navigator.language.split("-")[0];
+  var language = "ca";
+  i18n.init({ lng: language, debug: true }, function() {
+    $(".header").i18n();
+    $(".services").i18n();
+    $(".signin").i18n();
+    $(".footer").i18n();
+  });
+});
 
+/* Code for Mailchimp form
+ *
+ */
 var fnames = new Array();var ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';
 try {
     var jqueryLoaded=jQuery;
@@ -15,7 +31,7 @@ if (!jqueryLoaded) {
     if (script.readyState && script.onload!==null){
         script.onreadystatechange= function () {
               if (this.readyState == 'complete') mce_preload_check();
-        }    
+        }
     }
 }
 
@@ -89,7 +105,7 @@ function mce_init_form(){
                                         this.value = '';
                       } else {
                           if (/\[day\]/.test(fields[0].name)){
-                                              this.value = fields[1].value+'/'+fields[0].value+'/'+fields[2].value;                         
+                                              this.value = fields[1].value+'/'+fields[0].value+'/'+fields[2].value;
                           } else {
                                               this.value = fields[0].value+'/'+fields[1].value+'/'+fields[2].value;
                                           }
@@ -115,12 +131,12 @@ function mce_init_form(){
                                     });
                             });
                         return mce_validator.form();
-                    }, 
+                    },
                     success: mce_success_cb
                 };
       $('#mc-embedded-subscribe-form').ajaxForm(options);
-      
-      
+
+
     });
 }
 function mce_success_cb(resp){
@@ -156,11 +172,11 @@ function mce_success_cb(resp){
         try{
             if (index== -1){
                 $('#mce-'+resp.result+'-response').show();
-                $('#mce-'+resp.result+'-response').html(msg);            
+                $('#mce-'+resp.result+'-response').html(msg);
             } else {
                 err_id = 'mce_tmp_error_msg';
                 html = '<div id="'+err_id+'" style="'+err_style+'"> '+msg+'</div>';
-                
+
                 var input_id = '#mc_embed_signup';
                 var f = $(input_id);
                 if (ftypes[index]=='address'){

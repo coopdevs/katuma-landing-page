@@ -6,7 +6,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title></title>
+        <title>KATUMA</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width">
 
@@ -15,7 +15,7 @@
         <link rel="stylesheet" href="css/main.css">
         <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 
-        
+
         <!--[if lt IE 9]>
             <script src="js/vendor/html5-3.6-respond-1.1.0.min.js"></script>
         <![endif]-->
@@ -24,27 +24,27 @@
         <!--[if lt IE 7]>
             <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
         <![endif]-->
-    
+
 
     <!-- Main jumbotron for a primary marketing message or call to action -->
     <div class="jumbotron">
       <div class="container">
         <div class="row header">
-          <h1>KATUMA</h1>
-          <h2 class="slogan">Skip the middleman, buy directly from the providers.</h2>
+          <h1 data-i18n="header.title">KATUMA</h1>
+          <h2 class="slogan" data-i18n="header.slogan">Skip the middleman, buy directly from the providers.</h2>
         </div>
       </div><!--container-->
       <div class="services">
           <div class="container">
             <div class="row">
-              <div class="col-lg-4">          
-                <p>Easily create collaborative consumption groups.</p>
+              <div class="col-lg-4">
+                <p data-i18n="services.1">Easily create collaborative consumption groups.</p>
               </div>
-              <div class="col-lg-4">          
-                <p>Build a meaningful relationship with the providers.</p>
+              <div class="col-lg-4">
+                <p data-i18n="services.2">Build a meaningful relationship with the providers.</p>
               </div>
-              <div class="col-lg-4">          
-                <p>An alternative marketplace for providers.</p>          
+              <div class="col-lg-4">
+                <p data-i18n="services.3">An alternative marketplace for providers.</p>
               </div>
             </div>
           </div>
@@ -55,7 +55,7 @@
       <!-- Example row of columns -->
       <div class="row description">
         <div class="col-lg-12">
-          <p><strong>KATUMA</strong> is a <strong>tool</strong> for <strong>collaborative consumption</strong> administrators, members and providers</p>
+          <p data-i18n="[html]signin.description"><strong>KATUMA</strong> is a <strong>tool</strong> for <strong>collaborative consumption</strong> administrators, members and providers.</p>
         </div>
       </div>
       <div class="row register">
@@ -63,15 +63,15 @@
           <!-- Begin MailChimp Signup Form -->
           <div id="mc_embed_signup">
             <form action="http://katuma.us3.list-manage2.com/subscribe/post?u=c1fa2ee78d0632dc9cecbffab&amp;id=046995e05b" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="form-inline" role="form" target="_blank" novalidate>
-              
+
               <div class="mc-field-group">
-                <p>Want to be the <strong>first to know</strong> when we realease the beta?</p>
+                <p data-i18n="[html]signin.question">Want to be the <strong>first to know</strong> when we realease the beta?</p>
                 <div class="form-group">
                   <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
                   <div style="position: absolute; left: -5000px;"><input type="text" name="b_c1fa2ee78d0632dc9cecbffab_046995e05b" value=""></div>
-                  <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="Your email">
+                  <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="Your email" data-i18n="[placeholder]signin.placeholder">
                 </div>
-                <input type="submit" value="SUBSCRIBE" name="subscribe" id="mc-embedded-subscribe">
+                <input type="submit" value="SUBSCRIBE" name="subscribe" id="mc-embedded-subscribe" data-i18n="[value]signin.submit">
               </div>
               <div id="mce-responses" class="clear">
                 <div class="response" id="mce-error-response" style="display:none"></div>
@@ -87,27 +87,27 @@
     <div class="footer">
       <div class="container">
         <div class="row">
-            <div class="col-lg-4">          
+            <div class="col-lg-4">
               <p>
                 <a href="https://github.com/coopdevs">
-                  <i class="fa fa-github"></i> KATUMA is open source
+                  <i class="fa fa-github"></i> <span data-i18n="footer.github">KATUMA is open source</span>
                 </a>
               </p>
             </div>
-            <div class="col-lg-4">          
+            <div class="col-lg-4">
               <p>
                 <a href="https://twitter.com/katuma_org">
-                  <i class="fa fa-twitter"></i> Follow us on twitter
+                  <i class="fa fa-twitter"></i> <span data-i18n="footer.twitter">Follow us on twitter</span>
                 </a>
               </p>
            </div>
-            <div class="col-lg-4">          
+            <div class="col-lg-4">
               <p>
                 <a href="mailto:info@katuma.org">
-                  <i class="fa fa-envelope"></i> Contact us
+                  <i class="fa fa-envelope"></i> <span data-i18n="footer.contact">Contact us</span>
                 </a>
-              </p>          
-            </div>          
+              </p>
+            </div>
           </div>
         </div>
       </div> <!-- /container -->
@@ -117,6 +117,7 @@
     <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.1.min.js"><\/script>')</script>
 
     <script src="js/vendor/bootstrap.min.js"></script>
+    <script src="js/vendor/i18next-1.7.2.min.js"></script>
 
     <script src="js/main.js"></script>
 
