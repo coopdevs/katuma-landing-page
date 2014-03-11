@@ -1,0 +1,22 @@
+{
+  "header": {
+    "title": "KATUMA",
+    "slogan": "Ahórrate los intermediarios, compra directamente a los productores."
+  },
+  "services": {
+    "1": "Gestiona fácilmente grupos de consumo colaborativo.",
+    "2": "Crea vinculos de calidad con los productores.",
+    "3": "Un mercado alternativo para productores."
+  },
+  "signin": {
+    "description": "<strong>KATUMA</strong> es una <strong>herramienta</strong> para administradores, miembros y productores de <strong>grupos de consum colaborativo</strong>.",
+    "question": "Quiéres que te informemos cuando esté disponible la versión beta?",
+    "placeholder": "Correo electrónico",
+    "submit": "ENVIAR"
+  },
+  "footer": {
+    "github": "KATUMA es de código abierto",
+    "twitter": "Síguenos en Twitter",
+    "contact": "Contacta con nosotros"
+  }
+}
