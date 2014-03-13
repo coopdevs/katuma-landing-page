@@ -5,12 +5,12 @@
   },
   "services": {
     "1": "Gestiona fácilmente grupos de consumo colaborativo.",
-    "2": "Crea vinculos de calidad con los productores.",
+    "2": "Crea vínculos de calidad con los productores.",
     "3": "Un mercado alternativo para productores."
   },
   "signin": {
-    "description": "<strong>KATUMA</strong> es una <strong>herramienta</strong> para administradores, miembros y productores de <strong>grupos de consum colaborativo</strong>.",
-    "question": "Quiéres que te informemos cuando esté disponible la versión beta?",
+    "description": "<strong>KATUMA</strong> es una <strong>herramienta</strong> para administradores, miembros y productores de <strong>grupos de consumo colaborativo</strong>.",
+    "question": "¿Quieres que te informemos cuando esté disponible la versión beta?",
     "placeholder": "Correo electrónico",
     "submit": "ENVIAR"
   },
