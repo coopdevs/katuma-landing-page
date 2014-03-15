@@ -18,8 +18,21 @@ $(document).ready(function(){
 
 function setLanguage(language){
     
-    if (language !== "ca") {
-        language = "en";
+    // if (language !== "ca") {
+    //     language = "en";
+    // }else if(language ){
+
+    // }
+    switch(language)
+    {
+        case "ca":
+          
+          break;
+        case "es":
+        
+          break;
+        default:
+          language = "en"
     }
 
     i18n.init({

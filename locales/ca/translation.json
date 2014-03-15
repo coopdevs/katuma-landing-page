@@ -9,7 +9,7 @@
     "3": "Un mercat alternatiu per a productors."
   },
   "signin": {
-    "description": "<strong>KATUMA</strong> és una <strong>eina</strong> per a administradors, membres y productors de <strong>grups de consum col·laboratiu</strong>.",
+    "description": "<strong>KATUMA</strong> és una <strong>eina</strong> per a administradors, membres i productors de <strong>grups de consum col·laboratiu</strong>.",
     "question": "Vols que t'informem quan estigui disponible la versió beta?",
     "placeholder": "Correu electrònic",
     "submit": "ENVIAR"
