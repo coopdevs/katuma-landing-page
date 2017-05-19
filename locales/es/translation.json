@@ -10,6 +10,7 @@
   },
   "signin": {
     "description": "<strong>KATUMA</strong> es una <strong>herramienta</strong> para administradores, miembros y productores de <strong>grupos de consumo colaborativo</strong>.",
+    "alpha" : "Prueba <a title='Katuma Alpha' href='http://community.coopdevs.org/t/alpha-de-katuma/162'><strong>KATUMA alpha</strong></a> y <strong>participa</strong> en la co-creación de la plataforma cooperativa!",
     "question": "¿Quieres que te informemos cuando esté disponible la versión beta?",
     "placeholder": "Correo electrónico",
     "submit": "ENVIAR"

@@ -10,6 +10,7 @@
   },
   "signin": {
     "description": "<strong>KATUMA</strong> és una <strong>eina</strong> per a administradors, membres i productors de <strong>grups de consum col·laboratiu</strong>.",
+    "alpha" : "Prova <a title='Katuma Alpha' href='http://community.coopdevs.org/t/alpha-de-katuma/162'><strong>KATUMA alpha</strong></a> i <strong>participa</strong> en la co-creació de la plataforma cooperativa!",
     "question": "Vols que t'informem quan estigui disponible la versió beta?",
     "placeholder": "Correu electrònic",
     "submit": "ENVIAR"
