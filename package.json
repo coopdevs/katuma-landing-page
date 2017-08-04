@@ -1,0 +1,22 @@
+{
+  "name": "katuma-landing-page",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coopdevs/katuma-landing-page.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/coopdevs/katuma-landing-page/issues"
+  },
+  "homepage": "https://github.com/coopdevs/katuma-landing-page#readme",
+  "dependencies": {
+    "less": "^2.7.2"
+  }
+}
