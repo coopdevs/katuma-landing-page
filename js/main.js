@@ -42,7 +42,7 @@ function setLanguage(language){
     }, function() {
         $(".header").i18n();
         $(".services").i18n();
-        $(".signin").i18n();
+        $(".about").i18n();
         $(".footer").i18n();
     });
 }

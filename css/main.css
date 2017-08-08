@@ -2,64 +2,87 @@
 body {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
-  font-size: 20px;
+  font-size: 24px;
 }
 .jumbotron {
-  font-size: 20px;
   font-weight: 300;
-  background-image: url('../img/sheep.jpg');
+  background-image: url('../img/tile-wide.png');
+  background-color: #d96c54;
   background-size: cover;
-  height: 700px;
   color: white;
   position: relative;
   text-shadow: 0px 2px 5px #000000;
-  margin-bottom: 0;
-  padding: 0;
+  padding-bottom: 2rem;
 }
 .jumbotron .header {
-  height: 400px;
-  padding: 85px 0 0 50px;
+  padding: 30px 0 0 50px;
 }
 .jumbotron h1 {
   font-family: 'Roboto Slab', serif;
   font-size: 88px;
   font-weight: 300;
+  margin-bottom: 20px;
 }
 .jumbotron h2 {
   font-size: 32px;
-  font-weight: 100;
+  font-weight: 300;
   margin-top: 0px;
 }
 .jumbotron .services {
-  padding: 50px 0;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  background-color: rgba(0, 0, 0, 0.3);
+  padding: 25px 0;
+  font-size: 24px;
 }
 .jumbotron .services .col-lg-4 {
   padding: 0 50px;
 }
-.signin {
+.jumbotron .services .btn {
+  font-size: 2.5rem;
+  padding: 1rem 2rem;
+  word-wrap: break-word;
+  white-space: normal;
+}
+.jumbotron .services .btn-primary,
+.jumbotron .services .btn-primary:active,
+.jumbotron .services .btn-primary:visited,
+.jumbotron .services .btn-primary:focus {
+  background-color: rgba(0, 0, 0, 0.4);
+  border-color: rgba(0, 0, 0, 0.5);
+  background-image: none;
+}
+.jumbotron .services .btn-primary:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.jumbotron .services .btn-group {
+  margin-top: 20px;
+  max-width: 80%;
+}
+.about {
   padding: 65px 50px;
 }
-.signin .description {
-  font-size: 30px;
+.about .description {
   margin-bottom: 20px;
 }
-.signin .register .form-group {
+.about h2 {
+  margin-bottom: 20px;
+  font-size: 40px;
+}
+.about .register .mc-field-group {
+  width: 100%;
+}
+.about .register .form-group {
   width: 100%;
   max-width: 400px;
+  display: inline-block;
 }
-.signin .register .form-group #mce-EMAIL {
-  border: 2px solid #423349;
+.about .register .form-group #mce-EMAIL {
+  border: 2px solid #3b3b3b;
   border-radius: 5px;
   width: 100%;
   padding: 5px 13px 8px;
 }
-.signin .register #mc-embedded-subscribe {
+.about .register #mc-embedded-subscribe {
   color: white;
-  background-color: #423349;
+  background-color: #3b3b3b;
   border: none;
   border-radius: 5px;
   height: 44px;
@@ -67,29 +90,29 @@ body {
   vertical-align: top;
   font-size: 16px;
 }
-.signin .register input.mce_inline_error {
+.about .register input.mce_inline_error {
   border-color: red;
 }
-.signin .register div.mce_inline_error {
+.about .register div.mce_inline_error {
   background: none !important;
   color: red !important;
   padding: 10px 0 !important;
   font-weight: normal !important;
   margin: 0 !important;
 }
-.signin .register .response {
+.about .register .response {
   margin: 10px 0 0 0;
 }
-.signin .register .response#mce-success-response {
+.about .register .response#mce-success-response {
   color: green;
 }
-.signin .register .response#mce-error-response {
+.about .register .response#mce-error-response {
   color: red;
 }
 .footer {
   font-size: 18px;
   color: white;
-  background-color: #423349;
+  background-color: #e0674a;
   line-height: 67px;
   vertical-align: middle;
   text-align: center;
@@ -106,7 +129,7 @@ body {
 }
 .footer #languages {
   text-align: center;
-  background-color: black;
+  background-color: #3b3b3b;
   height: 48px;
   line-height: 3;
 }
@@ -124,8 +147,5 @@ body {
   }
   .jumbotron h2 {
     font-size: 28px;
-  }
-  .signin .form-group {
-    width: 100%;
   }
 }

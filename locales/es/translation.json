@@ -4,14 +4,15 @@
     "slogan": "Ahórrate los intermediarios, compra directamente a los productores."
   },
   "services": {
-    "1": "Gestiona fácilmente grupos de consumo colaborativo.",
-    "2": "Crea vínculos de calidad con los productores.",
-    "3": "Un mercado alternativo para productores."
+    "1": "1. Busca tu grupo de consumo más cercano",
+    "2": "2. Únete al grupo y participa como socia",
+    "3": "3. Compra y disfruta de productos de proximidad",
+    "start": "¡Empieza ahora!"
   },
-  "signin": {
-    "description": "<strong>KATUMA</strong> es una <strong>herramienta</strong> para administradores, miembros y productores de <strong>grupos de consumo colaborativo</strong>.",
-    "alpha" : "Prueba <a title='Katuma Alpha' href='http://community.coopdevs.org/t/alpha-de-katuma/162'><strong>KATUMA alpha</strong></a> y <strong>participa</strong> en la co-creación de la plataforma cooperativa!",
-    "question": "¿Quieres que te informemos cuando esté disponible la versión beta?",
+  "about": {
+    "description": "<strong>Katuma</strong> es una plataforma online basada en el modelo cooperativista, en el que <strong>la propiedad y gestión recae en las entidades y personas implicadas</strong>: productoras, consumidores finales, grupos de consumo y distribuidoras. Se trata de un <strong>modelo organizativo transparente, participativo y sin ánimo de lucro.</strong>",
+    "alpha" : "<strong>Únete <a title='Katuma' href='http://community.coopdevs.org/t/alpha-de-katuma/162'>Katuma y participa</a></strong> en la co-creación de la plataforma cooperativa!",
+    "question": "¿Quieres que te informemos de todas las novedades por mail? <strong> <br />Déjanos tu e-mail y te informaremos puntualmente</strong>",
     "placeholder": "Correo electrónico",
     "submit": "ENVIAR"
   },
