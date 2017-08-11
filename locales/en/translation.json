@@ -1,16 +1,21 @@
 {
   "header": {
     "title": "KATUMA",
-    "slogan": "Skip the middleman, buy directly from the providers."
+    "slogan": "Buy directly from <span>Local agro-ecological producers</span>"
   },
   "services": {
-    "1": "Easily create collaborative consumption groups.",
-    "2": "Build a meaningful relationship with the providers.",
-    "3": "An alternative marketplace for providers."
+    "1": "1. Search your nearest consumption group",
+    "2": "2. Join the group and participate",
+    "3": "3. Buy and enjoy local products",
+    "start": "Start now!"
   },
   "about": {
-    "description": "<strong>KATUMA</strong> is a <strong>tool</strong> for <strong>collaborative consumption</strong> administrators, members and providers.",
-    "alpha" : "Test <a title='Katuma Alpha' href='http://community.coopdevs.org/t/alpha-de-katuma/162'><strong>KATUMA alpha</strong></a> and <strong>take part</strong> of the platform cooperative co-creation!",
+    "description": "<strong>Katuma</strong> is an online platform based on the cooperative model, which aims to <strong>facilitate local agroecological consumption.</strong><br />The ownership and management of the platform rests on entities and people involved: producers, final consumers, consumer groups and distributors. It's a <strong>transparent, participatory and non-profit organizational model.</strong>",
+    "openfoodnetwork": "Katuma is based on free  <a href='https://openfoodnetwork.org'>Open Food Network</a> software, which already applies in Australia, UK, Canada and France among other countries.",
+    "who": "About us",
+    "whodescription": "Katuma are all entities and people involved: <strong>producers, final consumers, consumer groups and distributors.</strong>",
+    "entity": "Are you a consumer group, producer or distributor?",
+    "entitydescription" : "<strong>Join <a title='Katuma' href='http://community.coopdevs.org/t/alpha-de-katuma/162'>Katuma and participate</a></strong> in the co-creation of the cooperative platform!",
     "question": "Subscribe to our newsletter and stay updated on the <strong>latest news</strong>",
     "placeholder": "Your email",
     "submit": "SUBSCRIBE"

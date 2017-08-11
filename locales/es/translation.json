@@ -1,7 +1,7 @@
 {
   "header": {
     "title": "KATUMA",
-    "slogan": "Ahórrate los intermediarios, compra directamente a los productores."
+    "slogan": "Compra directamente a <span>productoras agroecológicas de proximidad</span>"
   },
   "services": {
     "1": "1. Busca tu grupo de consumo más cercano",
@@ -10,8 +10,12 @@
     "start": "¡Empieza ahora!"
   },
   "about": {
-    "description": "<strong>Katuma</strong> es una plataforma online basada en el modelo cooperativista, en el que <strong>la propiedad y gestión recae en las entidades y personas implicadas</strong>: productoras, consumidores finales, grupos de consumo y distribuidoras. Se trata de un <strong>modelo organizativo transparente, participativo y sin ánimo de lucro.</strong>",
-    "alpha" : "<strong>Únete <a title='Katuma' href='http://community.coopdevs.org/t/alpha-de-katuma/162'>Katuma y participa</a></strong> en la co-creación de la plataforma cooperativa!",
+    "description": "<strong>Katuma</strong> es una plataforma online basada en el modelo cooperativista, que tiene como fin <strong>facilitar el consumo agroecológico de proximidad.</strong><br />La propiedad y gestión de la plataforma recae en las entidades y personas implicadas: productoras, consumidores finales, grupos de consumo y distribuidoras. Se trata de un <strong>modelo organizativo transparente, participativo y sin ánimo de lucro.</strong>",
+    "openfoodnetwork": "Katuma se basa en el software libre <a href='https://openfoodnetwork.org'>Open Food Network</a>, que ya se aplica en Australia, Reino Unido, Canadá y Francia entre otros países.",
+    "who": "¿Quienes somos?",
+    "whodescription": "Katuma somos todas las entidades y personas implicadas: <strong>productoras, consumidoras finales, grupos de consumo y distribuidoras.</strong>",
+    "entity": "¿Eres un grupo de consumo, productora o distribuidora?",
+    "entitydescription" : "<strong>Únete <a title='Katuma' href='http://community.coopdevs.org/t/alpha-de-katuma/162'>Katuma y participa</a></strong> en la co-creación de la plataforma cooperativa!",
     "question": "¿Quieres que te informemos de todas las novedades por mail? <strong> <br />Déjanos tu e-mail y te informaremos puntualmente</strong>",
     "placeholder": "Correo electrónico",
     "submit": "ENVIAR"

@@ -28,11 +28,11 @@ function setLanguage(language){
         case "ca":
           
           break;
-        case "es":
+        case "en":
         
           break;
         default:
-          language = "en"
+          language = "es"
     }
 
     i18n.init({
