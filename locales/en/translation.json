@@ -15,10 +15,13 @@
     "who": "About us",
     "whodescription": "Katuma are all entities and people involved: <strong>producers, final consumers, consumer groups and distributors.</strong>",
     "entity": "Are you a consumer group, producer or distributor?",
-    "entitydescription" : "<strong>Join <a title='Katuma' href='http://community.coopdevs.org/t/alpha-de-katuma/162'>Katuma and participate</a></strong> in the co-creation of the cooperative platform!",
+    "entitydescription" : "<strong>Join <a title='Katuma' href='https://alpha.katuma.org/register'>Katuma and participate</a></strong> in the co-creation of the cooperative platform!",
     "question": "Subscribe to our newsletter and stay updated on the <strong>latest news</strong>",
     "placeholder": "Your email",
-    "submit": "SUBSCRIBE"
+    "submit": "SUBSCRIBE",
+    "asociatetitle": "Do you want to support the project? Become a member of the Katuma cooperative!",
+    "asociate": "You can support Katuma associating you as a contributing member of Katuma cooperative, providing <strong>100€ of social capital</strong> <em>(would be returned in case you leave the cooperative)</em>",
+    "asociatebtn": "Become a co-op member!"
   },
   "footer": {
     "github": "KATUMA is open source",

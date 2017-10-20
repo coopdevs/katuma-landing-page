@@ -15,10 +15,13 @@
     "who": "¿Qui som?",
     "whodescription": "Katuma som totes les entitats i persones implicades: <strong>productores, consumidores, grups de consum i distribuïdores.</strong>",
     "entity": "¿Ets un grup de consum, productora o distribuïdora?",
-    "entitydescription" : "<strong><a title='Katuma' href='http://community.coopdevs.org/t/alpha-de-katuma/162'>Participa en la co-creació de la plataforma cooperativa Katuma!</a></strong>",
+    "entitydescription" : "<strong><a title='Katuma' href='https://alpha.katuma.org/register'>Participa en la co-creació de la plataforma cooperativa Katuma!</a></strong>",
     "question": "Vols que t'informem de les novetats per mail? <strong> <br />Deixa'ns el teu e-mail i t'informarem de manera puntual</strong>",
     "placeholder": "Correu electrònic",
-    "submit": "ENVIAR"
+    "submit": "ENVIAR",
+    "asociatetitle": "¿Vols donar suport a el projecte? Fes-te sòcia de la cooperativa Katuma!",
+    "asociate": "Pots recolzar Katuma associant-te com soci col·laborador de la cooperativa Katuma, aportant <strong>100€ de capital social</strong> <em>(retornable en cas d'abandonar la cooperativa)</em>",
+    "asociatebtn": "Fes-te sòcia!"
   },
   "footer": {
     "github": "KATUMA es de còdi obert",
