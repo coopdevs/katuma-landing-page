@@ -28,11 +28,11 @@ function setLanguage(language){
         case "ca":
           
           break;
-        case "es":
+        case "en":
         
           break;
         default:
-          language = "en"
+          language = "es"
     }
 
     i18n.init({
@@ -42,7 +42,7 @@ function setLanguage(language){
     }, function() {
         $(".header").i18n();
         $(".services").i18n();
-        $(".signin").i18n();
+        $(".about").i18n();
         $(".footer").i18n();
     });
 }

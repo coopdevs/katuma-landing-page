@@ -1,23 +1,31 @@
 {
   "header": {
     "title": "KATUMA",
-    "slogan": "Estalvia't l'intermediari, compra directament als productors."
+    "slogan": "Compra directament a <span>productores agroecològiques de proximitat</span>"
   },
   "services": {
-    "1": "Gestiona fàcilment grups de consum col·laboratiu.",
-    "2": "Crea vincles de qualitat amb els productors.",
-    "3": "Un mercat alternatiu per a productors."
+    "1": "1. Cerca el grup de consum més proper",
+    "2": "2. Suma't al grup i participa com a sòcia",
+    "3": "3. Compra i gaudeix de productes de proximitat",
+    "start": "Comença ara!"
   },
-  "signin": {
-    "description": "<strong>KATUMA</strong> és una <strong>eina</strong> per a administradors, membres i productors de <strong>grups de consum col·laboratiu</strong>.",
-    "alpha" : "Prova <a title='Katuma Alpha' href='http://community.coopdevs.org/t/alpha-de-katuma/162'><strong>KATUMA alpha</strong></a> i <strong>participa</strong> en la co-creació de la plataforma cooperativa!",
-    "question": "Vols que t'informem quan estigui disponible la versió beta?",
+  "about": {
+    "description": "<strong>Katuma</strong> és una plataforma online basada en el model cooperativista, que té com a objectiu <strong>facilitar el consum agroecològic de proximitat.</strong><br />La propietat i gestió de la plataforma recau en les entitats i persones implicades: productores, consumidores, grups de consum i distribuïdores. Es tracta d'un <strong>model organitzatiu transparent, participatiu i sense ànim de lucre.</strong>",
+    "openfoodnetwork": "Katuma es basa en el software lliure <a href='https://openfoodnetwork.org'>Open Food Network</a>, que ja s'aplica a Austràlia, Regne Unit, Canadà i França entre d'altres països.",
+    "who": "¿Qui som?",
+    "whodescription": "Katuma som totes les entitats i persones implicades: <strong>productores, consumidores, grups de consum i distribuïdores.</strong>",
+    "entity": "¿Ets un grup de consum, productora o distribuïdora?",
+    "entitydescription" : "<strong><a title='Katuma' href='https://alpha.katuma.org/register'>Participa en la co-creació de la plataforma cooperativa Katuma!</a></strong>",
+    "question": "Vols que t'informem de les novetats per mail? <strong> <br />Deixa'ns el teu e-mail i t'informarem de manera puntual</strong>",
     "placeholder": "Correu electrònic",
-    "submit": "ENVIAR"
+    "submit": "ENVIAR",
+    "asociatetitle": "¿Vols donar suport a el projecte? Fes-te sòcia de la cooperativa Katuma!",
+    "asociate": "Pots recolzar Katuma associant-te com soci de la cooperativa Katuma, aportant <strong>100€ de capital social</strong> <em>(retornable en cas d'abandonar la cooperativa)</em>",
+    "asociatebtn": "Fes-te sòcia!"
   },
   "footer": {
-    "github": "KATUMA és de codi obert",
+    "github": "KATUMA es de còdi obert",
     "twitter": "Segueix-nos a Twitter",
-    "contact": "Contacta amb nosaltres"
+    "contact": "Contacta amb nosotres"
   }
 }

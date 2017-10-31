@@ -1,19 +1,27 @@
 {
   "header": {
     "title": "KATUMA",
-    "slogan": "Ahórrate los intermediarios, compra directamente a los productores."
+    "slogan": "Compra directamente a <span>productoras agroecológicas de proximidad</span>"
   },
   "services": {
-    "1": "Gestiona fácilmente grupos de consumo colaborativo.",
-    "2": "Crea vínculos de calidad con los productores.",
-    "3": "Un mercado alternativo para productores."
+    "1": "1. Busca tu grupo de consumo más cercano",
+    "2": "2. Únete al grupo y participa como socia",
+    "3": "3. Compra y disfruta de productos de proximidad",
+    "start": "¡Empieza ahora!"
   },
-  "signin": {
-    "description": "<strong>KATUMA</strong> es una <strong>herramienta</strong> para administradores, miembros y productores de <strong>grupos de consumo colaborativo</strong>.",
-    "alpha" : "Prueba <a title='Katuma Alpha' href='http://community.coopdevs.org/t/alpha-de-katuma/162'><strong>KATUMA alpha</strong></a> y <strong>participa</strong> en la co-creación de la plataforma cooperativa!",
-    "question": "¿Quieres que te informemos cuando esté disponible la versión beta?",
+  "about": {
+    "description": "<strong>Katuma</strong> es una plataforma online basada en el modelo cooperativista, que tiene como fin <strong>facilitar el consumo agroecológico de proximidad.</strong><br />La propiedad y gestión de la plataforma recae en las entidades y personas implicadas: productoras, consumidores finales, grupos de consumo y distribuidoras. Se trata de un <strong>modelo organizativo transparente, participativo y sin ánimo de lucro.</strong>",
+    "openfoodnetwork": "Katuma se basa en el software libre <a href='https://openfoodnetwork.org'>Open Food Network</a>, que ya se aplica en Australia, Reino Unido, Canadá y Francia entre otros países.",
+    "who": "¿Quienes somos?",
+    "whodescription": "Katuma somos todas las entidades y personas implicadas: <strong>productoras, consumidoras finales, grupos de consumo y distribuidoras.</strong>",
+    "entity": "¿Eres un grupo de consumo, productora o distribuidora?",
+    "entitydescription" : "<strong>Únete <a title='Katuma' href='https://alpha.katuma.org/register'>Katuma y participa</a></strong> en la co-creación de la plataforma cooperativa!",
+    "question": "¿Quieres que te informemos de todas las novedades por mail? <strong> <br />Déjanos tu e-mail y te informaremos puntualmente</strong>",
     "placeholder": "Correo electrónico",
-    "submit": "ENVIAR"
+    "submit": "ENVIAR",
+    "asociatetitle": "¿Quieres aproyar el proyecto? ¡Hazte socia de la cooperativa Katuma!",
+    "asociate": "Puedes apoyar Katuma asociandote como socio de la cooperativa Katuma, aportando <strong>100€ de capital social</strong> <em>(se devolverían en caso de que abandones la cooperativa)</em>",
+    "asociatebtn": "¡Hazte socia!"
   },
   "footer": {
     "github": "KATUMA es de código abierto",
