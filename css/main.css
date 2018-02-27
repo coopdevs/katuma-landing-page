@@ -51,6 +51,8 @@ h1, h2, h3, h4, h5 {
   position: relative;
   padding-bottom: 6rem;
   border-radius: 0px;
+  background-image: url('../img/background.png');
+  background-size: cover;
 }
 .jumbotron .header {
   padding-left: 50px;
