@@ -4,6 +4,9 @@ body {
   font-weight: 400;
   font-size: 18px;
   line-height: 30px;
+  color: #676767;
+}
+h1, h2, h3, h4, h5 {
   color: #3d3e44;
 }
 .navbar {
@@ -27,20 +30,21 @@ body {
   background-color: #433349;
   color: white;
   position: relative;
-  padding-bottom: 2rem;
+  padding-bottom: 6rem;
   border-radius: 0px;
 }
 .jumbotron .header {
   padding-left: 50px;
 }
-.jumbotron ol {
-  margin-left: -20px;
-}
 .jumbotron h1 {
   font-size: 46px;
-  line-height: 50px;
+  line-height: 52px;
   font-weight: 500;
   margin-bottom: 20px;
+  color: #fff;
+}
+.jumbotron .subtitle {
+  font-size: 20px;
 }
 .jumbotron strong {
   font-weight: 400;
@@ -72,6 +76,14 @@ body {
 .jumbotron .services .btn-group {
   margin-top: 40px;
   max-width: 80%;
+}
+.row h2 {
+  color: #433349;
+  font-weight: bold;
+}
+.principles h5 {
+  font-weight: bold;
+  margin-top: 30px;
 }
 .about {
   padding: 40px 10px;
