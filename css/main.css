@@ -33,7 +33,6 @@ h1, h2, h3, h4, h5 {
   position: relative;
   padding-bottom: 6rem;
   border-radius: 0px;
-  margin-bottom: 4rem;
 }
 .jumbotron .header {
   padding-left: 50px;
@@ -41,7 +40,7 @@ h1, h2, h3, h4, h5 {
 .jumbotron h1 {
   font-size: 46px;
   font-weight: 500;
-  margin: 80px 0 20px;
+  margin: 0 0 20px;
   color: #fff;
 }
 .jumbotron .subtitle {
@@ -78,11 +77,17 @@ h1, h2, h3, h4, h5 {
   margin-top: 40px;
   max-width: 80%;
 }
+.container {
+  padding-top: 120px;
+}
+.container.participate {
+  padding-top: 30px;
+}
 .row h2 {
   color: #433349;
   font-weight: bold;
 }
-.participate {
+.participate aside {
   margin-top: 60px;
 }
 .button, .button:hover, .button:active, .button:visited {
