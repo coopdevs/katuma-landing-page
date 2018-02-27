@@ -8,6 +8,7 @@ body {
 }
 h1, h2, h3, h4, h5 {
   color: #3d3e44;
+  line-height: 1.2em;
 }
 .navbar {
   background-color: #433349;
@@ -32,15 +33,15 @@ h1, h2, h3, h4, h5 {
   position: relative;
   padding-bottom: 6rem;
   border-radius: 0px;
+  margin-bottom: 4rem;
 }
 .jumbotron .header {
   padding-left: 50px;
 }
 .jumbotron h1 {
   font-size: 46px;
-  line-height: 52px;
   font-weight: 500;
-  margin-bottom: 20px;
+  margin: 80px 0 20px;
   color: #fff;
 }
 .jumbotron .subtitle {
@@ -80,6 +81,9 @@ h1, h2, h3, h4, h5 {
 .row h2 {
   color: #433349;
   font-weight: bold;
+}
+.participate {
+  margin-top: 60px;
 }
 .principles h5 {
   font-weight: bold;
