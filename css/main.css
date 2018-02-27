@@ -1,35 +1,48 @@
 @import url('http://fonts.googleapis.com/css?family=Roboto:100,300,400|Roboto+Slab:300');
 body {
   font-family: 'Roboto', sans-serif;
-  font-weight: 300;
-  font-size: 24px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #3d3e44;
+}
+.navbar {
+  background-color: #433349;
+  background-image: none;
+  border-radius: 0px;
+}
+.navbar .header {
+  padding-left: 50px;
+  margin-top: 24px;
+}
+.brand, .brand:hover {
+  font-family: 'Roboto slab';
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
 }
 .jumbotron {
   font-weight: 300;
-  background-image: url('../img/tile-wide.png');
-  background-color: #d96c54;
-  background-size: cover;
+  background-color: #433349;
   color: white;
   position: relative;
-  text-shadow: 0px 2px 5px #000000;
   padding-bottom: 2rem;
+  border-radius: 0px;
 }
 .jumbotron .header {
-  padding: 30px 0 0 50px;
+  padding-left: 50px;
+}
+.jumbotron ol {
+  margin-left: -20px;
 }
 .jumbotron h1 {
-  font-family: 'Roboto Slab', serif;
-  font-size: 88px;
-  font-weight: 300;
-  margin-bottom: 10px;
-  width: 100%;
+  font-size: 46px;
+  line-height: 50px;
+  font-weight: 500;
+  margin-bottom: 20px;
 }
-.jumbotron h2 {
-  font-size: 32px;
-  font-weight: 300;
-  margin-bottom: 40px;
-}
-.jumbotron h2 span {
+.jumbotron strong {
   font-weight: 400;
 }
 .jumbotron .services {
