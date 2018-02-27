@@ -108,59 +108,10 @@ h1, h2, h3, h4, h5 {
   font-weight: bold;
   margin-top: 30px;
 }
-.about {
-  padding: 40px 10px;
-}
-.about .description {
-  margin-bottom: 20px;
-}
 .about h2 {
   margin-top: 40px;
   margin-bottom: 20px;
   font-size: 40px;
-}
-.about .register .mc-field-group {
-  width: 100%;
-}
-.about .register .form-group {
-  width: 100%;
-  max-width: 400px;
-  display: inline-block;
-}
-.about .register .form-group #mce-EMAIL {
-  border: 2px solid #3b3b3b;
-  border-radius: 5px;
-  width: 100%;
-  padding: 5px 13px 8px;
-}
-.about .register #mc-embedded-subscribe {
-  color: white;
-  background-color: #3b3b3b;
-  border: none;
-  border-radius: 5px;
-  height: 44px;
-  width: 130px;
-  vertical-align: top;
-  font-size: 16px;
-}
-.about .register input.mce_inline_error {
-  border-color: red;
-}
-.about .register div.mce_inline_error {
-  background: none !important;
-  color: red !important;
-  padding: 10px 0 !important;
-  font-weight: normal !important;
-  margin: 0 !important;
-}
-.about .register .response {
-  margin: 10px 0 0 0;
-}
-.about .register .response#mce-success-response {
-  color: green;
-}
-.about .register .response#mce-error-response {
-  color: red;
 }
 .footer {
   font-size: 18px;
