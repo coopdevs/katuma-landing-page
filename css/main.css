@@ -85,6 +85,20 @@ h1, h2, h3, h4, h5 {
 .participate {
   margin-top: 60px;
 }
+.button, .button:hover, .button:active, .button:visited {
+  background-color: #433349;
+  margin-top: 36px;
+  display: inline-block;
+  color: #fff;
+  padding: 12px 32px;
+  border-radius: 6px;
+  font-size: 16px;
+  text-decoration: none;
+  transition: background-color .125s,border-color .125s,color .125s;
+}
+.button:hover {
+  background-color: #332738;
+}
 .principles h5 {
   font-weight: bold;
   margin-top: 30px;
