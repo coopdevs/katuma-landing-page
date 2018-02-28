@@ -188,13 +188,14 @@ a.login:hover {
   font-size: 40px;
 }
 .footer {
-  font-size: 18px;
-  color: white;
-  background-color: #e0674a;
-  line-height: 67px;
-  vertical-align: middle;
-  text-align: center;
-  width: 100%;
+  padding-bottom: 4rem;
+  font-size: 16px;
+}
+.footer h5 {
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
 }
 .footer p {
   margin: 0px !important;
@@ -202,14 +203,17 @@ a.login:hover {
 .footer p i {
   margin-right: 5px;
 }
-.footer a {
-  color: white;
+.footer .brand {
+  color: #433349;
 }
-.footer #languages {
-  text-align: center;
-  background-color: #3b3b3b;
-  height: 48px;
-  line-height: 3;
+.footer a {
+  color: #888;
+}
+.coopdevs {
+  margin-top: 25px;
+}
+.coopdevs img {
+  margin: -12px 0 0 -18px;
 }
 @media (max-width: 1200px) {
   .jumbotron .services .col-lg-4 {
