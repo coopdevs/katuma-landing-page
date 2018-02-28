@@ -17,12 +17,6 @@ $(document).ready(function(){
 });
 
 function setLanguage(language){
-    
-    // if (language !== "ca") {
-    //     language = "en";
-    // }else if(language ){
-
-    // }
     switch(language)
     {
         case "ca":
