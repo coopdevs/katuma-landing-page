@@ -88,7 +88,7 @@ a.login:hover {
   padding-top: .5rem;
 }
 .jumbotron .header {
-  padding-left: 50px;
+  padding: 60px 0 0 50px;
 }
 .jumbotron h1 {
   font-size: 46px;
