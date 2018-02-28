@@ -35,13 +35,13 @@ h1, h2, h3, h4, h5 {
   font-size: 16px;
 }
 .navbar .login {
-  border: 1px solid white;
+  border: 2px solid white;
   border-radius: 6px;
   margin-left: 8px;
 }
 a.login:hover {
   background-color: #fff;
-  color: #000;
+  color: #202020;
 }
 .brand, .brand:hover {
   font-family: 'Roboto slab';
@@ -80,6 +80,7 @@ a.login:hover {
   background-color: #433349;
   background-image: url('../img/background.jpg');
   background-size: cover;
+  background-position: right;
 }
 .jumbotron .header {
   padding-left: 50px;
