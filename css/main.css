@@ -167,6 +167,21 @@ a.login:hover {
 .ofn {
   margin: 2rem 0;
 }
+.goteo {
+  background-color: #433349;
+  margin: 0;
+  width: 100%;
+  margin-top: 80px;
+}
+.goteo .image-block {
+  margin-top: 1.25rem;
+}
+.container.goteo {
+  padding-bottom: 1.25rem;
+}
+.goteo h2, .goteo p {
+  color: #fff;
+}
 .about h2 {
   margin-top: 40px;
   margin-bottom: 20px;
