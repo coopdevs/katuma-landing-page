@@ -67,6 +67,9 @@ a.login:hover {
   background-color: #fff;
   color: #000;
 }
+.button.negative-button:hover {
+  background-color: #e5e5e5;
+}
 .jumbotron {
   font-weight: 300;
   color: white;
