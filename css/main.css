@@ -168,13 +168,17 @@ a.login:hover {
   margin: 2rem 0;
 }
 .goteo {
-  background-color: #433349;
+  background-color: #533f5a;
   margin: 0;
   width: 100%;
   margin-top: 80px;
 }
 .goteo .image-block {
   margin-top: 1.25rem;
+}
+.goteo .login {
+  background-color: #533f5a;
+  color: #fff;
 }
 .container.goteo {
   padding-bottom: 1.25rem;
