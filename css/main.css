@@ -16,7 +16,6 @@ h1, h2, h3, h4, h5 {
   box-shadow: none;
 }
 .navbar .header {
-  padding-left: 50px;
   margin: 12px 0;
 }
 .navbar .nav {
@@ -81,6 +80,12 @@ a.login:hover {
   background-image: url('../img/background.jpg');
   background-size: cover;
   background-position: right;
+}
+.background .container { 
+  padding-top: .5rem;
+}
+.jumbotron .container {
+  padding-top: 100px;
 }
 .jumbotron .header {
   padding-left: 50px;
