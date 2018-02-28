@@ -11,9 +11,9 @@ h1, h2, h3, h4, h5 {
   line-height: 1.2em;
 }
 .navbar {
-  background-color: #433349;
   background-image: none;
   border-radius: 0px;
+  box-shadow: none;
 }
 .navbar .header {
   padding-left: 50px;
@@ -70,12 +70,15 @@ a.login:hover {
 }
 .jumbotron {
   font-weight: 300;
-  background-color: #433349;
   color: white;
-  position: relative;
   padding-bottom: 6rem;
   border-radius: 0px;
-  background-image: url('../img/background.png');
+  background-color: transparent;
+}
+.background {
+  position: relative;
+  background-color: #433349;
+  background-image: url('../img/background.jpg');
   background-size: cover;
 }
 .jumbotron .header {
