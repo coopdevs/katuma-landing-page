@@ -17,7 +17,22 @@ h1, h2, h3, h4, h5 {
 }
 .navbar .header {
   padding-left: 50px;
-  margin-top: 24px;
+  margin: 12px 0;
+}
+.navbar .nav {
+  float: right;
+}
+.navbar a, .navbar a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+.navbar a:hover {
+  color: rgba(255,255,255,.75);
+}
+.navbar .nav > li > a {
+  float: none;
+  padding: 10px 15px 10px;
+  font-size: 16px;
 }
 .brand, .brand:hover {
   font-family: 'Roboto slab';
