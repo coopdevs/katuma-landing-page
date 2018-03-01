@@ -3,155 +3,202 @@
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>KATUMA</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width">
+  <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>Katuma</title>
+      <meta name="description" content="">
+      <meta name="viewport" content="width=device-width">
 
-        <link rel="stylesheet" href="css/bootstrap.min.css">
-        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
-        <link rel="stylesheet" href="css/main.css">
-        <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
-        <link rel="icon" type="image/x-icon" href="favicon.ico" /> 
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+      <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+      <link rel="stylesheet" href="css/main.css">
+      <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+      <link rel="icon" type="image/x-icon" href="favicon.ico" />
 
-
-        <!--[if lt IE 9]>
-            <script src="js/vendor/html5-3.6-respond-1.1.0.min.js"></script>
-        <![endif]-->
-    </head>
-    <body>
+      <!--[if lt IE 9]>
+          <script src="js/vendor/html5-3.6-respond-1.1.0.min.js"></script>
+      <![endif]-->
+  </head>
+  <body>
         <!--[if lt IE 7]>
             <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
         <![endif]-->
 
 
+  <div class="background">
+    <div class="navbar container">
+      <div class="header">
+        <a class="brand" href="#">Katuma</a>
+        <ul class="nav">
+          <li><a data-i18n="nav.map" href="https://alpha.katuma.org/map">Mapa</a></li>
+          <li><a data-i18n="nav.community" href="http://community.coopdevs.org/tags/katuma">Comunitat</a></li>
+          <li><a data-i18n="nav.login" class="login" href="https://alpha.katuma.org/">Entra</a></li>
+        </ul>
+      </div>
+    </div>
+
     <!-- Main jumbotron for a primary marketing message or call to action -->
     <div class="jumbotron">
       <div class="container">
         <div class="row header">
-          <h1 data-i18n="header.title">KATUMA</h1>
-          <h2 class="slogan" data-i18n="[html]header.slogan">Compra directamente a <span>Productoras agroecológicas de proximidad</span></h2>
+          <div class="col-lg-6">
+            <h1 class="slogan" data-i18n="header.slogan">Compra directament a productores de proximitat</h1>
+            <p class="subtitle" data-i18n="header.subtitle">
+            Consumeix productes de proximitat i participa d'un model sostenible amb beneficis socioeconòmics per a la comunitat.
+            </p>
+            <a onClick="trackOutboundLink('boton', 'click', 'Matchfunding2018-hero','https://www.goteo.org/project/katuma'); return false;" class="button negative-button" data-i18n="[html]header.button" href="https://www.goteo.org/project/katuma">Fes-te mecenes</a>
+          </div>
         </div>
       </div><!--container-->
-      <div class="services text-center">
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-4">
-                <p data-i18n="services.1">1. Busca tu grupo de consumo más cercano</p>
-              </div>
-              <div class="col-lg-4">
-                <p data-i18n="services.2">2. Únete al grupo y participa como socia</p>
-              </div>
-              <div class="col-lg-4">
-                <p data-i18n="services.3">3. Compra y disfruta de productos de proximidad</p>
-              </div>
-            </div>
-            <div class="btn-group">
-              <a class="btn btn-primary btn-lg" href="https://alpha.katuma.org/shops#/" role="button" data-i18n="services.start">¡Empieza ahora!</a>
-            </div>
-          </div>
-        </div>
     </div>
+  </div>
 
-    <div class="container about">
-      <!-- Example row of columns -->
-      <div class="row description">
-        <div class="col-lg-12">
-          <p data-i18n="[html]about.description"><strong>Katuma</strong> es una plataforma online basada en el modelo cooperativista, que tiene como fin <strong>facilitar el consumo agroecológico de proximidad.</strong><br />La propiedad y gestión de la plataforma recae en las entidades y personas implicadas: productoras, consumidores finales, grupos de consumo y distribuidoras. Se trata de un <strong>modelo organizativo transparente, participativo y sin ánimo de lucro.</strong></p>
-          <img class="img-fluid" src="img/Katuma_esquema_platform_coop.jpg" />
-          <p data-i18n="[html]about.openfoodnetwork">Katuma se basa en el software libre <a href="https://openfoodnetwork.org">Open Food Network</a>, que ya se aplica en Australia, Reino Unido, Canadá y Francia entre otros países.</p>
-          <div class="row text-center">
-            <a href="https://openfoodnetwork.org"><img class="img-fluid" src="img/ofn.png" width="50%" /></a>
-          </div>
-        </div>
-      </div>    
-      <div class="row us">
-        <div class="col-lg-12">
-          <h2 data-i18n="about.who">¿Quienes somos?</h2>
-          <p data-i18n="[html]about.whodescription">Katuma somos todas las entidades y personas implicadas: <strong>productoras, consumidoras finales, grupos de consumo y distribuidoras.</strong></p>
-          <div class="col-lg-12 text-center embed-responsive embed-responsive-16by9">
-           <iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/kmT4OZgzHGM" frameborder="0" allowfullscreen></iframe>
-          </div>
-        </div>
-      </div>
-      <div class="row description">
-        <div class="col-lg-12">
-          <h2 data-i18n="about.entity">¿Eres un grupo de consumo, productora o distribuidora?</h2>
-          <p data-i18n="[html]about.entitydescription"><strong>Únete <a title='Katuma' href='https://alpha.katuma.org/register'>Katuma y participa</a></strong> en la co-creación de la plataforma cooperativa!</p>
-        </div>
-      </div>
-      <!-- Begin MailChimp Signup Form -->
-      <div class="row register" id="mc_embed_signup">
-        <div class="col-lg-12">
-          <form action="http://katuma.us3.list-manage2.com/subscribe/post?u=c1fa2ee78d0632dc9cecbffab&amp;id=046995e05b" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="form-inline" role="form" target="_blank" novalidate>
-
-            <div class="mc-field-group">
-              <p data-i18n="[html]about.question">¿Quieres que te informemos de todas las novedades por mail? <strong> <br />Déjanos tu e-mail y te informaremos puntualmente</strong></p>
-              <div class="form-group">
-                <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                <div style="position: absolute; left: -5000px;"><input type="text" name="b_c1fa2ee78d0632dc9cecbffab_046995e05b" value=""></div>
-                <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="Your email" data-i18n="[placeholder]about.placeholder">
-              </div>
-              <input type="submit" value="SUBSCRIBE" name="subscribe" id="mc-embedded-subscribe" data-i18n="[value]about.submit">
-            </div>
-            <div id="mce-responses" class="clear">
-              <div class="response" id="mce-error-response" style="display:none"></div>
-              <div class="response" id="mce-success-response" style="display:none"></div>
-            </div>
-          </form>
-        </div>
-      </div>
-      <!-- End MailChimp Signup Form -->
+    <div class="container participate">
       <div class="row">
-        <div class="col-lg-12">
-          <h2 data-i18n="about.asociatetitle">¿Quieres aproyar el proyecto? ¡Hazte socia de la cooperativa Katuma!</h2>
-          <p data-i18n="[html]about.asociate">Puedes apoyar Katuma asociandote como socio de la cooperativa Katuma, aportando <strong>100€ de capital social</strong> <em>(se devolverían en caso de que abandones la cooperativa)</em></p>
+        <div class="col-lg-7">
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/Tkv0fdDETh0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          </div>
         </div>
-        <div class="col-lg-12 text-center">
-          <div class="btn-group">
-            <a class="btn btn-primary btn-lg" href="http://forms.coopdevs.org/index.php?r=survey/index&sid=549217" role="button" data-i18n="about.asociatebtn">¡Hazte socia!</a>
-        </div>
+        <aside class="col-lg-4 offset-md-1">
+          <h2 data-i18n="participate.title">Entre totes podem canviar les regles del consum</h2>
+          <p data-i18n="participate.body">Gràcies a molta gent, Katuma ja és una realitat, l’eina ja està online i els primers grups de consum i productores ja la fan servir. Ara només ens cal el teu suport.</p>
+          <a onClick="trackOutboundLink('boton', 'click', 'Matchfunding2018-video','https://www.goteo.org/project/katuma'); return false;" class="button" href="https://www.goteo.org/project/katuma">Participa</a>
+        </aside>
       </div>
     </div>
+
+    <div class="container principles">
+      <div class="row text-center">
+        <div class="col-lg-10 offset-1">
+          <h2 data-i18n="principles.title">Els tres pilars</h2>
+        </div>
+        <div class="col-lg-4">
+          <h5>Consum de proximitat</h5>
+          <p>Com a eina per potenciar la sobirania alimentària i afavorir productors locals que fan una agricultura diferent.</p>
+        </div>
+        <div class="col-lg-4">
+          <h5 data-i18n="principles.platformcoop.title">Platform Coop</h5>
+          <p data-i18n="principles.platformcoop.body">Persones, grups de consum i productores de proximitat en són les propitàries i decideixen el rumb de Katuma
+</p>
+        </div>
+        <div class="col-lg-4">
+          <h5 data-i18n="principles.software.title">Software lliure</h5>
+          <p data-i18n="principles.software.body">Perquè també hem d'exercir els nostres drets digitals i el nostre projecte és un esforç col·lectiu i obert.</p>
+        </div>
+      </div>
 
     </div><!--end row about-->
 
-    <div class="text-right">
-      <a href="http://coopdevs.org">
-        <img width="300" height="53.18" src="http://community.coopdevs.org/uploads/default/original/1X/8e49765a99d2ec95fde8d5f51468a3553226dcd0.png"/>
-      </a>
+    <div class="container journeys">
+      <div class="row image-block">
+        <div class="col-lg-6">
+          <img src="img/consumidores.jpg" alt="Consumidora" />
+        </div>
+        <aside class="col-lg-5 offset-md-1">
+          <h2 data-i18n="journeys.consumers.title">Consumidores</h2>
+          <p data-i18n="journeys.consumers.body">Gràcies a un mapa que geolocalitza i visibilitza els grups de consum existents, es promou el contacte i l'adhesió de qualsevol persona, facilitant l'accés a un mercat alternatiu format per productores locals.</p>
+        </aside>
+      </div>
+      <div class="row image-block">
+        <aside class="col-lg-4 offset-md-1">
+          <h2 data-i18n="journeys.groups.title">Grups de consum</h2>
+          <p data-i18n="journeys.groups.body">El productor manté la seva llista de productes i els grups que proveeix no s'han de preocupar de gestionar fulls de càlcul ni d'actualitzar cap preu.</p>
+        </aside>
+        <div class="col-lg-6 offset-md-1">
+          <img src="img/grups.jpg" alt="Grup de consum" />
+        </div>
+      </div>
+      <div class="row image-block">
+        <div class="col-lg-6">
+          <img src="img/productores.jpg" alt="Productora" />
+        </div>
+        <aside class="col-lg-5 offset-md-1">
+          <h2 data-i18n="journeys.producers.title">Productores</h2>
+          <p data-i18n="journeys.producers.body">Ja no cal enviar llistats de preus actualitzats i rebre comandes cada setmana en diferents formats per WhatsApp, email, telèfon, etc.</p>
+        </aside>
+      </div>
+    </div>
+
+    <div class="container open-food-network">
+      <div class="row text-center">
+        <div class="col-lg-6 offset-lg-3">
+          <h2 data-i18n="open-food-network.title">Sumem esforços</h2>
+          <p data-i18n="[html]open-food-network.body">Katuma es basa en el software lliure <a href="https://openfoodnetwork.org">Open Food Network</a>, que ja s'aplica a Austràlia, Regne Unit, Canadà i França entre d'altres països. Els desenvolupadors que traballen a Katuma formen part del nucli del projecte.</p>
+          <a href="https://openfoodnetwork.org">
+            <img class="ofn" src="img/ofn.png" width="50%" alt="Open Food Network logo">
+          </a>
+         </div>
+      </div>
+    </div>
+
+    <div class="container goteo">
+      <div class="row image-block">
+        <div class="col-lg-6 widget text-center">
+          <iframe frameborder="0" height="492px" src="https://www.goteo.org/widget/project/katuma" width="300px" scrolling="no"></iframe>
+        </div>
+        <aside class="col-lg-5">
+          <h2 data-i18n="goteo.title">Ens ajudes a arribar més lluny?</h2>
+          <p data-i18n="goteo.body">Amb aquesta campanya a Goteo seguirem desenvolupant Katuma, acompanyarem a grups i productores en la seva implantació i millorarem la nostra comunicació perquè Katuma arribi a tothom.</p>
+          <div>
+            <a onClick="trackOutboundLink('boton', 'click', 'Matchfunding2018-widget','https://www.goteo.org/project/katuma'); return false;" class="button negative-button" data-i18n="goteo.button" href="https://www.goteo.org/project/katuma">Fes una donació</a>
+            <a class="button login" data-i18n="goteo.secondary-button" href="https://alpha.katuma.org/">Entra</a>
+          </div>
+        </aside>
+      </div>
     </div>
 
     <div class="footer">
       <div class="container">
         <div class="row">
-          <div class="col-lg-4">
-            <p>
+          <div class="col-lg-4 list">
+            <a class="brand" href="#">Katuma</a>
+            <div class="coopdevs">
+              <p>Impulsat per</p>
+              <a href="http://coopdevs.org">
+                <img width="300" height="53.18" src="http://community.coopdevs.org/uploads/default/original/1X/8e49765a99d2ec95fde8d5f51468a3553226dcd0.png"/>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-3 list">
+            <h5>Nosaltres</h5>
+            <div>
               <a href="https://github.com/coopdevs">
-                <i class="fa fa-github"></i> <span data-i18n="footer.github">KATUMA es de código abierto</span>
+                <i class="fa fa-github"></i> <span data-i18n="footer.github">Katuma és codi lliure</span>
               </a>
-            </p>
-          </div>
-          <div class="col-lg-4">
-            <p>
+            </div>
+            <div>
               <a href="https://twitter.com/katuma_org">
-                <i class="fa fa-twitter"></i> <span data-i18n="footer.twitter">Síguenos en Twitter</span>
+                <i class="fa fa-twitter"></i> <span data-i18n="footer.twitter">Segueix-nos a Twitter</span>
               </a>
-            </p>
-         </div>
-          <div class="col-lg-4">
-            <p>
+            </div>
+            <div>
+              <a href="https://www.facebook.com/katumaorg/">
+                <i class="fa fa-facebook"></i> <span data-i18n="footer.facebook">Segueix-nos a Facebook</span>
+              </a>
+            </div>
+            <div>
               <a href="http://community.coopdevs.org/tags/katuma">
-                <i class="fa fa-envelope"></i> <span data-i18n="footer.contact">Contacta con nosotros</span>
+                <i class="fa fa-envelope"></i> <span data-i18n="footer.contact">Contacta amb nosaltres</span>
               </a>
-            </p>
+            </div>
+         </div>
+          <div id="languages" class="col-lg-3 list">
+            <h5>Idiomes</h5>
+            <div>
+              <a href="#" language="en">English</a>
+            </div>
+            <div>
+              <a href="#" language="ca">Català</a>
+            </div>
+            <div>
+              <a href="#" language="es">Español</a>
+            </div>
           </div>
-          </div>
+        </div>
       </div><!-- /container -->
-      <p id="languages">
-        <a href="#" language="en">English</a> | <a href="#" language="ca">Catalan</a>  | <a href="#" language="es">Español</a>
+      <p>
       </p>
     </div><!--footer-->
 
@@ -172,5 +219,20 @@
       ga('create', 'UA-48794646-1', 'auto');
       ga('send', 'pageview');
     </script>
-</body>
+     <script>
+      /**
+      * Función de Analytics que realiza un seguimiento de un clic en un enlace externo.
+      * Esta función toma una cadena de URL válida como argumento y la utiliza
+      * como la etiqueta del evento. Configurar el método de transporte como "beacon" permite que el hit se envíe
+      * con "navigator.sendBeacon" en el navegador que lo admita.
+      */
+      var trackOutboundLink = function(event_category, event_type, event_label, url) {
+         ga('send', 'event', event_category, event_type, event_label+'-'+url, {
+           'transport': 'beacon',
+           'hitCallback': function(){document.location = url;}
+         });
+      }
+
+      </script> 
+  </body>
 </html>

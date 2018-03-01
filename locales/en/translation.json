@@ -1,7 +1,8 @@
 {
   "header": {
     "title": "KATUMA",
-    "slogan": "Buy directly from <span>Local agro-ecological producers</span>"
+    "slogan": "Buy directly from <span>Local agro-ecological producers</span>",
+    "subtitle": "Consume local food and participate in a sustainable model with socioeconomic benefits for the community"
   },
   "services": {
     "1": "1. Search your nearest consumption group",
@@ -26,6 +27,7 @@
   "footer": {
     "github": "KATUMA is open source",
     "twitter": "Follow us on Twitter",
+    "facebook": "Follow us on Facebook",
     "contact": "Contact us"
   }
 }
