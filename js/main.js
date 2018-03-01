@@ -6,11 +6,11 @@
 $(document).ready(function(){
     var browserLanguage = navigator.language;
 
-    //set default language
+    // set default language
     setLanguage(browserLanguage);
     
-    //action change language
-    $(this).on("click","#languages",function(event){
+    // action change language
+    $(this).on("click", "#languages", function(event) {
         var language = $(event.target).attr("language");
         setLanguage(language);
     });
