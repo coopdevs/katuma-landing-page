@@ -13,7 +13,7 @@
   "principles": {
     "title": "The three pillars",
     "consumption": {
-      "title": "Local good",
+      "title": "Local food",
       "body": "As a tool to boost the food sovreignty and benefit local producers that do a different kind of farming."
     },
     "platformcoop": {
@@ -26,25 +26,31 @@
     }
   },
   "journeys": {
-    "consumers": "Thanks to a map that geolocalizes and gives visibility to existing groups, we promote people to join, easing the access to an alternative market with local producers",
-    "groups": "
-  }
-  "about": {
-    "description": "<strong>Katuma</strong> is an online platform based on the cooperative model, which aims to <strong>facilitate local agroecological consumption.</strong><br />The ownership and management of the platform rests on entities and people involved: producers, final consumers, consumer groups and distributors. It's a <strong>transparent, participatory and non-profit organizational model.</strong>",
-    "openfoodnetwork": "Katuma is based on free  <a href='https://openfoodnetwork.org'>Open Food Network</a> software, which already applies in Australia, UK, Canada and France among other countries.",
-    "who": "About us",
-    "whodescription": "Katuma are all entities and people involved: <strong>producers, final consumers, consumer groups and distributors.</strong>",
-    "entity": "Are you a consumer group, producer or distributor?",
-    "entitydescription" : "<strong>Join <a title='Katuma' href='https://alpha.katuma.org/register'>Katuma and participate</a></strong> in the co-creation of the cooperative platform!",
-    "question": "Subscribe to our newsletter and stay updated on the <strong>latest news</strong>",
-    "placeholder": "Your email",
-    "submit": "SUBSCRIBE",
-    "asociatetitle": "Do you want to support the project? Become a member of the Katuma cooperative!",
-    "asociate": "You can support Katuma associating you as a member of Katuma cooperative, providing <strong>100€ of social capital</strong> <em>(would be returned in case you leave the cooperative)</em>",
-    "asociatebtn": "Become a co-op member!"
+    "consumers": {
+      "title": "Consumers",
+      "body": "Thanks to a map that geolocalizes and gives visibility to existing groups, we promote people to join, easing the access to an alternative market with local producers"
+    },
+    "groups": {
+      "title": "Consumers groups",
+      "body": "The producer keeps his product catalong up to date and the groups he provides to don't need to worry about managing spreadsheets or updating prices."
+    },
+    "producers": {
+      "title": "Producers",
+      "body": "There is no need for sending updated price lists and receiving orders every week in different formats through WhatsApp, email, phone, etc."
+    }
+  },
+  "open-food-network": {
+    "title": "Sumamos esfuerzos",
+    "body": "Katuma is based on free <a href='https://openfoodnetwork.org'>Open Food Network</a> software, which is already applied in Australia, UK, Canada and France among other countries. Katuma's developers are core contributors of the project."
+  },
+  "goteo": {
+    "title": "Help us go further",
+    "body": "With this crowdfunding campaign we will continue developing Katuma, we will help groups and producers adopt the tool and we will improve our communication so Katuma reaches out to all.",
+    "button": "Make a donation",
+    "secondary-button": "Get in"
   },
   "footer": {
-    "github": "KATUMA is open source",
+    "github": "Katuma is free software",
     "twitter": "Follow us on Twitter",
     "facebook": "Follow us on Facebook",
     "contact": "Contact us"
