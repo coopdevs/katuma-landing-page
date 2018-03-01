@@ -6,7 +6,7 @@
   },
   "header": {
     "title": "KATUMA",
-    "slogan": "Compra directamente a <span>productoras agroecológicas de proximidad</span>"
+    "slogan": "Compra directamente a <span>productoras agroecológicas de proximidad</span>",
     "subtitle": "Consume productos de proximidad y participa de un modelo sostenible con beneficios socioeconómicos para la comunidad."
   },
   "participate": {
@@ -23,7 +23,7 @@
     "platformcoop": {
       "title": "Platform Coop",
       "body": "Personas, grupos de consumo y productores de proximidad son las propietarias y deciden el rumbo de Katuma."
-    }
+    },
     "software": {
       "title": "Free software",
       "body": "Porque tambien tenemos que ejercer nuestros derechos digitales y nuestro proyecto es un esfuerzo colectivo y abierto."
