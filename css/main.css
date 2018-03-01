@@ -213,6 +213,9 @@ a.login:hover {
 .footer a {
   color: #888;
 }
+.list {
+  margin-bottom: 2rem;
+}
 .coopdevs {
   margin-top: 25px;
 }
