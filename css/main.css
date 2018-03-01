@@ -30,7 +30,7 @@ h1, h2, h3, h4, h5 {
 }
 .navbar .nav > li > a {
   float: none;
-  padding: 8px 15px 8px;
+  padding: 0.5rem 1rem;
   font-size: 16px;
 }
 .login {
@@ -95,7 +95,7 @@ a.login:hover {
   padding-top: .5rem;
 }
 .jumbotron .header {
-  padding: 60px 0 0 50px;
+  padding: 3.75rem 0 0 3.15rem;
 }
 .jumbotron h1 {
   font-size: 46px;
@@ -146,9 +146,10 @@ a.login:hover {
   border-radius: 5px;
   width: 100%;
   display: block;
+  margin-bottom: 1rem;
 }
 .container {
-  padding-top: 80px;
+  padding-top: 5rem;
 }
 .container.participate {
   padding-top: 30px;
@@ -231,10 +232,16 @@ a.login:hover {
   }
 }
 @media (max-width: 500px) {
-  .jumbotron h1 {
-    font-size: 50px;
+  .navbar .nav > li > a {
+    padding: 0.5rem;
   }
-  .jumbotron h2 {
-    font-size: 28px;
+  .image-block {
+    margin: 0 0 1rem 0;
+  }
+  .jumbotron .header{
+    padding-left: 0;
+  }
+  .goteo aside {
+    margin-top: 2rem;
   }
 }
