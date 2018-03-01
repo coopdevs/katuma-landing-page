@@ -16,7 +16,6 @@
       <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
       <link rel="icon" type="image/x-icon" href="favicon.ico" />
 
-
       <!--[if lt IE 9]>
           <script src="js/vendor/html5-3.6-respond-1.1.0.min.js"></script>
       <![endif]-->
@@ -48,7 +47,7 @@
             <p class="subtitle"  data-i18n="[html]header.subtitle">
             Consumeix productes de proximitat i participa d'un model sostenible amb beneficis socioeconòmics per a la comunitat.
             </p>
-            <a onClick="ga('boton', 'click', 'Matchfunding2018-hero');" class="button negative-button" href="https://www.goteo.org/project/katuma">Fes-te mecenes</a>
+            <a onClick="trackOutboundLink('boton', 'click', 'Matchfunding2018-hero','https://www.goteo.org/project/katuma'); return false;" class="button negative-button" href="https://www.goteo.org/project/katuma">Fes-te mecenes</a>
           </div>
         </div>
       </div><!--container-->
@@ -65,7 +64,7 @@
         <aside class="col-lg-4 offset-md-1">
           <h2>Entre totes podem canviar les regles del consum</h2>
           <p>Gràcies a molta gent, Katuma ja és una realitat, l’eina ja està online i els primers grups de consum i productores ja la fan servir. Ara només ens cal el teu suport.</p>
-          <a onClick="ga('boton', 'click', 'Matchfunding2018-video');" class="button" href="https://www.goteo.org/project/katuma">Participa</a>
+          <a onClick="trackOutboundLink('boton', 'click', 'Matchfunding2018-video','https://www.goteo.org/project/katuma'); return false;" class="button" href="https://www.goteo.org/project/katuma">Participa</a>
         </aside>
       </div>
     </div>
@@ -143,7 +142,7 @@
           <h2>Ens ajudes a arribar més lluny?</h2>
           <p>Amb aquesta campanya a Goteo seguirem desenvolupant Katuma, acompanyarem a grups i productores en la seva implantació i millorarem la nostra comunicació perquè Katuma arribi a tothom.</p>
           <div>
-            <a onClick="ga('boton', 'click', 'Matchfunding2018-widget');" class="button negative-button" href="https://www.goteo.org/project/katuma">Fes una donació</a>
+            <a onClick="trackOutboundLink('boton', 'click', 'Matchfunding2018-widget','https://www.goteo.org/project/katuma'); return false;" href="https://www.goteo.org/project/katuma">Fes una donació</a>
             <a class="button login" href="https://alpha.katuma.org/">Entra</a>
           </div>
         </aside>
@@ -220,5 +219,20 @@
       ga('create', 'UA-48794646-1', 'auto');
       ga('send', 'pageview');
     </script>
+     <script>
+      /**
+      * Función de Analytics que realiza un seguimiento de un clic en un enlace externo.
+      * Esta función toma una cadena de URL válida como argumento y la utiliza
+      * como la etiqueta del evento. Configurar el método de transporte como "beacon" permite que el hit se envíe
+      * con "navigator.sendBeacon" en el navegador que lo admita.
+      */
+      var trackOutboundLink = function(event_category, event_type, event_label, url) {
+         ga('send', 'event', event_category, event_type, event_label+'-'+url, {
+           'transport': 'beacon',
+           'hitCallback': function(){document.location = url;}
+         });
+      }
+
+      </script> 
   </body>
 </html>
