@@ -2,14 +2,33 @@
   "header": {
     "title": "KATUMA",
     "slogan": "Buy directly from <span>Local agro-ecological producers</span>",
-    "subtitle": "Consume local food and participate in a sustainable model with socioeconomic benefits for the community"
+    "subtitle": "Consume local food and participate in a sustainable model with socioeconomic benefits for the community",
+    "button": "Become a patron"
   },
-  "services": {
-    "1": "1. Search your nearest consumption group",
-    "2": "2. Join the group and participate",
-    "3": "3. Buy and enjoy local products",
-    "start": "Start now!"
+  "participate": {
+    "title": "Together we can change the rules of consumption",
+    "body": "Thanks to lots of people Katuma is a fact, the tool is online and the first consumption groups and producers are already using it. Now we only need your support.",
+    "button": "Join us"
   },
+  "principles": {
+    "title": "The three pillars",
+    "consumption": {
+      "title": "Local good",
+      "body": "As a tool to boost the food sovreignty and benefit local producers that do a different kind of farming."
+    },
+    "platformcoop": {
+      "title": "Platform Coop",
+      "body": "People, consumption groups and local producers are the owners and decide the course of Katuma."
+    }
+    "software": {
+      "title": "Free software",
+      "body": "Because we also have digital rights and our project is an open and collective effort."
+    }
+  },
+  "journeys": {
+    "consumers": "Thanks to a map that geolocalizes and gives visibility to existing groups, we promote people to join, easing the access to an alternative market with local producers",
+    "groups": "
+  }
   "about": {
     "description": "<strong>Katuma</strong> is an online platform based on the cooperative model, which aims to <strong>facilitate local agroecological consumption.</strong><br />The ownership and management of the platform rests on entities and people involved: producers, final consumers, consumer groups and distributors. It's a <strong>transparent, participatory and non-profit organizational model.</strong>",
     "openfoodnetwork": "Katuma is based on free  <a href='https://openfoodnetwork.org'>Open Food Network</a> software, which already applies in Australia, UK, Canada and France among other countries.",
