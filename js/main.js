@@ -35,8 +35,11 @@ function setLanguage(language){
         debug: true
     }, function() {
         $(".header").i18n();
-        $(".services").i18n();
-        $(".about").i18n();
+        $(".participate").i18n();
+        $(".principles").i18n();
+        $(".journeys").i18n();
+        $(".open-food-network").i18n();
+        $(".goteo").i18n();
         $(".footer").i18n();
     });
 }
