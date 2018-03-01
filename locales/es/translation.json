@@ -2,6 +2,7 @@
   "header": {
     "title": "KATUMA",
     "slogan": "Compra directamente a <span>productoras agroecológicas de proximidad</span>"
+    "subtitle": "Consume productos de proximidad y participa de un modelo sostenible con beneficios socioeconómicos para la comunidad."
   },
   "services": {
     "1": "1. Busca tu grupo de consumo más cercano",
@@ -26,6 +27,7 @@
   "footer": {
     "github": "KATUMA es de código abierto",
     "twitter": "Síguenos en Twitter",
+    "facebook": "Síguenos en Facebook",
     "contact": "Contacta con nosotros"
   }
 }
