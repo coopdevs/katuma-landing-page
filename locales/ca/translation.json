@@ -74,9 +74,18 @@
     "asociatebtn": "Fes-te sòcia!"
   },
   "footer": {
-    "github": "Katuma és codi lliure",
-    "twitter": "Segueix-nos a Twitter",
-    "facebook": "Segueix-nos a Facebook",
-    "contact": "Contacta amb nosotres"
+    "developed": {
+      "title": "Impulsat per"
+    },
+    "about": {
+      "title": "Nosaltres",
+      "github": "KATUMA es de còdi obert",
+      "twitter": "Segueix-nos a Twitter",
+      "facebook": "Segueix-nos a Facebook",
+      "contact": "Contacta amb nosotres"
+    },
+    "languages": {
+      "title": "Idiomes"
+    }
   }
 }

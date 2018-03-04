@@ -1,4 +1,9 @@
 {
+  "nav": {
+    "map": "Map",
+    "community": "Community",
+    "login": "Get in"
+  },
   "header": {
     "title": "KATUMA",
     "slogan": "Buy directly from local agro-ecological producers",
@@ -40,7 +45,7 @@
     }
   },
   "open-food-network": {
-    "title": "Sumamos esfuerzos",
+    "title": "Joint effort",
     "body": "Katuma is based on free <a href='https://openfoodnetwork.org'>Open Food Network</a> software, which is already applied in Australia, UK, Canada and France among other countries. Katuma's developers are core contributors of the project."
   },
   "goteo": {
@@ -50,9 +55,18 @@
     "secondary-button": "Get in"
   },
   "footer": {
-    "github": "Katuma is free software",
-    "twitter": "Follow us on Twitter",
-    "facebook": "Follow us on Facebook",
-    "contact": "Contact us"
+    "developed": {
+      "title": "Developed by"
+    },
+    "about": {
+      "title": "About us",
+      "github": "Katuma is free software",
+      "twitter": "Follow us on Twitter",
+      "facebook": "Follow us on Facebook",
+      "contact": "Contact us"
+    },
+    "languages": {
+      "title": "Languages"
+    }
   }
 }
