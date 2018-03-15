@@ -1,22 +1,71 @@
 {
+  "nav": {
+    "map": "Mapa",
+    "community": "Comunidad",
+    "login": "Entra"
+  },
   "header": {
     "title": "KATUMA",
-    "slogan": "Ahórrate los intermediarios, compra directamente a los productores."
+    "slogan": "Compra directamente a productoras agroecológicas de proximidad",
+    "subtitle": "Consume productos de proximidad y participa de un modelo sostenible con beneficios socioeconómicos para la comunidad."
   },
-  "services": {
-    "1": "Gestiona fácilmente grupos de consumo colaborativo.",
-    "2": "Crea vínculos de calidad con los productores.",
-    "3": "Un mercado alternativo para productores."
+  "participate": {
+    "title": "Entre todas podemos cambiar las reglas del consumo",
+    "body": "Gracias a mucha gente, Katuma ya es una realidad, la herramienta ya está online y los primeros grupos de consumo y productoras ya la utilizan. Ahora solo nos hace falta tu apoyo.",
+    "button": "Participa"
   },
-  "signin": {
-    "description": "<strong>KATUMA</strong> es una <strong>herramienta</strong> para administradores, miembros y productores de <strong>grupos de consumo colaborativo</strong>.",
-    "question": "¿Quieres que te informemos cuando esté disponible la versión beta?",
-    "placeholder": "Correo electrónico",
-    "submit": "ENVIAR"
+  "principles": {
+    "title": "Los tres pilares",
+    "consumption": {
+      "title": "Consumo de proximidad",
+      "body": "Como una herramienta para potenciar la soberania alimentaria y favorecer productores locales que hacen una agricultura distinta."
+    },
+    "platformcoop": {
+      "title": "Platform Coop",
+      "body": "Personas, grupos de consumo y productores de proximidad son las propietarias y deciden el rumbo de Katuma."
+    },
+    "software": {
+      "title": "Software libre",
+      "body": "Porque también tenemos que ejercer nuestros derechos digitales y nuestro proyecto es un esfuerzo colectivo y abierto."
+    }
+  },
+  "journeys": {
+    "consumers": {
+      "title": "Consumidoras",
+      "body": "Gracias a un mapa que geolocaliza y visibiliza los grupos de consumo existentes, se promueve el contacto y adhesión de cualquier persona, facilitando el accesso a un mercado alternativo formado por productores locales."
+    },
+    "groups": {
+      "title": "Grupos de consumo",
+      "body": "El productor mantiene su lista de productos y los grupos a los que provee no se tienen que preocupar de gestionar hojas de cálculo ni de actualizar ningún precio."
+    },
+    "producers": {
+      "title": "Productoras",
+      "body": "Ya no hace falta enviar listas de precios actualizados y recibir pedidos cada semana en diferentes formatos por WhatsApp, email, teléfono, etc."
+    }
+  },
+  "open-food-network": {
+    "title": "Sumamos esfuerzos",
+    "body": "Katuma se basa en el software libre <a href='https://openfoodnetwork.org'>Open Food Network</a>, que ya se aplica en Australia, Reino Unido, Canadá y Francia entre otros países. Los desarrolladores que trabajan en Katuma forman parte del núcleo del proyecto."
+  },
+  "goteo": {
+    "title": "¿Nos ayudas a llegar más lejos?",
+    "body": "Con esta campaña en Goteo seguiremos desarrollando Katuma, acompañaremos a grupos y productoras en su implantacion y mejoraremos nuestra comunicación para que Katuma llegue a todo el mundo.",
+    "button": "Haz una donación",
+    "secondary-button": "Entra"
   },
   "footer": {
-    "github": "KATUMA es de código abierto",
-    "twitter": "Síguenos en Twitter",
-    "contact": "Contacta con nosotros"
+    "developed": {
+      "title": "Impulsado por"
+    },
+    "about": {
+      "title": "Nosotros",
+      "github": "Katuma es de código libre",
+      "twitter": "Síguenos en Twitter",
+      "facebook": "Síguenos en Facebook",
+      "contact": "Contacta con nosotros"
+    },
+    "languages": {
+      "title": "Idiomas"
+    }
   }
 }

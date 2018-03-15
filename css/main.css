@@ -1,99 +1,206 @@
 @import url('http://fonts.googleapis.com/css?family=Roboto:100,300,400|Roboto+Slab:300');
 body {
   font-family: 'Roboto', sans-serif;
-  font-weight: 300;
-  font-size: 20px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #676767;
+}
+h1, h2, h3, h4, h5 {
+  color: #3d3e44;
+  line-height: 1.2em;
+}
+.navbar {
+  background-image: none;
+  border-radius: 0px;
+  box-shadow: none;
+}
+.navbar .header {
+  margin: 12px 0;
+}
+.navbar .nav {
+  float: right;
+}
+.navbar a, .navbar a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+.navbar a:hover {
+  color: rgba(255,255,255,.75);
+}
+.navbar .nav > li > a {
+  float: none;
+  padding: 0.5rem 1rem;
+  font-size: 16px;
+}
+.login {
+  border: 2px solid white;
+  border-radius: 6px;
+  margin-left: 8px;
+}
+a.login:hover {
+  background-color: #fff;
+  color: #202020;
+}
+.brand, .brand:hover {
+  font-family: 'Roboto slab';
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+}
+.button, .button:hover, .button:active, .button:visited {
+  background-color: #433349;
+  display: inline-block;
+  color: #fff;
+  padding: 12px 32px;
+  border-radius: 6px;
+  font-size: 16px;
+  text-decoration: none;
+  transition: background-color .125s,border-color .125s,color .125s;
+  margin-top: 8px;
+}
+.button:hover {
+  background-color: #332738;
+}
+.button.negative-button {
+  background-color: #fff;
+  color: #000;
+}
+.button.negative-button:hover {
+  background-color: #e5e5e5;
+}
+.button.secondary-button {
+  border: 2px solid #433349;
+  color: #433349;
+  border-radius: 6px;
+  margin-left: 8px;
+  background-color: transparent;
 }
 .jumbotron {
-  font-size: 20px;
   font-weight: 300;
-  background-image: url('../img/sheep.jpg');
-  background-size: cover;
-  height: 700px;
   color: white;
+  padding-bottom: 6rem;
+  border-radius: 0px;
+  background-color: transparent;
+}
+.background {
   position: relative;
-  text-shadow: 0px 2px 5px #000000;
-  margin-bottom: 0;
-  padding: 0;
+  background-color: #433349;
+  background-image: url('../img/background.jpg');
+  background-size: cover;
+  background-position: right;
+}
+.background .container { 
+  padding-top: .5rem;
 }
 .jumbotron .header {
-  height: 400px;
-  padding: 85px 0 0 50px;
+  padding: 3.75rem 0 0 3.15rem;
 }
 .jumbotron h1 {
-  font-family: 'Roboto Slab', serif;
-  font-size: 88px;
-  font-weight: 300;
+  font-size: 46px;
+  font-weight: 500;
+  margin: 0 0 20px;
+  color: #fff;
 }
-.jumbotron h2 {
-  font-size: 32px;
-  font-weight: 100;
-  margin-top: 0px;
+.jumbotron .subtitle {
+  font-size: 20px;
+}
+.jumbotron strong {
+  font-weight: 400;
 }
 .jumbotron .services {
-  padding: 50px 0;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  background-color: rgba(0, 0, 0, 0.3);
+  padding: 25px 0;
+  font-size: 24px;
 }
 .jumbotron .services .col-lg-4 {
   padding: 0 50px;
 }
-.signin {
-  padding: 65px 50px;
+.jumbotron .services .btn {
+  font-size: 2.5rem;
+  padding: 1rem 2rem;
+  word-wrap: break-word;
+  white-space: normal;
 }
-.signin .description {
-  font-size: 30px;
+.jumbotron .services .btn-primary,
+.jumbotron .services .btn-primary:active,
+.jumbotron .services .btn-primary:visited,
+.jumbotron .services .btn-primary:focus {
+  background-color: rgba(0, 0, 0, 0.4);
+  border-color: rgba(0, 0, 0, 0.5);
+  background-image: none;
+}
+.jumbotron .services .btn-primary:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.jumbotron .services .btn-group {
+  margin-top: 40px;
+  max-width: 80%;
+}
+.image-block {
+  margin: 5rem 0;
+  display: flex;
+  align-items: center;
+}
+.image-block img {
+  border-radius: 5px;
+  width: 100%;
+  display: block;
+  margin-bottom: 1rem;
+}
+.container {
+  padding-top: 5rem;
+}
+.container.participate {
+  padding-top: 30px;
+}
+.row h2 {
+  color: #433349;
+  font-weight: bold;
+}
+.participate aside {
+  margin-top: 60px;
+}
+.principles h5 {
+  font-weight: bold;
+  margin-top: 30px;
+}
+.ofn {
+  margin: 2rem 0;
+}
+.goteo {
+  background-color: #533f5a;
+  margin: 0;
+  width: 100%;
+  margin-top: 80px;
+}
+.goteo .image-block {
+  margin-top: 1.25rem;
+}
+.goteo .login {
+  background-color: #533f5a;
+  color: #fff;
+}
+.container.goteo {
+  padding-bottom: 1.25rem;
+}
+.goteo h2, .goteo p {
+  color: #fff;
+}
+.about h2 {
+  margin-top: 40px;
   margin-bottom: 20px;
-}
-.signin .register .form-group {
-  width: 100%;
-  max-width: 400px;
-}
-.signin .register .form-group #mce-EMAIL {
-  border: 2px solid #423349;
-  border-radius: 5px;
-  width: 100%;
-  padding: 5px 13px 8px;
-}
-.signin .register #mc-embedded-subscribe {
-  color: white;
-  background-color: #423349;
-  border: none;
-  border-radius: 5px;
-  height: 44px;
-  width: 130px;
-  vertical-align: top;
-  font-size: 16px;
-}
-.signin .register input.mce_inline_error {
-  border-color: red;
-}
-.signin .register div.mce_inline_error {
-  background: none !important;
-  color: red !important;
-  padding: 10px 0 !important;
-  font-weight: normal !important;
-  margin: 0 !important;
-}
-.signin .register .response {
-  margin: 10px 0 0 0;
-}
-.signin .register .response#mce-success-response {
-  color: green;
-}
-.signin .register .response#mce-error-response {
-  color: red;
+  font-size: 40px;
 }
 .footer {
-  font-size: 18px;
-  color: white;
-  background-color: #423349;
-  line-height: 67px;
-  vertical-align: middle;
-  text-align: center;
-  width: 100%;
+  padding-bottom: 4rem;
+  font-size: 16px;
+}
+.footer h5 {
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
 }
 .footer p {
   margin: 0px !important;
@@ -101,31 +208,32 @@ body {
 .footer p i {
   margin-right: 5px;
 }
+.footer .brand {
+  color: #433349;
+}
 .footer a {
-  color: white;
+  color: #888;
 }
-.footer #languages {
-  text-align: center;
-  background-color: black;
-  height: 48px;
-  line-height: 3;
+.list {
+  margin-bottom: 2rem;
 }
-@media (max-width: 1200px) {
-  .jumbotron .services .col-lg-4 {
-    padding: 0 50px 20px;
-  }
-  .jumbotron .services .col-lg-4:last-child {
-    padding: 0 50px 0px;
-  }
+.coopdevs {
+  margin-top: 25px;
+}
+.coopdevs img {
+  margin: -12px 0 0 -18px;
 }
 @media (max-width: 500px) {
-  .jumbotron h1 {
-    font-size: 50px;
+  .navbar .nav > li > a {
+    padding: 0.5rem;
   }
-  .jumbotron h2 {
-    font-size: 28px;
+  .image-block {
+    margin: 0 0 1rem 0;
   }
-  .signin .form-group {
-    width: 100%;
+  .jumbotron .header{
+    padding-left: 0;
+  }
+  .goteo aside {
+    margin-top: 2rem;
   }
 }
