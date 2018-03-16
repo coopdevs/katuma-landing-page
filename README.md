@@ -2,6 +2,10 @@
 
 This is the source code  of [Katuma](http://katuma.org/)'s landing page. It's just a single HTML file, a CSS and a tiny bit of JS.
 
+## Contributing
+
+Please see [CONTRIBUTING.md](https://github.com/coopdevs/katuma-landing-page/blob/master/CONTRIBUTING.md)
+
 ## Development
 
 If it wasn't for the dynamic translations implemented with [I18next](https://www.i18next.com/), you could develop this static website directly opening the index.html from your browser (as we used to do decades ago).
