@@ -13,7 +13,7 @@ If it wasn't for the dynamic translations implemented with [I18next](https://www
 However, in order for the browser to allow the cross origin requests it's easier to boot up an HTTP server. If you have Ruby installed in your machine (which you will if you're running on Mac OS X), you can type the following from the terminal:
 
 ```shell
-$ ruby -run -e httpd .
+$ ruby -run -e httpd . -p 8080
 ```
 
 And you'll see output like:
