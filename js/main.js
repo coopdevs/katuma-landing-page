@@ -34,12 +34,6 @@ function setLanguage(language){
         fallbackLng: false,
         debug: true
     }, function() {
-        $(".header").i18n();
-        $(".participate").i18n();
-        $(".principles").i18n();
-        $(".journeys").i18n();
-        $(".open-food-network").i18n();
-        $(".goteo").i18n();
-        $(".footer").i18n();
+        $("[data-i18n]").i18n();
     });
 }

@@ -1,5 +1,6 @@
 {
   "nav": {
+    "features": "Funcionalitats",
     "map": "Mapa",
     "community": "Comunitat",
     "login": "Entra"
@@ -86,6 +87,36 @@
     },
     "languages": {
       "title": "Idiomes"
+    }
+  },
+  "features": {
+    "header": {
+      "slogan": "Una plataforma per fer el salt d'escala",
+      "subtitle": "Simplifica la gestió de la teva entitat",
+      "body": "Reduir el temps que invertim en les tasques feixugues del dia a dia ens permet centrar-nos en el que aporta valor."
+    },
+    "showcase": {
+      "map": {
+        "subtitle": "Mapa",
+        "title": "Troba productores i grups prop de casa",
+        "body": "Un mapa geolocalitza i visibilitza els grups de consum existents, es promou el contacte i l'adhesió de qualsevol persona, facilitant l'accés a un mercat alternatiu format per productores locals."
+      },
+      "network": {
+        "subtitle": "Xarxa",
+        "title": "Oblida't de tancar i enviar la comanda a la nit",
+        "body": "Els membres del grup fan les comandes des del seus comptes i el productor pot consultar la comanda que ha fet el grup. Ja no cal enviar-li cap full de càlcul."
+      },
+      "management": {
+        "subtitle": "Gestió",
+        "title": "Rep comandes en un sol format i per un sol canal",
+        "body": "Ja no cal que estiguis pendent del WhatsApp, correu eletrònic o telèfon per saber quines comandes has de servir la propera setmana. Consulta que ha demanat cada grup a l'informe de comandes."
+      }
+    },
+    "goteo": {
+      "title": "Ens ajudes a desenvolupar noves funcionalitats?",
+      "body": "Amb aquesta campanya a Goteo seguirem desenvolupant Katuma, acompanyarem a grups i productores en la seva implantació i millorarem la nostra comunicació perquè Katuma arribi a tothom.",
+      "button": "Fes una donació",
+      "secondary-buton": "Entra"
     }
   }
 }

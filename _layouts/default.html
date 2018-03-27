@@ -13,19 +13,20 @@
 
     {%- include header.html -%}
 
-    <div class="jumbotron">
-      <div class="container">
-        <div class="row header">
-          <div class="col-lg-6">
-            <h1 class="slogan" data-i18n="header.slogan">Compra directament a productores de proximitat</h1>
-            <p class="subtitle" data-i18n="header.subtitle">
-            Consumeix productes de proximitat i participa d'un model sostenible amb beneficis socioeconòmics per a la comunitat.
-            </p>
-            <a onClick="trackOutboundLink('boton', 'click', 'Matchfunding2018-hero','https://www.goteo.org/project/katuma'); return false;" class="button negative-button" data-i18n="[html]header.button" href="https://www.goteo.org/project/katuma">Fes-te mecenes</a>
+      <div class="jumbotron">
+        <div class="container">
+          <div class="row header">
+            <div class="col-lg-6">
+              <h1 class="slogan" data-i18n="header.slogan">Compra directament a productores de proximitat</h1>
+              <p class="subtitle" data-i18n="header.subtitle">
+              Consumeix productes de proximitat i participa d'un model sostenible amb beneficis socioeconòmics per a la comunitat.
+              </p>
+              <a onClick="trackOutboundLink('boton', 'click', 'Matchfunding2018-hero','https://www.goteo.org/project/katuma'); return false;" class="button negative-button" data-i18n="[html]header.button" href="https://www.goteo.org/project/katuma">Fes-te mecenes</a>
+            </div>
           </div>
         </div>
-      </div><!--container-->
-    </div>
+      </div>
+
     </div>
 
     {{ content }}
@@ -38,6 +39,8 @@
     <script src="js/main.js"></script>
 
     {%- include google_analytics.html -%}
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   </body>
 
 </html>
