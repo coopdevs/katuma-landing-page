@@ -1,0 +1,239 @@
+@import url('http://fonts.googleapis.com/css?family=Roboto:100,300,400|Roboto+Slab:300');
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #676767;
+}
+h1, h2, h3, h4, h5 {
+  color: #3d3e44;
+  line-height: 1.2em;
+}
+.navbar {
+  background-image: none;
+  border-radius: 0px;
+  box-shadow: none;
+}
+.navbar .header {
+  margin: 12px 0;
+}
+.navbar .nav {
+  float: right;
+}
+.navbar a, .navbar a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+.navbar a:hover {
+  color: rgba(255,255,255,.75);
+}
+.navbar .nav > li > a {
+  float: none;
+  padding: 0.5rem 1rem;
+  font-size: 16px;
+}
+.login {
+  border: 2px solid white;
+  border-radius: 6px;
+  margin-left: 8px;
+}
+a.login:hover {
+  background-color: #fff;
+  color: #202020;
+}
+.brand, .brand:hover {
+  font-family: 'Roboto slab';
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+}
+.button, .button:hover, .button:active, .button:visited {
+  background-color: #433349;
+  display: inline-block;
+  color: #fff;
+  padding: 12px 32px;
+  border-radius: 6px;
+  font-size: 16px;
+  text-decoration: none;
+  transition: background-color .125s,border-color .125s,color .125s;
+  margin-top: 8px;
+}
+.button:hover {
+  background-color: #332738;
+}
+.button.negative-button {
+  background-color: #fff;
+  color: #000;
+}
+.button.negative-button:hover {
+  background-color: #e5e5e5;
+}
+.button.secondary-button {
+  border: 2px solid #433349;
+  color: #433349;
+  border-radius: 6px;
+  margin-left: 8px;
+  background-color: transparent;
+}
+.jumbotron {
+  font-weight: 300;
+  color: white;
+  padding-bottom: 6rem;
+  border-radius: 0px;
+  background-color: transparent;
+}
+.background {
+  position: relative;
+  background-color: #433349;
+  background-image: url('../img/background.jpg');
+  background-size: cover;
+  background-position: right;
+}
+.background .container { 
+  padding-top: .5rem;
+}
+.jumbotron .header {
+  padding: 3.75rem 0 0 3.15rem;
+}
+.jumbotron h1 {
+  font-size: 46px;
+  font-weight: 500;
+  margin: 0 0 20px;
+  color: #fff;
+}
+.jumbotron .subtitle {
+  font-size: 20px;
+}
+.jumbotron strong {
+  font-weight: 400;
+}
+.jumbotron .services {
+  padding: 25px 0;
+  font-size: 24px;
+}
+.jumbotron .services .col-lg-4 {
+  padding: 0 50px;
+}
+.jumbotron .services .btn {
+  font-size: 2.5rem;
+  padding: 1rem 2rem;
+  word-wrap: break-word;
+  white-space: normal;
+}
+.jumbotron .services .btn-primary,
+.jumbotron .services .btn-primary:active,
+.jumbotron .services .btn-primary:visited,
+.jumbotron .services .btn-primary:focus {
+  background-color: rgba(0, 0, 0, 0.4);
+  border-color: rgba(0, 0, 0, 0.5);
+  background-image: none;
+}
+.jumbotron .services .btn-primary:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.jumbotron .services .btn-group {
+  margin-top: 40px;
+  max-width: 80%;
+}
+.image-block {
+  margin: 5rem 0;
+  display: flex;
+  align-items: center;
+}
+.image-block img {
+  border-radius: 5px;
+  width: 100%;
+  display: block;
+  margin-bottom: 1rem;
+}
+.container {
+  padding-top: 5rem;
+}
+.container.participate {
+  padding-top: 30px;
+}
+.row h2 {
+  color: #433349;
+  font-weight: bold;
+}
+.participate aside {
+  margin-top: 60px;
+}
+.principles h5 {
+  font-weight: bold;
+  margin-top: 30px;
+}
+.ofn {
+  margin: 2rem 0;
+}
+.goteo {
+  background-color: #533f5a;
+  margin: 0;
+  width: 100%;
+  margin-top: 80px;
+}
+.goteo .image-block {
+  margin-top: 1.25rem;
+}
+.goteo .login {
+  background-color: #533f5a;
+  color: #fff;
+}
+.container.goteo {
+  padding-bottom: 1.25rem;
+}
+.goteo h2, .goteo p {
+  color: #fff;
+}
+.about h2 {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  font-size: 40px;
+}
+.footer {
+  padding-bottom: 4rem;
+  font-size: 16px;
+}
+.footer h5 {
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+.footer p {
+  margin: 0px !important;
+}
+.footer p i {
+  margin-right: 5px;
+}
+.footer .brand {
+  color: #433349;
+}
+.footer a {
+  color: #888;
+}
+.list {
+  margin-bottom: 2rem;
+}
+.coopdevs {
+  margin-top: 25px;
+}
+.coopdevs img {
+  margin: -12px 0 0 -18px;
+}
+@media (max-width: 500px) {
+  .navbar .nav > li > a {
+    padding: 0.5rem;
+  }
+  .image-block {
+    margin: 0 0 1rem 0;
+  }
+  .jumbotron .header{
+    padding-left: 0;
+  }
+  .goteo aside {
+    margin-top: 2rem;
+  }
+}
