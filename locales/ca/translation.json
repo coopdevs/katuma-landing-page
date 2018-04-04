@@ -54,12 +54,6 @@
     "button": "Fes una donació",
     "secondary-buton": "Entra"
   },
-  "services": {
-    "1": "1. Cerca el grup de consum més proper",
-    "2": "2. Suma't al grup i participa com a sòcia",
-    "3": "3. Compra i gaudeix de productes de proximitat",
-    "start": "Comença ara!"
-  },
   "about": {
     "description": "<strong>Katuma</strong> és una plataforma online basada en el model cooperativista, que té com a objectiu <strong>facilitar el consum agroecològic de proximitat.</strong><br />La propietat i gestió de la plataforma recau en les entitats i persones implicades: productores, consumidores, grups de consum i distribuïdores. Es tracta d'un <strong>model organitzatiu transparent, participatiu i sense ànim de lucre.</strong>",
     "openfoodnetwork": "Katuma es basa en el software lliure <a href='https://openfoodnetwork.org'>Open Food Network</a>, que ja s'aplica a Austràlia, Regne Unit, Canadà i França entre d'altres països.",

@@ -120,34 +120,6 @@ a.login:hover {
 .jumbotron strong {
   font-weight: 400;
 }
-.jumbotron .services {
-  padding: 25px 0;
-  font-size: 24px;
-}
-.jumbotron .services .col-lg-4 {
-  padding: 0 50px;
-}
-.jumbotron .services .btn {
-  font-size: 2.5rem;
-  padding: 1rem 2rem;
-  word-wrap: break-word;
-  white-space: normal;
-}
-.jumbotron .services .btn-primary,
-.jumbotron .services .btn-primary:active,
-.jumbotron .services .btn-primary:visited,
-.jumbotron .services .btn-primary:focus {
-  background-color: rgba(0, 0, 0, 0.4);
-  border-color: rgba(0, 0, 0, 0.5);
-  background-image: none;
-}
-.jumbotron .services .btn-primary:hover {
-  background-color: rgba(0, 0, 0, 0.8);
-}
-.jumbotron .services .btn-group {
-  margin-top: 40px;
-  max-width: 80%;
-}
 .image-block {
   margin: 5rem 0;
   display: flex;
