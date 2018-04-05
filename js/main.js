@@ -4,7 +4,7 @@
  *
  */
 $(document).ready(function(){
-    var browserLanguage = navigator.language;
+    var browserLanguage = Cookies.get('locale') || navigator.language;
 
     // set default language
     setLanguage(browserLanguage);
@@ -28,6 +28,8 @@ function setLanguage(language){
         default:
           language = "es"
     }
+
+    Cookies.set('locale', language);
 
     i18n.init({
         lng: language,
