@@ -101,6 +101,9 @@ a.login:hover {
 .index .background {
   background-image: url('../img/background.jpg');
 }
+.features .background {
+  background-image: url('../img/features_background.jpg');
+}
 .background .container { 
   padding-top: 1rem;
 }
