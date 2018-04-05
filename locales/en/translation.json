@@ -69,5 +69,35 @@
     "languages": {
       "title": "Languages"
     }
+  },
+  "features": {
+    "header": {
+      "slogan": "A platform to make the scale jump",
+      "subtitle": "Simplify the management of your entity",
+      "body": "Reducing the time we invest in the hard tasks of day to day allows us to focus on what brings value."
+    },
+    "showcase": {
+      "map": {
+        "subtitle": "Consumers",
+        "title": "Find producers and groups near home",
+        "body": "A map geolocalizes and makes visible the existing consumer groups, promotes the contact and adhesion of any person, facilitating access to an alternative market formed by local producers."
+      },
+      "network": {
+        "subtitle": "Buying groups",
+        "title": "Forget to close and send the order at night",
+        "body": "The members of the group place orders from their accounts and the producer can check the order made by the group. You no longer need to send you a spreadsheet."
+      },
+      "management": {
+        "subtitle": "Producers",
+        "title": "Receive orders in a single format and through a single channel",
+        "body": "You no longer need to be aware of WhatsApp, email or phone to know which orders you should serve the next week. Check what each group has requested in the orders report."
+      }
+    },
+    "goteo": {
+      "title": "Help us develop new features",
+      "body": "With this campaign in Goteo we will continue developing Katuma, we will accompany groups and producers in their adoption and improve our communication so that Katuma reaches everyone.",
+      "button": "Donate",
+      "secondary-buton": "Get in"
+    }
   }
 }
