@@ -4,7 +4,7 @@
  *
  */
 $(document).ready(function(){
-    var browserLanguage = navigator.language;
+    var browserLanguage = Cookies.get('locale') || navigator.language;
 
     // set default language
     setLanguage(browserLanguage);
@@ -29,17 +29,13 @@ function setLanguage(language){
           language = "es"
     }
 
+    Cookies.set('locale', language);
+
     i18n.init({
         lng: language,
         fallbackLng: false,
         debug: true
     }, function() {
-        $(".header").i18n();
-        $(".participate").i18n();
-        $(".principles").i18n();
-        $(".journeys").i18n();
-        $(".open-food-network").i18n();
-        $(".goteo").i18n();
-        $(".footer").i18n();
+        $("[data-i18n]").i18n();
     });
 }

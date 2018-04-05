@@ -1,5 +1,6 @@
 {
   "nav": {
+    "features": "Funcionalitats",
     "map": "Mapa",
     "community": "Comunitat",
     "login": "Entra"
@@ -53,12 +54,6 @@
     "button": "Fes una donació",
     "secondary-buton": "Entra"
   },
-  "services": {
-    "1": "1. Cerca el grup de consum més proper",
-    "2": "2. Suma't al grup i participa com a sòcia",
-    "3": "3. Compra i gaudeix de productes de proximitat",
-    "start": "Comença ara!"
-  },
   "about": {
     "description": "<strong>Katuma</strong> és una plataforma online basada en el model cooperativista, que té com a objectiu <strong>facilitar el consum agroecològic de proximitat.</strong><br />La propietat i gestió de la plataforma recau en les entitats i persones implicades: productores, consumidores, grups de consum i distribuïdores. Es tracta d'un <strong>model organitzatiu transparent, participatiu i sense ànim de lucre.</strong>",
     "openfoodnetwork": "Katuma es basa en el software lliure <a href='https://openfoodnetwork.org'>Open Food Network</a>, que ja s'aplica a Austràlia, Regne Unit, Canadà i França entre d'altres països.",
@@ -86,6 +81,36 @@
     },
     "languages": {
       "title": "Idiomes"
+    }
+  },
+  "features": {
+    "header": {
+      "slogan": "Una plataforma per fer el salt d'escala",
+      "subtitle": "Simplifica la gestió de la teva entitat",
+      "body": "Reduir el temps que invertim en les tasques feixugues del dia a dia ens permet centrar-nos en el que aporta valor."
+    },
+    "showcase": {
+      "map": {
+        "subtitle": "Consumidors",
+        "title": "Troba productores i grups prop de casa",
+        "body": "Un mapa geolocalitza i visibilitza els grups de consum existents, es promou el contacte i l'adhesió de qualsevol persona, facilitant l'accés a un mercat alternatiu format per productores locals."
+      },
+      "network": {
+        "subtitle": "Grups de consum",
+        "title": "Oblida't de tancar i enviar la comanda a la nit",
+        "body": "Els membres del grup fan les comandes des del seus comptes i el productor pot consultar la comanda que ha fet el grup. Ja no cal enviar-li cap full de càlcul."
+      },
+      "management": {
+        "subtitle": "Productors",
+        "title": "Rep comandes en un sol format i per un sol canal",
+        "body": "Ja no cal que estiguis pendent del WhatsApp, correu eletrònic o telèfon per saber quines comandes has de servir la propera setmana. Consulta que ha demanat cada grup a l'informe de comandes."
+      }
+    },
+    "goteo": {
+      "title": "Ens ajudes a desenvolupar noves funcionalitats?",
+      "body": "Amb aquesta campanya a Goteo seguirem desenvolupant Katuma, acompanyarem a grups i productores en la seva implantació i millorarem la nostra comunicació perquè Katuma arribi a tothom.",
+      "button": "Fes una donació",
+      "secondary-buton": "Entra"
     }
   }
 }
