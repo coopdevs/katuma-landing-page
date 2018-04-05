@@ -68,5 +68,35 @@
     "languages": {
       "title": "Idiomas"
     }
+  },
+  "features": {
+    "header": {
+      "slogan": "Una plataforma para hacer el salto de escala",
+      "subtitle": "Simplifica la gestión de tu entidad",
+      "body": "Reducir el tiempo que invertimos en las tareas tediosas del día a día nos permiten centrarnos"
+    },
+    "showcase": {
+      "map": {
+        "subtitle": "Consumidores",
+        "title": "Encuentra productoras y grupos cerca de casa",
+        "body": "Un mapa geolocaliza y visibiliza los grupos de consumo existentes, se promueve el contacto y la adhesión de cualquier persona, facilitando el acceso a un mercado alternativo formado por productoras locales."
+      },
+      "network": {
+        "subtitle": "Grupos de consumo",
+        "title": "Olvídate de cerrar y enviar el pedido por la noche",
+        "body": "Los miembros del grupo hacen los pedidos desde sus cuentas y el productor puede consultar el pedido que ha hecho el grupo. Ya no hay que enviarle ninguna hoja de cálculo."
+      },
+      "management": {
+        "subtitle": "Productores",
+        "title": "Recibe pedidos en un solo formato y por un solo canal",
+        "body": "Ya no hace falta que estés pendiente de WhatsApp, correo eletrónico o teléfono para saber qué comandos debes servir la próxima semana. Consulta que ha pedido cada grupo en el informe de pedidos."
+      }
+    },
+    "goteo": {
+      "title": "¿Nos ayudas a desarrollar nuevas funcionalidades?",
+      "body": "Con esta campaña en Goteo seguiremos desarrollando Katuma, acompañaremos a grupos y productoras en su implantación y mejoraremos nuestra comunicación porque Katuma llegue a todos.",
+      "button": "Haz una donación",
+      "secondary-buton": "Entra"
+    }
   }
 }

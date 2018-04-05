@@ -91,17 +91,17 @@
     },
     "showcase": {
       "map": {
-        "subtitle": "Mapa",
+        "subtitle": "Consumidors",
         "title": "Troba productores i grups prop de casa",
         "body": "Un mapa geolocalitza i visibilitza els grups de consum existents, es promou el contacte i l'adhesió de qualsevol persona, facilitant l'accés a un mercat alternatiu format per productores locals."
       },
       "network": {
-        "subtitle": "Xarxa",
+        "subtitle": "Grups de consum",
         "title": "Oblida't de tancar i enviar la comanda a la nit",
         "body": "Els membres del grup fan les comandes des del seus comptes i el productor pot consultar la comanda que ha fet el grup. Ja no cal enviar-li cap full de càlcul."
       },
       "management": {
-        "subtitle": "Gestió",
+        "subtitle": "Productors",
         "title": "Rep comandes en un sol format i per un sol canal",
         "body": "Ja no cal que estiguis pendent del WhatsApp, correu eletrònic o telèfon per saber quines comandes has de servir la propera setmana. Consulta que ha demanat cada grup a l'informe de comandes."
       }
