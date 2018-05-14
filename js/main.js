@@ -34,7 +34,7 @@ function persistLanguagePreference(language) {
 }
 
 function whitelistLanguage(language) {
-    var available_languages = ["ca", "en", "es"];
+    var available_languages = ["ca", "en", "es", "pt"];
     var default_language = "es";
 
     if (available_languages.indexOf(language) == -1) {
