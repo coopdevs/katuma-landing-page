@@ -16,20 +16,9 @@ $(document).ready(function(){
     });
 });
 
-function setLanguage(language){
-    switch(language)
-    {
-        case "ca":
-          
-          break;
-        case "en":
-        
-          break;
-        default:
-          language = "es"
-    }
-
-    Cookies.set('locale', language);
+function setLanguage(language) {
+    language = whitelistLanguage(language);
+    persistLanguagePreference(language);
 
     i18n.init({
         lng: language,
@@ -38,4 +27,19 @@ function setLanguage(language){
     }, function() {
         $("[data-i18n]").i18n();
     });
+}
+
+function persistLanguagePreference(language) {
+    Cookies.set('locale', language);
+}
+
+function whitelistLanguage(language) {
+    var available_languages = ["ca", "en", "es", "pt"];
+    var default_language = "es";
+
+    if (available_languages.indexOf(language) == -1) {
+      return default_language;
+    }
+
+    return language;
 }
