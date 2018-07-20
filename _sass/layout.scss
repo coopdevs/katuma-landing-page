@@ -79,24 +79,28 @@
   margin: 2rem 0;
 }
 
-.goteo {
+.call-to-action-block {
   background-color: $primary-background-color;
   width: 100%;
   margin-top: 80px;
-  padding-top: 5rem;
-  padding-bottom: 1.25rem;
+  padding-top: 8rem;
+  padding-bottom: 4.25rem;
+
+  p {
+    font-weight: 300;
+  }
 }
-.goteo .image-block {
+.call-to-action-block .image-block {
   margin-top: 1.25rem;
 }
-.goteo .login {
+.call-to-action-block .login {
   background-color: $primary-background-color;
   color: $negative-color;
 }
-.container.goteo {
+.container.call-to-action-block {
   padding-bottom: 1.25rem;
 }
-.goteo h2, .goteo p {
+.call-to-action-block h2, .call-to-action-block p {
   color: $negative-color;
 }
 
@@ -153,7 +157,7 @@
   .jumbotron .header{
     padding-left: 0;
   }
-  .goteo aside {
+  .call-to-action-block aside {
     margin-top: 2rem;
   }
   .subheader {
@@ -171,7 +175,7 @@
   .image-block-reversed {
     flex-direction: column-reverse;
   }
-  .goteo .widget {
+  .call-to-action-block .widget {
     margin: 5rem 0;
   }
 }

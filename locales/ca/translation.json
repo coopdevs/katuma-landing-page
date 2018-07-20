@@ -48,10 +48,10 @@
     "title": "Sumem esforços",
     "body": "Katuma es basa en el software lliure <a href='https://openfoodnetwork.org'>Open Food Network</a>, que ja s'aplica a Austràlia, Regne Unit, Canadà i França entre d'altres països. Els desenvolupadors que traballen a Katuma formen part del nucli del projecte."
   },
-  "goteo": {
+  "help-us": {
     "title": "Ens ajudes a arribar més lluny?",
-    "body": "Amb aquesta campanya a Goteo seguirem desenvolupant Katuma, acompanyarem a grups i productores en la seva implantació i millorarem la nostra comunicació perquè Katuma arribi a tothom.",
-    "button": "Fes una donació",
+    "body": "Fes que la teva entitat es faci socia i sumem esforços.",
+    "button": "Fes-te soci",
     "secondary-buton": "Entra"
   },
   "about": {
