@@ -112,28 +112,35 @@
   letter-spacing: 0.1rem;
   color: purple;
 }
+
 .footer {
   padding-bottom: 4rem;
-  font-size: 16px;
+  font-size: 15px;
+
+  .navbar-brand {
+    color: #433349;
+  }
+
+  a {
+    color: #888;
+  }
+
+  h5 {
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+
+  p {
+    margin: 0px !important;
+
+    i {
+      margin-right: 5px;
+    }
+  }
 }
-.footer h5 {
-  font-size: 16px;
-  font-weight: bold;
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
-}
-.footer p {
-  margin: 0px !important;
-}
-.footer p i {
-  margin-right: 5px;
-}
-.footer .navbar-brand {
-  color: #433349;
-}
-.footer a {
-  color: #888;
-}
+
 .list {
   margin-bottom: 2rem;
 }
