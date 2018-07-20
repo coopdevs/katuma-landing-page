@@ -1,89 +1,3 @@
-@import url('http://fonts.googleapis.com/css?family=Roboto:100,300,400|Roboto+Slab:300');
-
-body {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 30px;
-  color: #676767;
-}
-.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
-  color: #3d3e44;
-  line-height: 1.2em;
-  margin-bottom: 1rem;
-}
-.h2, h2 {
-  color: #433349;
-  font-weight: bold;
-}
-.navbar {
-  background-image: none;
-  padding-top: 12px;
-  box-shadow: none;
-}
-.navbar a, .navbar a:hover {
-  color: #fff;
-  text-decoration: none;
-}
-.navbar a:hover {
-  color: rgba(255,255,255,.75);
-}
-.navbar-nav .nav-link {
-  font-size: 1rem;
-}
-.navbar-expand-md .navbar-nav .nav-link.login {
-  padding: 0.2rem 1rem;
-  margin-top: 4px;
-  margin-left: 8px;
-}
-.toggler {
-  color: #fff;
-}
-.navbar-toggler {
-  border: none;
-}
-a.login:hover {
-  background-color: #fff;
-  color: #202020;
-}
-.navbar-brand, .navbar-brand:hover {
-  font-family: 'Roboto slab';
-  text-transform: uppercase;
-  font-weight: bold;
-  color: #fff;
-  text-decoration: none;
-  font-size: 1.125rem;
-}
-.button, .button:hover, .button:active, .button:visited {
-  background-color: #433349;
-  display: inline-block;
-  color: #fff;
-  padding: 12px 32px;
-  border-radius: 6px;
-  font-size: 16px;
-  text-decoration: none;
-  transition: background-color .125s,border-color .125s,color .125s;
-  margin-top: 8px;
-}
-.button:hover {
-  background-color: #332738;
-}
-.button.negative-button {
-  background-color: #fff;
-  color: hsl(0, 0%, 27%);
-  font-weight: bold;
-  border: 2px solid white;
-}
-.button.negative-button:hover {
-  background-color: #e5e5e5;
-}
-.button.secondary-button {
-  background-color: transparent;
-  border: 2px solid white;
-}
-.button-group .button {
-  margin-right: 8px;
-}
 .jumbotron {
   font-weight: 300;
   color: white;
@@ -116,7 +30,7 @@ a.login:hover {
   font-size: 46px;
   font-weight: 600;
   margin: 0 0 20px;
-  color: #fff;
+  color: $negative-color;
   letter-spacing: 0.05rem;
 }
 .jumbotron .subtitle {
@@ -164,8 +78,9 @@ a.login:hover {
 .ofn {
   margin: 2rem 0;
 }
+
 .goteo {
-  background-color: #533f5a;
+  background-color: $primary-background-color;
   width: 100%;
   margin-top: 80px;
   padding-top: 5rem;
@@ -175,15 +90,16 @@ a.login:hover {
   margin-top: 1.25rem;
 }
 .goteo .login {
-  background-color: #533f5a;
-  color: #fff;
+  background-color: $primary-background-color;
+  color: $negative-color;
 }
 .container.goteo {
   padding-bottom: 1.25rem;
 }
 .goteo h2, .goteo p {
-  color: #fff;
+  color: $negative-color;
 }
+
 .about h2 {
   margin-top: 40px;
   margin-bottom: 20px;
@@ -229,28 +145,13 @@ a.login:hover {
 .coopdevs img {
   margin: -12px 0 0 -18px;
 }
+
 @media (max-width: 500px) {
-  .navbar .nav > li > a {
-    padding: 0.5rem;
-  }
   .image-block {
     margin: 0 0 1rem 0;
   }
   .jumbotron .header{
     padding-left: 0;
-  }
-  .navbar-nav {
-    margin-top: 0.75rem;
-  }
-  .nav-link {
-    padding: 0.1rem 1rem;
-  }
-  .login {
-    margin: 0.5rem 0;
-  }
-  .navbar-expand-md .navbar-nav .nav-link.login {
-    margin-left: 0;
-    margin-top: 0.7rem;
   }
   .goteo aside {
     margin-top: 2rem;

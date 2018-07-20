@@ -42,7 +42,7 @@ id: index
 <div class="container journeys">
   <div class="row image-block">
     <div class="col-lg-6">
-      <img src="img/productores.jpg" alt="Productora" />
+      <img src='{{ "/assets/img/productores.jpg" | prepend:site.baseurl }}' alt="Productora" />
     </div>
     <aside class="col-lg-5 offset-md-1">
       <h2 data-i18n="journeys.producers.title">Productores</h2>
@@ -55,7 +55,7 @@ id: index
       <p data-i18n="journeys.groups.body">El productor manté la seva llista de productes i els grups que proveeix no s'han de preocupar de gestionar fulls de càlcul ni d'actualitzar cap preu.</p>
     </aside>
     <div class="col-lg-6 offset-md-1">
-      <img src="img/grups.jpg" alt="Grup de consum" />
+      <img src='{{ "/assets/img/grups.jpg" | prepend:site.baseurl }}' alt="Grup de consum" />
     </div>
   </div>
 </div>

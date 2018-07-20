@@ -1,0 +1,23 @@
+---
+# this ensures Jekyll reads the file to be transformed into CSS later
+# only Main files contain this front matter, not partials.
+---
+
+@import url('http://fonts.googleapis.com/css?family=Roboto:100,300,400|Roboto+Slab:300');
+
+$font-size: 18px;
+$font-weight: 400;
+$font-family: 'Roboto', sans-serif;
+
+$text-color: #676767;
+$title-color: #333;
+$primary-color: #39BBD5;
+$negative-color: #fff;
+$primary-background-color: #533f5a;
+
+$line-height: 30px;
+
+@import "base";
+@import "layout";
+@import "navbar";
+@import "ui";
