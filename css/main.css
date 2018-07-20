@@ -1,4 +1,5 @@
 @import url('http://fonts.googleapis.com/css?family=Roboto:100,300,400|Roboto+Slab:300');
+
 body {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
@@ -69,7 +70,8 @@ a.login:hover {
 }
 .button.negative-button {
   background-color: #fff;
-  color: #000;
+  color: hsl(0, 0%, 27%);
+  font-weight: bold;
   border: 2px solid white;
 }
 .button.negative-button:hover {
