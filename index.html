@@ -36,24 +36,41 @@ id: index
 </div>
 
 <div class="container journeys">
-  <div class="row image-block">
-    <div class="col-lg-6">
-      <img src='{{ "/assets/img/productores.jpg" | prepend:site.baseurl }}' alt="Productora" />
+  <ul class="nav nav-tabs col-lg-4 offset-md-4" id="journeys-tab" role="tablist">
+    <li class="nav-item">
+      <a class="nav-link active" id="producers-tab" data-toggle="tab" href="#producers" role="tab" aria-controls="producers" aria-selected="true">Productores</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" id="groups-tab" data-toggle="tab" href="#groups" role="tab" aria-controls="groups" aria-selected="false">Grups</a>
+    </li>
+  </ul>
+
+  <div class="tab-content" id="journeys-tab-content">
+    <div class="tab-pane fade show active" id="producers" role="tabpanel" aria-labelledby="producers-tab">
+      <div class="row image-block">
+        <div class="col-lg-6 offset-md-1">
+          <img src='{{ "/assets/img/productores.jpg" | prepend:site.baseurl }}' alt="Productora" />
+        </div>
+        <aside class="col-lg-4 offset-md-1">
+          <h2 data-i18n="journeys.producers.title">Productores</h2>
+          <p data-i18n="journeys.producers.body">Ja no cal enviar llistats de preus actualitzats i rebre comandes cada setmana en diferents formats per WhatsApp, email, telèfon, etc.</p>
+        </aside>
+      </div>
     </div>
-    <aside class="col-lg-5 offset-md-1">
-      <h2 data-i18n="journeys.producers.title">Productores</h2>
-      <p data-i18n="journeys.producers.body">Ja no cal enviar llistats de preus actualitzats i rebre comandes cada setmana en diferents formats per WhatsApp, email, telèfon, etc.</p>
-    </aside>
-  </div>
-  <div class="row image-block">
-    <aside class="col-lg-4 offset-md-1">
-      <h2 data-i18n="journeys.groups.title">Grups de consum</h2>
-      <p data-i18n="journeys.groups.body">El productor manté la seva llista de productes i els grups que proveeix no s'han de preocupar de gestionar fulls de càlcul ni d'actualitzar cap preu.</p>
-    </aside>
-    <div class="col-lg-6 offset-md-1">
-      <img src='{{ "/assets/img/grups.jpg" | prepend:site.baseurl }}' alt="Grup de consum" />
+
+    <div class="tab-pane fade" id="groups" role="tabpanel" aria-labelledby="groups-tab">
+      <div class="row image-block">
+        <div class="col-lg-6 offset-md-1">
+          <img src='{{ "/assets/img/grups.jpg" | prepend:site.baseurl }}' alt="Grup de consum" />
+        </div>
+        <aside class="col-lg-4 offset-md-1">
+          <h2 data-i18n="journeys.groups.title">Grups de consum</h2>
+          <p data-i18n="journeys.groups.body">El productor manté la seva llista de productes i els grups que proveeix no s'han de preocupar de gestionar fulls de càlcul ni d'actualitzar cap preu.</p>
+        </aside>
+      </div>
     </div>
   </div>
+
 </div>
 
 <div class="container open-food-network">

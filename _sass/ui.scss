@@ -54,3 +54,18 @@ $primary-button-color-hover: #332738;
   border-radius: 100px;
   margin-bottom: 30px;
 }
+
+.nav-tabs {
+  .nav-item {
+    margin: 0 auto -1px auto;
+  }
+
+  .nav-link, .nav-link:hover {
+    border: none; 
+
+    &.active {
+      border-bottom: 3px solid $tertiary-color;
+      color: $tertiary-color;
+    }
+  }
+}
