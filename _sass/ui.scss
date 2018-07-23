@@ -46,3 +46,11 @@ $primary-button-color-hover: #332738;
 .button-group .button {
   margin-right: 8px;
 }
+
+.icon {
+  color: $secondary-color;
+  background-color: lighten($secondary-color, 50%);
+  padding: 1rem;
+  border-radius: 100px;
+  margin-bottom: 30px;
+}

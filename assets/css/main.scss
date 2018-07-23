@@ -10,8 +10,9 @@ $font-weight: 400;
 $font-family: 'Roboto', sans-serif;
 
 $text-color: #676767;
-$title-color: #333;
-$primary-color: #39BBD5;
+$base-color: #433349;
+$secondary-color: lighten(saturate($base-color, 30%), 0%);
+$tertiary-color: adjust-hue(saturate(lighten($secondary-color, 5%), 25%), 15%);
 $negative-color: #fff;
 $primary-background-color: #533f5a;
 

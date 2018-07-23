@@ -6,11 +6,10 @@ body {
   color: $text-color;
 }
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
-  color: #3d3e44;
+  color: $secondary-color;
   line-height: 1.2em;
   margin-bottom: 1rem;
 }
 .h2, h2 {
-  color: #433349;
   font-weight: bold;
 }
