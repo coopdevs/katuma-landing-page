@@ -49,7 +49,7 @@ $primary-button-color-hover: #332738;
 
 .icon {
   color: $secondary-color;
-  background-color: lighten($secondary-color, 50%);
+  background-color: $primary-light-color;
   padding: 1rem;
   border-radius: 100px;
   margin-bottom: 30px;
