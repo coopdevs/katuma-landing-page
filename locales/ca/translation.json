@@ -37,11 +37,13 @@
     },
     "groups": {
       "title": "Grups de consum",
-      "body": "El productor manté la seva llista de productes i els grups que proveeix no s'han de preocupar de gestionar fulls de càlcul ni d'actualitzar cap preu."
+      "body": "El productor manté la seva llista de productes i els grups que proveeix no s'han de preocupar de gestionar fulls de càlcul ni d'actualitzar cap preu.",
+      "more": "Saber-ne més →"
     },
     "producers": {
       "title": "Productores",
-      "body": "Ja no cal enviar llistats de preus actualitzats i rebre comandes cada setmana en diferents formats per WhatsApp, email, telèfon, etc."
+      "body": "Ja no cal enviar llistats de preus actualitzats i rebre comandes cada setmana en diferents formats per WhatsApp, email, telèfon, etc.",
+      "more": "Saber-ne més →"
     }
   },
   "open-food-network": {

@@ -38,11 +38,13 @@
     },
     "groups": {
       "title": "Consumers groups",
-      "body": "The producer keeps his product catalog up to date and the groups he provides to don't need to worry about managing spreadsheets or updating prices."
+      "body": "The producer keeps his product catalog up to date and the groups he provides to don't need to worry about managing spreadsheets or updating prices.",
+      "more": "Know more →"
     },
     "producers": {
       "title": "Producers",
-      "body": "There is no need for sending updated price lists and receiving orders every week in different formats through WhatsApp, email, phone, etc."
+      "body": "There is no need for sending updated price lists and receiving orders every week in different formats through WhatsApp, email, phone, etc.",
+      "more": "Know more →"
     }
   },
   "open-food-network": {
