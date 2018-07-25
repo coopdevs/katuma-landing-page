@@ -39,17 +39,28 @@
 .jumbotron strong {
   font-weight: 400;
 }
+
 .image-block {
   margin: 5rem 0;
   display: flex;
   align-items: center;
+
+  img, .feature-image-wrap {
+    border-radius: 5px;
+    width: 100%;
+    display: block;
+    margin-bottom: 2rem;
+  }
 }
-.image-block img {
-  border-radius: 5px;
-  width: 100%;
-  display: block;
-  margin-bottom: 1rem;
+
+@media (max-width: 500px) {
+  .image-block {
+    .block {
+      margin-bottom: 2rem;
+    }
+  }
 }
+
 .showcase .image-block {
   margin: 8rem 0px;
 }
