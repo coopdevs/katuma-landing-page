@@ -78,15 +78,20 @@
       "body": "Reducir el tiempo que invertimos en las tareas tediosas del día a día nos permite centrarnos en lo que aporta valor."
     },
     "showcase": {
-      "network": {
+      "orders": {
         "subtitle": "Grupos de consumo",
         "title": "Olvídate de cerrar y enviar el pedido por la noche",
         "body": "Los miembros del grupo hacen los pedidos desde sus cuentas y el productor puede consultar el pedido que ha hecho el grupo. Ya no hay que enviarle ninguna hoja de cálculo."
       },
-      "management": {
+      "reports": {
         "subtitle": "Productores",
         "title": "Recibe pedidos en un solo formato y por un solo canal",
         "body": "Ya no hace falta que estés pendiente de WhatsApp, correo eletrónico o teléfono para saber qué pedidos debes servir la próxima semana. Consulta que ha pedido cada grupo en el informe de pedidos."
+      },
+      "notifications": {
+        "subtitle": "Notificaciones",
+        "title": "Te enviamos avisos por correo electrónico",
+        "body": "Ya no hace falta imprimir más papeles. Recibirás una notificación de pedido per correo electrónico con los detalles de tu compra."
       }
     },
     "help-us": {

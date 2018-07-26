@@ -75,16 +75,21 @@
       "body": "Ao reduzirmos o tempo gasto nas tarefas mais chatas do dia-a-dia, podemos concentrar-nos naquilo que gera mais valor." 
     }, 
     "showcase": { 
-      "network": { 
-        "subtitle": "Grupos de consumo", 
+      "orders": {
+        "subtitle": "Encomendas",
         "title": "Esquece o fecho e envio das encomendas à noite", 
         "body": "Os membros do grupo fazem as suas encomendas a partir das suas contas e o/a produtor/a pode verificar a encomenda feita pelo grupo. Já não é preciso enviar folhas de excel." 	   
       }, 
-      "management": { 
-        "subtitle": "Produtores", 
+      "reports": {
+        "subtitle": "Relatórios",
         "title": "Recebe as encomendas num formato único e através de um só canal", 
         "body": "Já não precisas de depender do WhatsApp, email ou telefone para saberes que produtos tens de entregar na próxima semana. Consulta o que cada grupo encomendou nas notificações de encomendas." 
-      } 
+      },
+      "notifications": {
+        "subtitle": "Notificações",
+        "title": "Nós lhe enviamos avisos por e-mail",
+        "body": "Você não precisa mais imprimir mais papéis. Você receberá uma confirmação do pedido por e-mail com os detalhes da sua compra."
+      }
     }, 
     "help-us": {
       "title": "Queres ajudar-nos a desenvolver novas funcionalidades?", 

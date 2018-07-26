@@ -79,15 +79,20 @@
       "body": "Reducing the time we invest in the hard tasks of day to day allows us to focus on what brings value."
     },
     "showcase": {
-      "network": {
-        "subtitle": "Buying groups",
+      "orders": {
+        "subtitle": "Orders",
         "title": "Forget to close and send the order at night",
         "body": "The members of the group place orders from their accounts and the producer can check the order made by the group. You no longer need to send you a spreadsheet."
       },
-      "management": {
-        "subtitle": "Producers",
+      "reports": {
+        "subtitle": "Reports",
         "title": "Receive orders in a single format and through a single channel",
         "body": "You no longer need to be aware of WhatsApp, email or phone to know which orders you should serve the next week. Check what each group has requested in the orders report."
+      },
+      "notifications": {
+        "subtitle": "Notifications",
+        "title": "We send you email notifications",
+        "body": "There's no need for printing papers anymore. You will receive an order confirmation by email with the details of your purchase."
       }
     },
     "help-us": {
