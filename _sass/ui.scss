@@ -31,15 +31,17 @@ $primary-button-color-hover: #332738;
     background-color: $negative-color;
     color: hsl(0, 0%, 27%);
     font-weight: bold;
-    border: 2px solid white;
+    border: 2px solid $negative-color;
+
     &:hover {
-      background-color: #e5e5e5;
+      background-color: $negative-shade-color;
+      border: 2px solid $negative-shade-color;
     }
   }
 
   &.secondary-button {
     background-color: transparent;
-    border: 2px solid white;
+    border: 2px solid $negative-color;
   }
 }
 
