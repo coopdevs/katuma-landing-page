@@ -51,11 +51,11 @@
     "title": "Joint effort",
     "body": "Katuma is affiliate member of <a href='https://openfoodnetwork.org'>Open Food Network</a>, present in Australia, UK, Canada and France among other countries. Katuma's developers are core contributors of the project."
   },
-  "goteo": {
+  "help-us": {
     "title": "Help us go further",
-    "body": "With this crowdfunding campaign we will continue developing Katuma, we will help groups and producers adopt the tool and we will improve our communication so Katuma reaches out to all.",
-    "button": "Make a donation",
-    "secondary-button": "Get in"
+    "body": "Make your entity become a member and let's join efforts.",
+    "button": "Become a member",
+    "secondary-button": "Let's talk"
   },
   "footer": {
     "developed": {
