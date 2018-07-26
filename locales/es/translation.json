@@ -8,12 +8,12 @@
   "header": {
     "title": "KATUMA",
     "slogan": "Compra directamente a productoras agroecológicas de proximidad",
-    "subtitle": "Consume productos de proximidad y participa de un modelo sostenible con beneficios socioeconómicos para la comunidad."
+    "subtitle": "Consume productos de proximidad y participa de un modelo sostenible con beneficios socioeconómicos para la comunidad.",
+    "button": "Hazte socio"
   },
   "participate": {
     "title": "Entre todas podemos cambiar las reglas del consumo",
-    "body": "Gracias a mucha gente, Katuma ya es una realidad, la herramienta ya está online y los primeros grupos de consumo y productoras ya la utilizan. Ahora solo nos hace falta tu apoyo.",
-    "button": "Participa"
+    "body": "Katuma nace de la necesidad de grupos de consumo y pequeños productores de proximidad de reinventarse para afrontar los retos de futuro juntos."
   },
   "principles": {
     "title": "Los tres pilares",
@@ -75,7 +75,7 @@
     "header": {
       "slogan": "Una plataforma para hacer el salto de escala",
       "subtitle": "Simplifica la gestión de tu entidad",
-      "body": "Reducir el tiempo que invertimos en las tareas tediosas del día a día nos permiten centrarnos"
+      "body": "Reducir el tiempo que invertimos en las tareas tediosas del día a día nos permite centrarnos en lo que aporta valor."
     },
     "showcase": {
       "network": {
@@ -86,14 +86,14 @@
       "management": {
         "subtitle": "Productores",
         "title": "Recibe pedidos en un solo formato y por un solo canal",
-        "body": "Ya no hace falta que estés pendiente de WhatsApp, correo eletrónico o teléfono para saber qué comandos debes servir la próxima semana. Consulta que ha pedido cada grupo en el informe de pedidos."
+        "body": "Ya no hace falta que estés pendiente de WhatsApp, correo eletrónico o teléfono para saber qué pedidos debes servir la próxima semana. Consulta que ha pedido cada grupo en el informe de pedidos."
       }
     },
-    "goteo": {
+    "help-us": {
       "title": "¿Nos ayudas a desarrollar nuevas funcionalidades?",
-      "body": "Con esta campaña en Goteo seguiremos desarrollando Katuma, acompañaremos a grupos y productoras en su implantación y mejoraremos nuestra comunicación porque Katuma llegue a todos.",
-      "button": "Haz una donación",
-      "secondary-buton": "Entra"
+      "body": "Haz que tu entidad se haga socia y sumemos esfuerzos",
+      "button": "Hazte socio",
+      "secondary-button": "Hablemos"
     }
   }
 }

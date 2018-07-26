@@ -8,12 +8,11 @@
     "title": "KATUMA",
     "slogan": "Compra directamente a produtores agroecológicos de proximidade",
     "subtitle": "Consome produtos de proximidade e participa num modelo sustentável com benefícios sócio-económicos para a comunidade",
-    "button": "Torna-te mecenas"
+    "button": "Torna-te membro"
   },
   "participate": {
     "title": "Em conjunto podemos mudar as regras do consumo",
-    "body": "Graças a muita gente, a Katuma já é uma realidade: a ferramenta está disponível online e os primeiros grupos de consumo e produtores já estão a usá-la. Agora só precisamos do teu apoio.",
-    "button": "Participa"
+    "body": "Katuma nasce da necessidade de grupos de consumidores e pequenos produtores de proximidade para se reinventarem para enfrentar desafios futuros juntos."
   },
   "principles": {
     "title": "Os três pilares",
@@ -50,7 +49,7 @@
   },
   "help-us": {
     "title": "Ajudas-nos a chegar mais longe?",
-    "body": "Haz que tu entidad se haga socia y sumemos esfuerzos",
+    "body": "Faça sua entidade se tornar um parceiro e unir esforços",
     "button": "Tornar-te membro",
     "secondary-button": "Hablemos"
   },
@@ -87,11 +86,11 @@
         "body": "Já não precisas de depender do WhatsApp, email ou telefone para saberes que produtos tens de entregar na próxima semana. Consulta o que cada grupo encomendou nas notificações de encomendas." 
       } 
     }, 
-    "goteo": { 
+    "help-us": {
       "title": "Queres ajudar-nos a desenvolver novas funcionalidades?", 
-      "body": "Com esta campanha no Goteo, podemos continuar a desenvolver a Katuma, a acompanhar grupos e produtores na sua adopção e a melhorar a nossa comunicação para que a Katuma chegue a todo o lado.", 
-      "button": "Faz um donativo", 
-      "secondary-buton": "Entra" 
+      "body": "Faça sua entidade se tornar um parceiro e unir esforços",
+      "button": "Tornar-te membro",
+      "secondary-button": "Hablemos"
     } 
   }
 }

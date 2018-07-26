@@ -8,11 +8,12 @@
   "header": {
     "title": "KATUMA",
     "slogan": "Compra directament a productores de proximitat",
-    "subtitle": "Consumeix productes de proximitat i participa d'un model sostenible amb beneficis socioeconòmics per a la comunitat."
+    "subtitle": "Consumeix productes de proximitat i participa d'un model sostenible amb beneficis socioeconòmics per a la comunitat.",
+    "button": "Fes-te soci"
   },
   "participate": {
     "title": "Canviem les regles del consum",
-    "body": "Katuma neix de la necessitat dels grups de consum i petits productors de proximitat catalans de reinventar-se per afrontar els reptes de futur.",
+    "body": "Katuma neix de la necessitat dels grups de consum i petits productors de proximitat de reinventar-se per afrontar els reptes de futur junts.",
     "button": "Participa"
   },
   "principles": {

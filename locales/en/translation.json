@@ -9,11 +9,11 @@
     "title": "KATUMA",
     "slogan": "Buy directly from local agro-ecological producers",
     "subtitle": "Consume local food and participate in a sustainable model with socioeconomic benefits for the community",
-    "button": "Become a patron"
+    "button": "Become member"
   },
   "participate": {
     "title": "Together we can change the rules of consumption",
-    "body": "Thanks to lots of people Katuma is a fact, the tool is online and the first consumption groups and producers are already using it. Now we only need your support.",
+    "body": "Katuma is born from the need of buying groups and small scale producers to rethink themselves as a way to face together the challenges ahead.",
     "button": "Join us"
   },
   "principles": {
@@ -90,11 +90,11 @@
         "body": "You no longer need to be aware of WhatsApp, email or phone to know which orders you should serve the next week. Check what each group has requested in the orders report."
       }
     },
-    "goteo": {
+    "help-us": {
       "title": "Help us develop new features",
-      "body": "With this campaign in Goteo we will continue developing Katuma, we will accompany groups and producers in their adoption and improve our communication so that Katuma reaches everyone.",
-      "button": "Donate",
-      "secondary-buton": "Get in"
+      "body": "Make your entity become a member and let's join efforts.",
+      "button": "Become a member",
+      "secondary-button": "Let's talk"
     }
   }
 }
