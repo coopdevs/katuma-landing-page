@@ -157,7 +157,9 @@
   margin-top: 25px;
 }
 .coopdevs img {
+  height: auto;
   margin: -12px 0 0 -18px;
+  max-width: 100%;
 }
 
 @media (max-width: 500px) {
