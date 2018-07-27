@@ -1,0 +1,76 @@
+.navbar {
+  background-image: none;
+  padding-top: 12px;
+  box-shadow: none;
+
+  a {
+    color: $negative-color;
+    text-decoration: none;
+
+    &:hover {
+      color: $negative-color;
+      text-decoration: none;
+      color: rgba(255, 255, 255, 0.75);
+    }
+  }
+}
+
+.navbar-nav .nav-link {
+  font-size: 1rem;
+}
+
+.navbar-expand-md .navbar-nav .nav-link.login {
+  padding: 0.2rem 1rem;
+  margin-top: 4px;
+  margin-left: 8px;
+}
+
+.toggler {
+  color: $negative-color;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+a.login:hover {
+  background-color: $negative-color;
+  color: #202020;
+}
+
+.navbar-brand {
+  font-family: 'Roboto slab';
+  text-transform: uppercase;
+  font-weight: bold;
+  color: $negative-color;
+  text-decoration: none;
+  font-size: 1.125rem;
+
+  &:hover {
+    font-family: 'Roboto slab';
+    text-transform: uppercase;
+    font-weight: bold;
+    color: $negative-color;
+    text-decoration: none;
+    font-size: 1.125rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .navbar .nav > li > a {
+    padding: 0.5rem;
+  }
+  .navbar-nav {
+    margin-top: 0.75rem;
+  }
+  .nav-link {
+    padding: 0.1rem 1rem;
+  }
+  .login {
+    margin: 0.5rem 0;
+  }
+  .navbar-expand-md .navbar-nav .nav-link.login {
+    margin-left: 0;
+    margin-top: 0.7rem;
+  }
+}

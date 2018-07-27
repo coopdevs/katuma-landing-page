@@ -8,12 +8,12 @@
   "header": {
     "title": "KATUMA",
     "slogan": "Compra directamente a productoras agroecológicas de proximidad",
-    "subtitle": "Consume productos de proximidad y participa de un modelo sostenible con beneficios socioeconómicos para la comunidad."
+    "subtitle": "Consume productos de proximidad y participa de un modelo sostenible con beneficios socioeconómicos para la comunidad.",
+    "button": "Hazte socio"
   },
   "participate": {
     "title": "Entre todas podemos cambiar las reglas del consumo",
-    "body": "Gracias a mucha gente, Katuma ya es una realidad, la herramienta ya está online y los primeros grupos de consumo y productoras ya la utilizan. Ahora solo nos hace falta tu apoyo.",
-    "button": "Participa"
+    "body": "Katuma nace de la necesidad de grupos de consumo y pequeños productores de proximidad de reinventarse para afrontar los retos de futuro juntos."
   },
   "principles": {
     "title": "Los tres pilares",
@@ -23,7 +23,7 @@
     },
     "platformcoop": {
       "title": "Platform Coop",
-      "body": "Personas, grupos de consumo y productores de proximidad son las propietarias y deciden el rumbo de Katuma."
+      "body": "Personas, grupos de consumo y productores de proximidad son las propietarias y deciden el rumbo de la cooperativa."
     },
     "software": {
       "title": "Software libre",
@@ -37,22 +37,24 @@
     },
     "groups": {
       "title": "Grupos de consumo",
-      "body": "El productor mantiene su lista de productos y los grupos a los que provee no se tienen que preocupar de gestionar hojas de cálculo ni de actualizar ningún precio."
+      "body": "El productor mantiene su lista de productos y los grupos a los que provee no se tienen que preocupar de gestionar hojas de cálculo ni de actualizar ningún precio.",
+      "more": "Saber más →"
     },
     "producers": {
       "title": "Productoras",
-      "body": "Ya no hace falta enviar listas de precios actualizados y recibir pedidos cada semana en diferentes formatos por WhatsApp, email, teléfono, etc."
+      "body": "Ya no hace falta enviar listas de precios actualizados y recibir pedidos cada semana en diferentes formatos por WhatsApp, email, teléfono, etc.",
+      "more": "Saber más →"
     }
   },
   "open-food-network": {
     "title": "Sumamos esfuerzos",
-    "body": "Katuma se basa en el software libre <a href='https://openfoodnetwork.org'>Open Food Network</a>, que ya se aplica en Australia, Reino Unido, Canadá y Francia entre otros países. Los desarrolladores que trabajan en Katuma forman parte del núcleo del proyecto."
+    "body": "Katuma es miembro afiliado del proyecto <a href='https://openfoodnetwork.org'>Open Food Network</a>, presente en Australia, Reino Unido, Canadá y Francia entre otros países. Los desarrolladores que trabajan en Katuma forman parte del núcleo del proyecto."
   },
-  "goteo": {
+  "help-us": {
     "title": "¿Nos ayudas a llegar más lejos?",
-    "body": "Con esta campaña en Goteo seguiremos desarrollando Katuma, acompañaremos a grupos y productoras en su implantacion y mejoraremos nuestra comunicación para que Katuma llegue a todo el mundo.",
-    "button": "Haz una donación",
-    "secondary-button": "Entra"
+    "body": "Haz que tu entidad se haga socia y sumemos esfuerzos",
+    "button": "Hazte socio",
+    "secondary-button": "Hablemos"
   },
   "footer": {
     "developed": {
@@ -73,30 +75,30 @@
     "header": {
       "slogan": "Una plataforma para hacer el salto de escala",
       "subtitle": "Simplifica la gestión de tu entidad",
-      "body": "Reducir el tiempo que invertimos en las tareas tediosas del día a día nos permiten centrarnos"
+      "body": "Reducir el tiempo que invertimos en las tareas tediosas del día a día nos permite centrarnos en lo que aporta valor."
     },
     "showcase": {
-      "map": {
-        "subtitle": "Consumidores",
-        "title": "Encuentra productoras y grupos cerca de casa",
-        "body": "Un mapa geolocaliza y visibiliza los grupos de consumo existentes, se promueve el contacto y la adhesión de cualquier persona, facilitando el acceso a un mercado alternativo formado por productoras locales."
-      },
-      "network": {
+      "orders": {
         "subtitle": "Grupos de consumo",
         "title": "Olvídate de cerrar y enviar el pedido por la noche",
         "body": "Los miembros del grupo hacen los pedidos desde sus cuentas y el productor puede consultar el pedido que ha hecho el grupo. Ya no hay que enviarle ninguna hoja de cálculo."
       },
-      "management": {
+      "reports": {
         "subtitle": "Productores",
         "title": "Recibe pedidos en un solo formato y por un solo canal",
-        "body": "Ya no hace falta que estés pendiente de WhatsApp, correo eletrónico o teléfono para saber qué comandos debes servir la próxima semana. Consulta que ha pedido cada grupo en el informe de pedidos."
+        "body": "Ya no hace falta que estés pendiente de WhatsApp, correo eletrónico o teléfono para saber qué pedidos debes servir la próxima semana. Consulta que ha pedido cada grupo en el informe de pedidos."
+      },
+      "notifications": {
+        "subtitle": "Notificaciones",
+        "title": "Te enviamos avisos por correo electrónico",
+        "body": "Ya no hace falta imprimir más papeles. Recibirás una notificación de pedido per correo electrónico con los detalles de tu compra."
       }
     },
-    "goteo": {
+    "help-us": {
       "title": "¿Nos ayudas a desarrollar nuevas funcionalidades?",
-      "body": "Con esta campaña en Goteo seguiremos desarrollando Katuma, acompañaremos a grupos y productoras en su implantación y mejoraremos nuestra comunicación porque Katuma llegue a todos.",
-      "button": "Haz una donación",
-      "secondary-buton": "Entra"
+      "body": "Haz que tu entidad se haga socia y sumemos esfuerzos",
+      "button": "Hazte socio",
+      "secondary-button": "Hablemos"
     }
   }
 }

@@ -1,0 +1,81 @@
+$primary-button-color: #433349;
+$primary-button-color-hover: #332738;
+
+.button {
+  background-color: $primary-button-color;
+  display: inline-block;
+  color: $negative-color;
+  padding: 12px 32px;
+  border-radius: 6px;
+  font-size: 16px;
+  text-decoration: none;
+  transition: background-color .125s,border-color .125s,color .125s;
+  margin-top: 8px;
+
+  &:hover, &:active, &:visited {
+    display: inline-block;
+    color: $negative-color;
+    padding: 12px 32px;
+    border-radius: 6px;
+    font-size: 16px;
+    text-decoration: none;
+    transition: background-color .125s,border-color .125s,color .125s;
+    margin-top: 8px;
+  }
+
+  &:hover {
+    background-color: $primary-button-color-hover;
+  }
+
+  &.negative-button {
+    background-color: $negative-color;
+    color: hsl(0, 0%, 27%);
+    font-weight: bold;
+    border: 2px solid $negative-color;
+
+    &:hover {
+      background-color: $negative-shade-color;
+      border: 2px solid $negative-shade-color;
+    }
+  }
+
+  &.secondary-button {
+    background-color: transparent;
+    border: 2px solid $negative-color;
+  }
+}
+
+.button-group .button {
+  margin-right: 8px;
+}
+
+.icon {
+  color: $secondary-color;
+  background-color: $primary-light-color;
+  padding: 1rem;
+  border-radius: 100px;
+  margin-bottom: 30px;
+}
+
+.nav-tabs {
+  .nav-item {
+    margin: 0 auto -1px auto;
+  }
+
+  .nav-link, .nav-link:hover {
+    border: none; 
+
+    &.active {
+      border-bottom: 3px solid $tertiary-color;
+      color: $tertiary-color;
+    }
+  }
+}
+
+.tab-content {
+  margin-top: 2rem;
+
+  .tab-content-item {
+    margin-bottom: 2rem;
+  }
+}

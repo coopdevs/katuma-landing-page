@@ -8,11 +8,12 @@
   "header": {
     "title": "KATUMA",
     "slogan": "Compra directament a productores de proximitat",
-    "subtitle": "Consumeix productes de proximitat i participa d'un model sostenible amb beneficis socioeconòmics per a la comunitat."
+    "subtitle": "Consumeix productes de proximitat i participa d'un model sostenible amb beneficis socioeconòmics per a la comunitat.",
+    "button": "Fes-te soci"
   },
   "participate": {
-    "title": "Entre totes podem canviar les regles del consum",
-    "body": "Gràcies a molta gent, Katuma ja és una realitat, l’eina ja està online i els primers grups de consum i productores ja la fan servir. Ara només ens cal el teu suport.",
+    "title": "Canviem les regles del consum",
+    "body": "Katuma neix de la necessitat dels grups de consum i petits productors de proximitat de reinventar-se per afrontar els reptes de futur junts.",
     "button": "Participa"
   },
   "principles": {
@@ -23,7 +24,7 @@
     },
     "platformcoop": {
       "title": "Platform Coop",
-      "body": "Persones, grups de consum i productors de proximitat són els propietaris i decideixen el rumb de Katuma."
+      "body": "Persones, grups de consum i productors de proximitat són els propietaris i decideixen el rumb de la cooperativa."
     },
     "software":{
       "title": "Software lliure",
@@ -37,22 +38,24 @@
     },
     "groups": {
       "title": "Grups de consum",
-      "body": "El productor manté la seva llista de productes i els grups que proveeix no s'han de preocupar de gestionar fulls de càlcul ni d'actualitzar cap preu."
+      "body": "El productor manté la seva llista de productes i els grups que proveeix no s'han de preocupar de gestionar fulls de càlcul ni d'actualitzar cap preu.",
+      "more": "Saber-ne més →"
     },
     "producers": {
       "title": "Productores",
-      "body": "Ja no cal enviar llistats de preus actualitzats i rebre comandes cada setmana en diferents formats per WhatsApp, email, telèfon, etc."
+      "body": "Ja no cal enviar llistats de preus actualitzats i rebre comandes cada setmana en diferents formats per WhatsApp, email, telèfon, etc.",
+      "more": "Saber-ne més →"
     }
   },
   "open-food-network": {
     "title": "Sumem esforços",
-    "body": "Katuma es basa en el software lliure <a href='https://openfoodnetwork.org'>Open Food Network</a>, que ja s'aplica a Austràlia, Regne Unit, Canadà i França entre d'altres països. Els desenvolupadors que traballen a Katuma formen part del nucli del projecte."
+    "body": "Katuma és membre afiliat del projecte <a href='https://openfoodnetwork.org'>Open Food Network</a>, present a Austràlia, Regne Unit, Canadà i França entre d'altres països. Els desenvolupadors que traballen a Katuma formen part del nucli del projecte."
   },
-  "goteo": {
+  "help-us": {
     "title": "Ens ajudes a arribar més lluny?",
-    "body": "Amb aquesta campanya a Goteo seguirem desenvolupant Katuma, acompanyarem a grups i productores en la seva implantació i millorarem la nostra comunicació perquè Katuma arribi a tothom.",
-    "button": "Fes una donació",
-    "secondary-buton": "Entra"
+    "body": "Fes que la teva entitat es faci socia i sumem esforços.",
+    "button": "Fes-te soci",
+    "secondary-buton": "Parlem"
   },
   "about": {
     "description": "<strong>Katuma</strong> és una plataforma online basada en el model cooperativista, que té com a objectiu <strong>facilitar el consum agroecològic de proximitat.</strong><br />La propietat i gestió de la plataforma recau en les entitats i persones implicades: productores, consumidores, grups de consum i distribuïdores. Es tracta d'un <strong>model organitzatiu transparent, participatiu i sense ànim de lucre.</strong>",
@@ -90,20 +93,20 @@
       "body": "Reduir el temps que invertim en les tasques feixugues del dia a dia ens permet centrar-nos en el que aporta valor."
     },
     "showcase": {
-      "map": {
-        "subtitle": "Consumidors",
-        "title": "Troba productores i grups prop de casa",
-        "body": "Un mapa geolocalitza i visibilitza els grups de consum existents, es promou el contacte i l'adhesió de qualsevol persona, facilitant l'accés a un mercat alternatiu format per productores locals."
-      },
-      "network": {
-        "subtitle": "Grups de consum",
+      "orders": {
+        "subtitle": "Comandes",
         "title": "Oblida't de tancar i enviar la comanda a la nit",
         "body": "Els membres del grup fan les comandes des del seus comptes i el productor pot consultar la comanda que ha fet el grup. Ja no cal enviar-li cap full de càlcul."
       },
-      "management": {
-        "subtitle": "Productors",
+      "reports": {
+        "subtitle": "Informes",
         "title": "Rep comandes en un sol format i per un sol canal",
         "body": "Ja no cal que estiguis pendent del WhatsApp, correu eletrònic o telèfon per saber quines comandes has de servir la propera setmana. Consulta que ha demanat cada grup a l'informe de comandes."
+      },
+      "notifications": {
+        "subtitle": "Notificacions",
+        "title": "T'enviem avisos per correu electrònic",
+        "body": "Ja no cal imprimir més papers. Rebràs una confirmació de comanda per correu electrònic amb els detalls de la teva compra."
       }
     },
     "goteo": {
