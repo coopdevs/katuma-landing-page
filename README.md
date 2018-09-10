@@ -14,4 +14,4 @@ This website is implemented with [Jekyllrb](https://jekyllrb.com/). After instal
 $ bundle exec jekyll serve
 ```
 
-Now navigate to `http://0.0.0.0:4000/` to see the site.
+Now navigate to `http://127.0.0.1:4000/` to see the site.
