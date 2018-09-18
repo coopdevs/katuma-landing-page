@@ -80,6 +80,12 @@ $primary-button-color-hover: #332738;
   }
 }
 
+.modal {
+  .container {
+    padding-top: 0
+  }
+}
+
 .modal-content {
   border: none;
 }
@@ -88,28 +94,27 @@ $primary-button-color-hover: #332738;
   border: 0
 }
 
-.modal-body {
-  padding: 0 3rem 5rem 3rem;
-
-  .container {
-    padding-top: 1rem;
-  }
-}
-
 .modal-dialog {
   max-width: 700px;
 }
 
-#sponsorModal {
-  .container {
-    padding-top: 2rem;
-  }
-
+.sponsor-modal {
   ul {
     margin: 0;
     padding: 0;
   }
+
   ul li {
     list-style: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .modal-body {
+    padding: 0 3rem 5rem 3rem;
+  }
+
+  .sponsor-modal .container {
+    padding-top: 2rem;
   }
 }
