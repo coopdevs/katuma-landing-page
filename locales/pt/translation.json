@@ -97,5 +97,14 @@
       "button": "Tornar-te membro",
       "secondary-button": "Hablemos"
     } 
+  },
+  "sponsors": {
+    "title": "Com o surto de",
+    "body": "Muito obrigado às <a href='' data-toggle='modal' data-target='#sponsorModal'>103 pessoas e organizações</a> que tornaram possível para a campanha de microgerenciamento <a target='_blank' href='https://www.goteo.org/project/katuma'>'Katuma: Fem fàcil el consum de productes de proximitat'</a> foi um sucesso."
+  },
+  "matchfunding_modal": {
+    "title": "Obrigada!",
+    "body": "São as 103 pessoas e entidades que com o seu apoio fizeram a campanha <a target='_blank' href='https://www.goteo.org/project/katuma'>'Katuma: Fem fàcil el consum de productes de proximitat'</a>, através do Goteo e com o financiamento da cidade de Barcelona, um sucesso retumbante. Com um objetivo de € 6.000, € 9.711 foi alcançado!",
+    "donors_title": "Doadores"
   }
 }
