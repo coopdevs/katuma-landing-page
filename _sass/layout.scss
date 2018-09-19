@@ -52,6 +52,35 @@
   }
 }
 
+.sponsors {
+  width: 100%;
+  background-color: #f3f3f3;
+  padding: 4rem 0;
+  margin-top: 7rem;
+
+  .container {
+    padding-top: 3rem;
+  }
+
+  .sponsors-wrapper {
+    border-radius: 4px;
+    background-color: #fff;
+
+    .row {
+      align-items: center;
+      justify-content: center;
+    }
+
+    .sponsor-logo {
+      padding: 1rem;
+    }
+
+    &.container {
+      padding-top: 0;
+    }
+  }
+}
+
 @media (max-width: 500px) {
   .image-block {
     .block {

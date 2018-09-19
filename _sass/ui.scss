@@ -79,3 +79,42 @@ $primary-button-color-hover: #332738;
     margin-bottom: 2rem;
   }
 }
+
+.modal {
+  .container {
+    padding-top: 0
+  }
+}
+
+.modal-content {
+  border: none;
+}
+
+.modal-header {
+  border: 0
+}
+
+.modal-dialog {
+  max-width: 700px;
+}
+
+.sponsor-modal {
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+
+  ul li {
+    list-style: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .modal-body {
+    padding: 0 3rem 5rem 3rem;
+  }
+
+  .sponsor-modal .container {
+    padding-top: 2rem;
+  }
+}
