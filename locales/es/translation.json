@@ -56,21 +56,6 @@
     "button": "Hazte socio",
     "secondary-button": "Hablemos"
   },
-  "footer": {
-    "developed": {
-      "title": "Impulsado por"
-    },
-    "about": {
-      "title": "Nosotros",
-      "github": "Katuma es de código libre",
-      "twitter": "Síguenos en Twitter",
-      "facebook": "Síguenos en Facebook",
-      "contact": "Contacta con nosotros"
-    },
-    "languages": {
-      "title": "Idiomas"
-    }
-  },
   "features": {
     "header": {
       "slogan": "Una plataforma para hacer el salto de escala",

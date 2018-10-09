@@ -23,7 +23,11 @@ function setLanguage(language) {
     i18n.init({
         lng: language,
         fallbackLng: false,
-        debug: true
+				ns: {
+             namespaces: ['translation', 'footer'],
+             defaultNs: 'translation'
+          },
+        debug: false
     }, function() {
         $("[data-i18n]").i18n();
     });

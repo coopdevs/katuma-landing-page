@@ -53,21 +53,6 @@
     "button": "Tornar-te membro",
     "secondary-button": "Hablemos"
   },
-  "footer": {
-    "developed": {
-      "title": "Impulsionado por"
-    },
-    "about": {
-      "title": "Sobre nós",
-      "github": "A Katuma é software livre",
-      "twitter": "Segue-nos no Twitter",
-      "facebook": "Acompanha-nos no Facebook",
-      "contact": "Entra em contacto"
-    },
-    "languages": {
-      "title": "Línguas"
-    }
-  },
   "features": { 
     "header": { 
       "slogan": "Uma plataforma para dar o salto de escala", 

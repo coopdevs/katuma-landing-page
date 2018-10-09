@@ -1,0 +1,15 @@
+{
+	"developed": {
+		"title": "Powered by"
+	},
+	"about": {
+		"title": "About us",
+		"github": "Katuma is free software",
+		"twitter": "Follow us on Twitter",
+		"facebook": "Follow us on Facebook",
+		"contact": "Contact us"
+	},
+	"languages": {
+		"title": "Languages"
+	}
+}

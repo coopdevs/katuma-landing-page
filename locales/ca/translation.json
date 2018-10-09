@@ -71,21 +71,6 @@
     "asociate": "Pots recolzar Katuma associant-te com soci de la cooperativa Katuma, aportant <strong>100€ de capital social</strong> <em>(retornable en cas d'abandonar la cooperativa)</em>",
     "asociatebtn": "Fes-te sòcia!"
   },
-  "footer": {
-    "developed": {
-      "title": "Impulsat per"
-    },
-    "about": {
-      "title": "Nosaltres",
-      "github": "Katuma es de còdi lliure",
-      "twitter": "Segueix-nos a Twitter",
-      "facebook": "Segueix-nos a Facebook",
-      "contact": "Contacta amb nosaltres"
-    },
-    "languages": {
-      "title": "Idiomes"
-    }
-  },
   "features": {
     "header": {
       "slogan": "Una plataforma per fer el salt d'escala",
