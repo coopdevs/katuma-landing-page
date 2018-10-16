@@ -4,40 +4,44 @@
   padding-bottom: 6rem;
   border-radius: 0px;
   background-color: transparent;
+  h1 {
+    font-size: 46px;
+    font-weight: 600;
+    margin: 0 0 20px;
+    color: $negative-color;
+    letter-spacing: 0.05rem;
+  }
+  strong {
+    font-weight: 400;
+  }
+  .subtitle {
+    font-size: 20px;
+  }
+  .header {
+    padding: 3.75rem 0 0 3.15rem;
+  }
 }
-.features .jumbotron {
-  height: 450px;
+
+.features {
+  .background {
+    background-image: url('../img/features_background.jpg');
+  }
+  .jumbotron {
+    height: 450px;
+  }
 }
+
 .background {
   position: relative;
   background-color: #433349;
   background-size: cover;
   background-position: right;
+  .container {
+    padding-top: 1rem;
+  }
 }
 .index .background {
   background-image: url('../img/background.jpg');
-}
-.features .background {
-  background-image: url('../img/features_background.jpg');
-}
-.background .container { 
-  padding-top: 1rem;
-}
-.jumbotron .header {
-  padding: 3.75rem 0 0 3.15rem;
-}
-.jumbotron h1 {
-  font-size: 46px;
-  font-weight: 600;
-  margin: 0 0 20px;
-  color: $negative-color;
-  letter-spacing: 0.05rem;
-}
-.jumbotron .subtitle {
-  font-size: 20px;
-}
-.jumbotron strong {
-  font-weight: 400;
 }
 
 .image-block {
@@ -100,13 +104,15 @@
 }
 .container {
   padding-top: 5rem;
+  &.showcase {
+    padding: 2rem 0;
+  }
 }
-.container.showcase {
-  padding: 2rem 0;
-}
+
 .principles h5 {
   font-weight: bold;
 }
+
 .ofn {
   margin: 2rem 0;
 }
@@ -118,22 +124,23 @@
   padding-top: 8rem;
   padding-bottom: 4.25rem;
 
+  h2 {
+    color: $negative-color;
+  }
   p {
     font-weight: 300;
+    color: $negative-color;
   }
-}
-.call-to-action-block .image-block {
-  margin-top: 1.25rem;
-}
-.call-to-action-block .login {
-  background-color: $primary-background-color;
-  color: $negative-color;
+  .image-block {
+    margin-top: 1.25rem;
+  }
+  .login {
+    background-color: $primary-background-color;
+    color: $negative-color;
+  }
 }
 .container.call-to-action-block {
   padding-bottom: 1.25rem;
-}
-.call-to-action-block h2, .call-to-action-block p {
-  color: $negative-color;
 }
 
 .about h2 {
