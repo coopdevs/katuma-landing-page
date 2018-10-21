@@ -1,0 +1,30 @@
+{
+  "header": {
+    "slogan": "A platform to make the scale jump",
+    "subtitle": "Simplify the management of your entity",
+    "body": "Reducing the time we invest in the hard tasks of day to day allows us to focus on what brings value."
+  },
+  "showcase": {
+    "orders": {
+      "subtitle": "Orders",
+      "title": "Forget to close and send the order at night",
+      "body": "The members of the group place orders from their accounts and the producer can check the order made by the group. You no longer need to send you a spreadsheet."
+    },
+    "reports": {
+      "subtitle": "Reports",
+      "title": "Receive orders in a single format and through a single channel",
+      "body": "You no longer need to be aware of WhatsApp, email or phone to know which orders you should serve the next week. Check what each group has requested in the orders report."
+    },
+    "notifications": {
+      "subtitle": "Notifications",
+      "title": "We send you email notifications",
+      "body": "There's no need for printing papers anymore. You will receive an order confirmation by email with the details of your purchase."
+    }
+  },
+  "help-us": {
+    "title": "Help us develop new features",
+    "body": "Make your entity become a member and let's join efforts.",
+    "button": "Become a member",
+    "secondary-button": "Let's talk"
+  }
+}

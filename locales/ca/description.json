@@ -1,0 +1,22 @@
+{
+  "participate": {
+    "title": "Canviem les regles del consum",
+    "body": "Katuma neix de la necessitat dels grups de consum i petits productors de proximitat de reinventar-se per afrontar els reptes de futur junts.",
+    "button": "Participa"
+  },
+  "principles": {
+    "title": "Els tres pilars",
+    "consumption": {
+      "title": "Consum de proximitat",
+      "body": "Com a eina per a potenciar la sobirania alimentària i afavorir els productors locals que practiquen una agricultura diferent."
+    },
+    "platformcoop": {
+      "title": "Platform Coop",
+      "body": "Persones, grups de consum i productors de proximitat són els propietaris i decideixen el rumb de la cooperativa."
+    },
+    "software":{
+      "title": "Software lliure",
+      "body": "Perquè també hem d'exercir els nostres drets digitals i el nostre projecte és un esforç col·lectiu i obert."
+    }
+  }
+}

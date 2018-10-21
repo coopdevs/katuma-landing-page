@@ -1,0 +1,11 @@
+{
+  "sponsors": {
+    "title": "Supported by",
+    "body": "We also thank the <a href='' data-toggle='modal' data-target='#sponsorModal'>103 people and organizations</a> that made the crowdfunding campaign <a target='_blank' href='https://www.goteo.org/project/katuma'>'Katuma: Fem fàcil el consum de productes de proximitat'</a> a success."
+  },
+  "matchfunding_modal": {
+    "title": "Thank you!",
+    "body": "These are the 103 people and organizations that supported and made possible the campaign <a target='_blank' href='https://www.goteo.org/project/katuma'>'Katuma: Fem fàcil el consum de productes de proximitat'</a>, through Goteo and financed by Barcelona City Council, become a resounding success. With a goal of 6.000 €, we reached 9.711 €!",
+    "donors_title": "Donors"
+  }
+}

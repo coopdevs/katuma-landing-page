@@ -1,0 +1,21 @@
+{
+  "participate": {
+    "title": "Em conjunto podemos mudar as regras do consumo",
+    "body": "Katuma nasce da necessidade de grupos de consumidores e pequenos produtores de proximidade para se reinventarem para enfrentar desafios futuros juntos."
+  },
+  "principles": {
+    "title": "Os três pilares",
+    "consumption": {
+      "title": "Consumo de proximidade",
+      "body": "A plataforma é uma ferramenta que potencia a soberania alimentar e que favorece produtores locais que praticam uma outra forma de agricultura."
+    },
+    "platformcoop": {
+      "title": "Platform Coop",
+      "body": "A plataforma é propriedade de quem a usa, dos grupos de consumo e dos produtores locais, e são eles e elas que decidem o rumo da cooperativa."
+    },
+    "software": {
+      "title": "Software livre",
+      "body": "Porque também temos de exercer os nossos direitos digitais, este projecto é fruto de colaborações abertas e colectivas."
+    }
+  }
+}
