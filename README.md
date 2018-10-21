@@ -14,4 +14,9 @@ This website is implemented with [Jekyllrb](https://jekyllrb.com/). After instal
 $ bundle exec jekyll serve
 ```
 
+If you want to develop using Docker instead, install [Docker](https://docs.docker.com/install/) and [docker-compose](https://docs.docker.com/compose/install/) and run:
+```shell
+docker-compose up
+```
+
 Now navigate to `http://127.0.0.1:4000/` to see the site.
