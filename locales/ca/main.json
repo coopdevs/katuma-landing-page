@@ -1,0 +1,14 @@
+{
+  "nav": {
+    "features": "Funcionalitats",
+    "map": "Mapa",
+    "community": "Comunitat",
+    "login": "Entra"
+  },
+  "header": {
+    "title": "KATUMA",
+    "slogan": "Compra directament a productores de proximitat",
+    "subtitle": "Consumeix productes de proximitat i participa d'un model sostenible amb beneficis socioeconòmics per a la comunitat.",
+    "button": "Fes-te soci"
+  }
+}

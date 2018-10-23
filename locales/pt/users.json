@@ -1,0 +1,30 @@
+{
+  "navigation": {
+    "producers": "Produtores",
+    "groups": "Grupos"
+  },
+  "journeys": {
+    "consumers": {
+      "title": "Consumidores & Consumidoras",
+      "body": "Através de um mapa que geolocaliza e dá visibilidade aos grupos existentes, promovemos o contacto e adesão de qualquer pessoa, facilitando o acesso a um mercado alternativo formado por produtores locais"
+    },
+    "groups": {
+      "title": "Grupos de consumo",
+      "body": "Os produtores mantêm as suas listas de produtos actualizadas e os grupos a quem fornecem não têm de se preocupar com folhas de cálculo nem actualizações de preços."
+    },
+    "producers": {
+      "title": "Produtores & Produtoras",
+      "body": "Não há necessidade de enviar listas de produtos actualizadas nem de receber encomendas todas as semanas por diversos meios, como email, WhatsApp, telefone, etc."
+    }
+  },
+  "open-food-network": {
+    "title": "Unimos esforços",
+    "body": "A Katuma baseia-se no software livre da <a href='https://openfoodnetwork.org'>Open Food Network</a>, que já está em utilização na Austrália, Reino Unido, Canadá, França, entre outros países. Os programadores que trabalham na Katuma fazem parte do núcleo do projecto."
+  },
+  "help-us": {
+    "title": "Ajudas-nos a chegar mais longe?",
+    "body": "Faça sua entidade se tornar um parceiro e unir esforços",
+    "button": "Tornar-te membro",
+    "secondary-button": "Hablemos"
+  }
+}

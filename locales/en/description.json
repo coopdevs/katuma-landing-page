@@ -1,0 +1,22 @@
+{
+  "participate": {
+    "title": "Together we can change the rules of consumption",
+    "body": "Katuma is born from the need of buying groups and small scale producers to rethink themselves as a way to face together the challenges ahead.",
+    "button": "Join us"
+  },
+  "principles": {
+    "title": "The three pillars",
+    "consumption": {
+      "title": "Local food",
+      "body": "As a tool to boost the food sovreignty and benefit local producers that do a different kind of farming."
+    },
+    "platformcoop": {
+      "title": "Platform Coop",
+      "body": "People, consumption groups and local producers are the owners and decide the course of the cooperative."
+    },
+    "software": {
+      "title": "Free software",
+      "body": "Because we also have digital rights and our project is an open and collective effort."
+    }
+  }
+}

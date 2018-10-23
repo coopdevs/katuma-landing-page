@@ -1,0 +1,32 @@
+{
+  "navigation": {
+    "producers": "Productores",
+    "groups": "Grups"
+  },
+  "journeys": {
+    "consumers": {
+      "title": "Consumidores",
+      "body": "Gràcies a un mapa que geolocalitza i visibilitza els grups de consum existents, es promou el contacte i l'adhesió de qualsevol persona, facilitant l'accés a un mercat alternatiu format per productores locals."
+    },
+    "groups": {
+      "title": "Grups de consum",
+      "body": "El productor manté la seva llista de productes i els grups que proveeix no s'han de preocupar de gestionar fulls de càlcul ni d'actualitzar cap preu.",
+      "more": "Saber-ne més →"
+    },
+    "producers": {
+      "title": "Productores",
+      "body": "Ja no cal enviar llistats de preus actualitzats i rebre comandes cada setmana en diferents formats per WhatsApp, email, telèfon, etc.",
+      "more": "Saber-ne més →"
+    }
+  },
+  "open-food-network": {
+    "title": "Sumem esforços",
+    "body": "Katuma és membre afiliat del projecte <a href='https://openfoodnetwork.org'>Open Food Network</a>, present a Austràlia, Regne Unit, Canadà i França entre d'altres països. Els desenvolupadors que traballen a Katuma formen part del nucli del projecte."
+  },
+  "help-us": {
+    "title": "Ens ajudes a arribar més lluny?",
+    "body": "Fes que la teva entitat es faci socia i sumem esforços.",
+    "button": "Fes-te soci",
+    "secondary-buton": "Parlem"
+  }
+}

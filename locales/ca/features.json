@@ -1,0 +1,30 @@
+{
+  "header": {
+    "slogan": "Una plataforma per fer el salt d'escala",
+    "subtitle": "Simplifica la gestió de la teva entitat",
+    "body": "Reduir el temps que invertim en les tasques feixugues del dia a dia ens permet centrar-nos en el que aporta valor."
+  },
+  "showcase": {
+    "orders": {
+      "subtitle": "Comandes",
+      "title": "Oblida't de tancar i enviar la comanda a la nit",
+      "body": "Els membres del grup fan les comandes des del seus comptes i el productor pot consultar la comanda que ha fet el grup. Ja no cal enviar-li cap full de càlcul."
+    },
+    "reports": {
+      "subtitle": "Informes",
+      "title": "Rep comandes en un sol format i per un sol canal",
+      "body": "Ja no cal que estiguis pendent del WhatsApp, correu eletrònic o telèfon per saber quines comandes has de servir la propera setmana. Consulta que ha demanat cada grup a l'informe de comandes."
+    },
+    "notifications": {
+      "subtitle": "Notificacions",
+      "title": "T'enviem avisos per correu electrònic",
+      "body": "Ja no cal imprimir més papers. Rebràs una confirmació de comanda per correu electrònic amb els detalls de la teva compra."
+    }
+  },
+  "help-us": {
+    "title": "Ens ajudes a desenvolupar noves funcionalitats?",
+    "body": "Amb aquesta campanya a Goteo seguirem desenvolupant Katuma, acompanyarem a grups i productores en la seva implantació i millorarem la nostra comunicació perquè Katuma arribi a tothom.",
+    "button": "Fes una donació",
+    "secondary-buton": "Entra"
+  }
+}

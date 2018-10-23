@@ -9,8 +9,8 @@ id: index
 <div class="container text-center">
   <div class="row">
     <div class="col-lg-6 offset-md-3">
-      <h2 data-i18n="participate.title">Canviem les regles del consum</h2>
-      <p data-i18n="participate.body">Katuma neix de la necessitat dels grups de consum i petits productors de proximitat catalans de reinventar-se per afrontar els reptes de futur.</p>
+      <h2 data-i18n="description:participate.title">Canviem les regles del consum</h2>
+      <p data-i18n="description:participate.body">Katuma neix de la necessitat dels grups de consum i petits productors de proximitat catalans de reinventar-se per afrontar els reptes de futur.</p>
     </div>
   </div>
 </div>
@@ -19,18 +19,18 @@ id: index
   <div class="row image-block">
     <div class="block col-lg-4">
       <i class="icon fas fa-shopping-basket"></i>
-      <h5 data-i18n="principles.consumption.title">Consum de proximitat</h5>
-      <p data-i18n="principles.consumption.body">Com a eina per potenciar la sobirania alimentària i afavorir productors locals que fan una agricultura diferent.</p>
+      <h5 data-i18n="description:principles.consumption.title">Consum de proximitat</h5>
+      <p data-i18n="description:principles.consumption.body">Com a eina per potenciar la sobirania alimentària i afavorir productors locals que fan una agricultura diferent.</p>
     </div>
     <div class="block col-lg-4">
       <i class="icon fas fa-users"></i>
-      <h5 data-i18n="principles.platformcoop.title">Platform Coop</h5>
-      <p data-i18n="principles.platformcoop.body">Persones, grups de consum i productors de proximitat són els propietaris i decideixen el rumb de la cooperativa.</p>
+      <h5 data-i18n="description:principles.platformcoop.title">Platform Coop</h5>
+      <p data-i18n="description:principles.platformcoop.body">Persones, grups de consum i productors de proximitat són els propietaris i decideixen el rumb de la cooperativa.</p>
     </div>
     <div class="block col-lg-4">
       <i class="icon fas fa-code"></i>
-      <h5 data-i18n="principles.software.title">Software lliure</h5>
-      <p data-i18n="principles.software.body">Perquè també hem d'exercir els nostres drets digitals i el nostre projecte és un esforç col·lectiu i obert.</p>
+      <h5 data-i18n="description:principles.software.title">Software lliure</h5>
+      <p data-i18n="description:principles.software.body">Perquè també hem d'exercir els nostres drets digitals i el nostre projecte és un esforç col·lectiu i obert.</p>
     </div>
   </div>
 </div>
@@ -41,10 +41,10 @@ id: index
 <div class="container journeys">
   <ul class="nav nav-tabs col-lg-4 offset-md-4" id="journeys-tab" role="tablist">
     <li class="nav-item">
-      <a class="nav-link active" id="producers-tab" data-toggle="tab" href="#producers" role="tab" aria-controls="producers" aria-selected="true">Productores</a>
+      <a class="nav-link active" id="producers-tab" data-toggle="tab" href="#producers" role="tab" aria-controls="producers" aria-selected="true" data-i18n="users:navigation.producers">Productores</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" id="groups-tab" data-toggle="tab" href="#groups" role="tab" aria-controls="groups" aria-selected="false">Grups</a>
+      <a class="nav-link" id="groups-tab" data-toggle="tab" href="#groups" role="tab" aria-controls="groups" aria-selected="false" data-i18n="users:navigation.groups">Grups</a>
     </li>
   </ul>
 
@@ -55,9 +55,9 @@ id: index
           <img src='{{ "/assets/img/productores.jpg" | prepend:site.baseurl }}' alt="Productora" />
         </div>
         <aside class="col-lg-4 offset-md-1 tab-content-item">
-          <h2 data-i18n="journeys.producers.title">Productores</h2>
-          <p data-i18n="journeys.producers.body">Ja no cal enviar llistats de preus actualitzats i rebre comandes cada setmana en diferents formats per WhatsApp, email, telèfon, etc.</p>
-          <a class="small" href={{ "/features.html" | prepend:site.baseurl }} data-i18n="journeys.producers.more">Saber-ne més →</a>
+          <h2 data-i18n="users:journeys.producers.title">Productores</h2>
+          <p data-i18n="users:journeys.producers.body">Ja no cal enviar llistats de preus actualitzats i rebre comandes cada setmana en diferents formats per WhatsApp, email, telèfon, etc.</p>
+          <a class="small" href={{ "/features.html" | prepend:site.baseurl }} data-i18n="users:journeys.producers.more">Saber-ne més →</a>
         </aside>
       </div>
     </div>
@@ -68,9 +68,9 @@ id: index
           <img src='{{ "/assets/img/grups.jpg" | prepend:site.baseurl }}' alt="Grup de consum" />
         </div>
         <aside class="col-lg-4 offset-md-1 tab-content-item">
-          <h2 data-i18n="journeys.groups.title">Grups de consum</h2>
-          <p data-i18n="journeys.groups.body">El productor manté la seva llista de productes i els grups que proveeix no s'han de preocupar de gestionar fulls de càlcul ni d'actualitzar cap preu.</p>
-          <a class="small" href={{ "/features.html" | prepend:site.baseurl }} data-i18n="journeys.groups.more">Saber-ne més →</a>
+          <h2 data-i18n="users:journeys.groups.title">Grups de consum</h2>
+          <p data-i18n="users:journeys.groups.body">El productor manté la seva llista de productes i els grups que proveeix no s'han de preocupar de gestionar fulls de càlcul ni d'actualitzar cap preu.</p>
+          <a class="small" href={{ "/features.html" | prepend:site.baseurl }} data-i18n="users:journeys.groups.more">Saber-ne més →</a>
         </aside>
       </div>
     </div>
@@ -81,8 +81,8 @@ id: index
 <div class="container open-food-network">
   <div class="row text-center">
     <div class="col-lg-6 offset-lg-3">
-      <h2 data-i18n="open-food-network.title">Sumem esforços</h2>
-      <p data-i18n="[html]open-food-network.body">Katuma és membre afiliat del projecte <a href="https://openfoodnetwork.org">Open Food Network</a>, present a Austràlia, Regne Unit, Canadà i França entre d'altres països. Els desenvolupadors que traballen a Katuma formen part del nucli del projecte.</p>
+      <h2 data-i18n="users:open-food-network.title">Sumem esforços</h2>
+      <p data-i18n="[html]users:open-food-network.body">Katuma és membre afiliat del projecte <a href="https://openfoodnetwork.org">Open Food Network</a>, present a Austràlia, Regne Unit, Canadà i França entre d'altres països. Els desenvolupadors que traballen a Katuma formen part del nucli del projecte.</p>
       <a href="https://openfoodnetwork.org">
         <img class="ofn" src='{{ "/assets/img/ofn.png" | prepend:site.baseurl }}' width="50%" alt="Open Food Network logo">
       </a>
@@ -93,11 +93,11 @@ id: index
 <div class="help-us call-to-action-block text-center">
   <div class="row image-block">
     <aside class="col-lg-6 offset-md-3">
-      <h2 data-i18n="help-us.title">Ens ajudes a arribar més lluny?</h2>
-      <p data-i18n="help-us.body">Fes que la teva entitat es faci socia i sumem esforços.</p>
+      <h2 data-i18n="users:help-us.title">Ens ajudes a arribar més lluny?</h2>
+      <p data-i18n="users:help-us.body">Fes que la teva entitat es faci socia i sumem esforços.</p>
       <div class="button-group">
-        <a class="button negative-button" data-i18n="help-us.button" href="http://forms.coopdevs.org/index.php?r=survey/index&sid=549217&lang=ca">Fes-te soci</a>
-        <a class="button secondary-button login" data-i18n="help-us.secondary-button" href="mailto:info@katuma.org?subject=Contacte katuma.org">Parlem</a>
+        <a class="button negative-button" data-i18n="users:help-us.button" href="http://forms.coopdevs.org/index.php?r=survey/index&sid=549217&lang=ca">Fes-te soci</a>
+        <a class="button secondary-button login" data-i18n="users:help-us.secondary-button" href="mailto:info@katuma.org?subject=Contacte katuma.org">Parlem</a>
       </div>
     </aside>
   </div>

@@ -1,0 +1,32 @@
+{
+  "navigation": {
+    "producers": "Producers",
+    "groups": "Groups"
+  },
+    "journeys": {
+    "consumers": {
+      "title": "Consumers",
+      "body": "Thanks to a map that geolocalizes and gives visibility to existing groups, we promote people to join, easing the access to an alternative market with local producers"
+    },
+    "groups": {
+      "title": "Consumers groups",
+      "body": "The producer keeps his product catalog up to date and the groups he provides to don't need to worry about managing spreadsheets or updating prices.",
+      "more": "Know more →"
+    },
+    "producers": {
+      "title": "Producers",
+      "body": "There is no need for sending updated price lists and receiving orders every week in different formats through WhatsApp, email, phone, etc.",
+      "more": "Know more →"
+    }
+  },
+  "open-food-network": {
+    "title": "Joint effort",
+    "body": "Katuma is affiliate member of <a href='https://openfoodnetwork.org'>Open Food Network</a>, present in Australia, UK, Canada and France among other countries. Katuma's developers are core contributors of the project."
+  },
+  "help-us": {
+    "title": "Help us go further",
+    "body": "Make your entity become a member and let's join efforts.",
+    "button": "Become a member",
+    "secondary-button": "Let's talk"
+  }
+}

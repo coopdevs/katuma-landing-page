@@ -1,0 +1,11 @@
+{
+  "sponsors": {
+    "title": "Con el apoyo de",
+    "body": "Muchas gracias también a las <a href='' data-toggle='modal' data-target='#sponsorModal'>103 personas y entidades</a> que han hecho posible que la campaña de micromecenazgo <a target='_blank' href='https://www.goteo.org/project/katuma'>'Katuma: Fem fàcil el consum de productes de proximitat'</a> fuera un éxito."
+  },
+  "matchfunding_modal": {
+    "title": "Gracias!",
+    "body": "Estas son las 13 personas y entidades que con su apoyo han hecho posible la campaña <a target='_blank' href='https://www.goteo.org/project/katuma'>'Katuma: Fem fàcil el consum de productes de proximitat'</a>, a través de Goteo y con la finanziación del ayuntamiento de Barcelona, un éxito rotundo. Con un objetivo de 6.000 €, se alcanzaron 9.711 €!",
+    "donors_title": "Donantes"
+  }
+}
