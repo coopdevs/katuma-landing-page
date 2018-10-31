@@ -12,21 +12,14 @@
       </div>
       <div class="col-lg-3 offset-1 offset-md-0 list">
         <h5 data-i18n="footer:about.title">Nosaltres</h5>
+
+        {% for social in site.social_media %}
         <div>
-          <a href="https://github.com/coopdevs">
-            <i class="fab fa-github"></i> <span data-i18n="footer:about.github">Katuma és codi lliure</span>
+          <a href="https://{{ social.service }}.com/{{ social.user }}">
+            <i class="fab fa-{{ social.service }}"></i> <span data-i18n="footer:about.{{ social.service }}">{{ social.desc }}</span>
           </a>
         </div>
-        <div>
-          <a href="https://twitter.com/katuma_org">
-            <i class="fab fa-twitter"></i> <span data-i18n="footer:about.twitter">Segueix-nos a Twitter</span>
-          </a>
-        </div>
-        <div>
-          <a href="https://www.facebook.com/katumaorg/">
-            <i class="fab fa-facebook"></i> <span data-i18n="footer:about.facebook">Segueix-nos a Facebook</span>
-          </a>
-        </div>
+        {% endfor %}
         <div>
           <a href="http://community.coopdevs.org/tags/katuma">
             <i class="fas fa-envelope"></i> <span data-i18n="footer:about.contact">Contacta amb nosaltres</span>
