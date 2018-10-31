@@ -19,12 +19,22 @@ description: >- # this means to ignore newlines until "baseurl:"
   La plataforma cooperativa de consum de proximitat.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: katuma_org
-github_username:  coopdevs
+
+# social
+social_media:
+  - service: github
+    user: coopdevs
+    desc: Katuma és codi lliure
+  - service: twitter
+    user: katuma_org
+    desc: Segueix-nos a Twitter
+  - service: facebook
+    user: katumaorg
+    desc: Segueix-nos a Facebook
 
 # Build settings
 markdown: kramdown
-theme: 
+theme:
 plugins:
 
 # Exclude from processing.
