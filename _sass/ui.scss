@@ -63,7 +63,7 @@ $primary-button-color-hover: #332738;
   }
 
   .nav-link, .nav-link:hover {
-    border: none; 
+    border: none;
 
     &.active {
       border-bottom: 3px solid $tertiary-color;
@@ -107,6 +107,12 @@ $primary-button-color-hover: #332738;
   ul li {
     list-style: none;
   }
+}
+
+.quote {
+    &:before, &:after {
+      content: '"';
+    }
 }
 
 @media (min-width: 768px) {
