@@ -11,6 +11,7 @@ $primary-button-color-hover: #332738;
   text-decoration: none;
   transition: background-color .125s,border-color .125s,color .125s;
   margin-top: 8px;
+  cursor: pointer;
 
   &:hover, &:active, &:visited {
     display: inline-block;
@@ -47,6 +48,13 @@ $primary-button-color-hover: #332738;
 
 .button-group .button {
   margin-right: 8px;
+}
+
+input {
+  border-radius: 6px;
+  font-size: 16px;
+  padding: 12px;
+  border: none;
 }
 
 .icon {
