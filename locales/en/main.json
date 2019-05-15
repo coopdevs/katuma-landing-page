@@ -10,5 +10,10 @@
     "slogan": "Buy directly from local agro-ecological producers",
     "subtitle": "Consume local food and participate in a sustainable model with socioeconomic benefits for the community",
     "button": "Become member"
+  },
+  "newsletter": {
+    "header": "Do you want to know more?",
+    "subheader": "Sign up to the newsletter to stay up to date"
   }
+
 }
