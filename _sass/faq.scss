@@ -1,0 +1,18 @@
+.k-faq {
+  & {
+    text-align: left;
+  }
+
+  a {
+    text-decoration: underline;
+  }
+
+  &__question {
+    font-weight: bold;
+    color: black;
+  }
+
+  &__answer {
+    margin-bottom: 40px;
+  }
+}

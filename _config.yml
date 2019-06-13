@@ -32,6 +32,13 @@ social_media:
     user: katumaorg
     desc: Segueix-nos a Facebook
 
+links:
+  guide: https://guia.katuma.org/
+  community: https://community.coopdevs.org/c/katuma
+  app_signup: https://app.katuma.org/register/auth#/signup?after_login=%2Fregister
+  org_signup: https://forms.coopdevs.org/index.php?r=survey/index&sid=224965&lang=ca
+  ofn: https://openfoodnetwork.org/
+
 # Build settings
 markdown: kramdown
 theme:
