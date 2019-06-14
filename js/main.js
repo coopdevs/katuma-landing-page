@@ -25,7 +25,7 @@ function setLanguage(language) {
     lng: language,
     fallbackLng: false,
     ns: {
-      namespaces: ['main', 'description', 'users', 'features', 'sponsors', 'footer'],
+      namespaces: ['main', 'description', 'users', 'features', 'sponsors', 'footer', 'faq'],
       defaultNs: 'main'
     },
     debug: false
