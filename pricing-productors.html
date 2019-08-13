@@ -1,0 +1,23 @@
+---
+layout: default
+title: Katuma
+id: pricing
+---
+
+{%- include pricing/header.html -%}
+
+<div class="container k-pricing">
+  <div class="row">
+    <div class="col-lg-10 offset-md-1">
+      {%- include pricing/tabs.html active_tab="producers" -%}
+
+      <div class="k-pricing__tabs-wrapper">
+        <p>Vivamus neque turpis, placerat id fringilla in, tempus quis lectus. Proin varius nunc eu condimentum rhoncus. Mauris at laoreet rhoncus.</p>
+
+        {%- include pricing/calculator-producers.html -%}
+
+        <p>Aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+      </div>
+    </div>
+  </div>
+</div>

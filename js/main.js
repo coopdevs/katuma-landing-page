@@ -1,5 +1,7 @@
 "use strict";
 
+window.Katuma = {};
+
 /* Code for i18next
  *
  */
@@ -25,7 +27,7 @@ function setLanguage(language) {
     lng: language,
     fallbackLng: false,
     ns: {
-      namespaces: ['main', 'description', 'users', 'features', 'sponsors', 'footer', 'faq'],
+      namespaces: ['main', 'description', 'users', 'features', 'sponsors', 'footer', 'faq', 'pricing'],
       defaultNs: 'main'
     },
     debug: false

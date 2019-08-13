@@ -5,6 +5,11 @@
 
 @import url('http://fonts.googleapis.com/css?family=Roboto:100,300,400|Roboto+Slab:300');
 
+$min-sm-screen: 576px;
+$min-md-screen: 768px;
+$min-lg-screen: 992px;
+$min-xl-screen: 1200px;
+
 $font-size: 18px;
 $font-weight: 400;
 $font-family: 'Roboto', sans-serif;
@@ -25,3 +30,5 @@ $line-height: 30px;
 @import "navbar";
 @import "ui";
 @import "faq";
+@import "pricing";
+@import "slider";

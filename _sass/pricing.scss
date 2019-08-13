@@ -1,0 +1,44 @@
+.k-pricing {
+  &__tabs-wrapper {
+    padding: 30px 0;
+  }
+
+  &__calculator {
+    & {
+      margin: 30px 0;
+      border: 2px solid $primary-light-color;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 2px 2px 2px $base-color;
+    }
+
+    &__value {
+      font-weight: bold;
+      font-size: 30px;
+      text-align: center;
+    }
+
+    &__value-subtitle {
+      font-size: 12px;
+      text-align: center;
+    }
+
+    &__description {
+      font-size: 14px;
+      line-height: 22px;
+      margin-bottom: 20px;
+    }
+  }
+
+  &__button-wrapper {
+    & {
+      margin-top: 20px;
+      text-align: center;
+    }
+
+    small {
+      display: block;
+      font-size: 12px;
+    }
+  }
+}
