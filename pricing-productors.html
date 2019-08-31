@@ -12,12 +12,15 @@ id: pricing
       {%- include pricing/tabs.html active_tab="producers" -%}
 
       <div class="k-pricing__tabs-wrapper">
-        <p>Vivamus neque turpis, placerat id fringilla in, tempus quis lectus. Proin varius nunc eu condimentum rhoncus. Mauris at laoreet rhoncus.</p>
+        {%- include pricing/pin_notice.html -%}
+        {%- include pricing/info.html -%}
+        <p data-i18n="[html]pricing:producers.info"></p>
 
         {%- include pricing/calculator-producers.html -%}
-
-        <p>Aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
       </div>
+
+      {%- include pricing/features.html -%}
+      {%- include pricing/faq.html -%}
     </div>
   </div>
 </div>

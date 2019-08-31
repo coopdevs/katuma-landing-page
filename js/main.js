@@ -19,13 +19,12 @@ $(document).ready(function () {
 });
 
 function setLanguage(language) {
-  // debugger;
   language = whitelistLanguage(language);
   persistLanguagePreference(language);
 
   i18n.init({
     lng: language,
-    fallbackLng: false,
+    fallbackLng: 'ca',
     ns: {
       namespaces: ['main', 'description', 'users', 'features', 'sponsors', 'footer', 'faq', 'pricing'],
       defaultNs: 'main'

@@ -50,6 +50,7 @@ $slider-active-color: $secondary-color;
       width: 100px;
       text-align: center;
       color: $slider-inactive-color;
+      font-size: 15px;
 
       @media (max-width: $min-md-screen) {
         font-size: 14px;

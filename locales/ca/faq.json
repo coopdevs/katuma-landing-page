@@ -1,5 +1,33 @@
 {
   "header": {
     "slogan": "Preguntes freqüents"
+  },
+  "who_must_be_member": {
+    "q": "Cada usuari individual ha de ser soci de serveis de la cooperativa?",
+    "a": "No. Katuma és un projecte adreçat a organitzacions (ja siguin grups, associacions, cooperatives de consum, etc. o petites productores). Per bé que la plataforma permet que els usuaris individuals puguin tenir un compte d’usuari i fer comandes, qui actua com a soci de Katuma son les organitzacions."
+  },
+  "who_pays_fees": {
+    "q": "Qui ha de pagar les quotes?",
+    "a": "Les quotes van dirigides a les organitzacions sòcies de la cooperativa, no a les usuàries individuals; podeu dividir el cost de la quota entre totes les membres del grup de consum/projecte productiu o organitzar-vos de la manera que millor s’adapti a les vostres necessitats."
+  },
+  "sell_only_to_one_group": {
+    "q": "Si sóc productora i només comercialitzo a un grup de consum haig de fer-me sòcia?",
+    "a": "Si només comercialitzeu a un grup de consum no cal que us feu sòcies de la cooperativa i tampoc heu de pagar cap quota."
+  },
+  "change_tiers": {
+    "q": "Que haig de fer  si canvio de tram de un mes a un altre?",
+    "a": "Si canvia el nombre de membres del grup de consum o si varia significativament el volum de facturació d’una productora no cal que ens aviseu, nosaltres a final de mes comprovem les dades i ens encarreguem de fer-vos saber si canvia el tram de la vostra quota."
+  },
+  "free_software": {
+    "q": "Si és software lliure, per què es paga?",
+    "a": "Al contrari del que sovint es pensa “software lliure” no sempre significa gratuït. Open Food Network es continua millorant, mantenint i desenvolupant cada setmana i això requereix recursos (administració de sistemes, còpies de seguretat, hores de desenvolupament dels i les programadores, etcètera). De fet, té un cost molt elevat poder desenvolupar un software d’aquestes característiques. Per això el que pretenem és mancomunar aquest cost entre totes les instàncies de la xarxa."
+  },
+  "money_katuma": {
+    "q": "On puc saber a què van destinats els diners que pago per ser soci de Katuma?",
+    "a": "La transparència és un principi fonamental per a Katuma. Qualsevol sòcia de Katuma té accés, veu i vot sobre aquest tipus d’informació mitjançant els balanços, pressupostos i altres documents presentats i debatuts. Pots consultar les actes i documents de passades assemblees al fòrum de la comunitat."
+  },
+  "non_profit": {
+    "q": "I què significa que Katuma sigui sense ànim de lucre? Què passa amb els diners de les quotes, doncs?",
+    "a": "Que Katuma sigui sense ànim de lucre no vol dir que no pugui rebre quotes de les seves associades, sinó que aquestes no es podran distribuir els excedents o beneficis d’un exercici / beneficis. Si un exercici acaba amb beneficis, entre totes les sòcies decidirem en què els invertim o a quin fons els destinem. A l’hora això deixa palès que la necessitat és cobrir els costos de la pròpia organització per tal d’assolir el nostre objectiu social i no supeditar aquest a l’acumulació de capital."
   }
 }

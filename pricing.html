@@ -12,12 +12,15 @@ id: pricing
       {%- include pricing/tabs.html active_tab="groups" -%}
 
       <div class="k-pricing__tabs-wrapper">
-        <p>Mauris ornare nulla at laoreet rhoncus. Vivamus neque turpis, placerat id fringilla in, tempus quis lectus. Proin varius nunc eu condimentum rhoncus.</p>
+        {%- include pricing/pin_notice.html -%}
+        {%- include pricing/info.html -%}
+        <p data-i18n="pricing:groups.info"></p>
 
         {%- include pricing/calculator-groups.html -%}
-
-        <p>Proin scelerisque euismod vestibulum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
       </div>
+
+      {%- include pricing/features.html -%}
+      {%- include pricing/faq.html -%}
     </div>
   </div>
 </div>
