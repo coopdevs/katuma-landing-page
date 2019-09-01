@@ -29,7 +29,7 @@
     "description_4": "Si cada mes factures més de 1000 euros a través de la plataforma la quota que et correspon és de 50€ al mes i se’t carregarà també un 1% del que facturis."
   },
   "prices": {
-    "capital_social": "*100€ de capital social",
+    "capital_social": "* 100€ de capital social",
     "tier_1": "2€ / mes",
     "tier_2": "15€ / mes",
     "tier_3": "30€ / mes",

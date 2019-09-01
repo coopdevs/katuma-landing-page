@@ -1,5 +1,35 @@
 {
   "header": {
     "slogan": "Preguntas frecuentes"
+  },
+
+
+  "who_must_be_member": {
+    "q": "Cada usuario individual debe ser socio de servicios de la cooperativa?",
+    "a": "No. Katuma es un proyecto dirigido a organizaciones (ya sean grupos, asociaciones, cooperativas de consumo, etc. o pequeñas productoras). Si bien la plataforma permite que los usuarios individuales puedan tener una cuenta de usuario y hacer pedidos, quien actúa como socio de Katuma son las organizaciones."
+  },
+  "who_pays_fees": {
+    "q": "¿Quién debe pagar las cuotas?",
+    "a": "Las cuotas van dirigidas a las organizaciones socias de la cooperativa, no a las usuarias individuales; podéis dividir el coste de la cuota entre todos los miembros del grupo de consumo / proyecto productivo o organizaros de la manera que mejor se adapte a sus necesidades."
+  },
+  "sell_only_to_one_group": {
+    "q": "Si soy productora y sólo comercializo a un grupo de consumo debo hacerme socia?",
+    "a": "Si sólo comercializas a un grupo de consumo no es necesario que te hagas socia de la cooperativa y tampoco hay que pagar ninguna cuota."
+  },
+  "change_tiers": {
+    "q": "Que debo hacer si cambio de tramo de un mes a otro?",
+    "a": "Si cambia el número de miembros del grupo de consumo o si varía significativamente el volumen de facturación de una productora no es necesario que nos aviséis, nosotros a fin de mes comprobamos los datos y nos encargamos de haceros saber si cambia el tramo de la vuestra cuota."
+  },
+  "free_software": {
+    "q": "Si es software libre, por qué se paga?",
+    "a": "Al contrario de lo que a menudo se piensa \"software libre\" no siempre significa gratuito. Open Food Network se continúa mejorando, manteniendo y desarrollando cada semana y esto requiere recursos (administración de sistemas, copias de seguridad, horas de desarrollo de los y las programadoras, etcétera). De hecho, tiene un coste muy elevado poder desarrollar un software de estas características. Por eso lo que pretendemos es mancomunar este coste entre todas las instancias de la red."
+  },
+  "money_katuma": {
+    "q": "Dónde puedo saber a que van destinados dinero que pago por ser socio de Katuma?",
+    "a": "La transparencia es un principio fundamental para Katuma. Cualquier socia de Katuma tiene acceso, voz y voto sobre este tipo de información mediante los balances, presupuestos y otros documentos presentados y debatidos. Puedes consultar las actas y documentos de pasadas asambleas en el foro de la comunidad."
+  },
+  "non_profit": {
+    "q": "Y qué significa que Katuma sea sin ánimo de lucro? ¿Qué pasa con el dinero de las cuotas, pues?",
+    "a": "Que Katuma sea sin ánimo de lucro no significa que no pueda recibir cuotas de sus asociadas, sino que éstas no se podrán distribuir los excedentes o beneficios de un ejercicio. Si un ejercicio termina con beneficios, entre todas las socias decidiremos en que los invertimos o qué fondos los destinamos. A la hora esto pone de manifiesto que la necesidad es cubrir los costes de la propia organización para alcanzar nuestro objetivo social y no supeditar éste a la acumulación de capital."
   }
 }

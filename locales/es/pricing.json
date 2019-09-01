@@ -1,5 +1,54 @@
 {
   "header": {
     "slogan": "Cuotas"
+  },
+  "tabs": {
+    "groups": "Grupos de consumo",
+    "producers": "Productores"
+  },
+  "pin_notice": "Si lo que quieres es ser visible como una <a href='https://app.katuma.org/map' target='_blank'>chincheta en el mapa</a>, pero no quieres hacer ni recibir pedidos a través de la plataforma , puedes <a href='https://guia.katuma.org/manuals-de-configuracio/productora-nomes-perfil' target='_blank'>registrar tu perfil</a> de manera gratuita sin necesidad de hacerte socia de la cooperativa.",
+  "info": "Para usar la plataforma, las organizaciones, grupos de consumo o productoras, deberéis haceros socias de la cooperativa. Esto conlleva una aportación de capital social de 100 euros, retornables en caso de baja, y una cuota mensual que varía según las características de vuestra organización. Podéis calcularla aquí abajo.",
+  "groups": {
+    "info": "Las cuotas mensuales van a cargo de la organización, no a cada uno de sus miembros, y corresponde al tamaño del grupo. Prueba la calculadora para saber cuánto os pertoca.",
+    "question": "Cuántas unidades familiares tiene vuestro grupo de consumo?",
+    "description_1": "La quota mínima, de 2 €, correspon  a grups de consum petits de menys de 15 sòcies o unitats familiars registrades.",
+    "description_2": "La cuota básica, de 15 €, corresponde  a grupos de consumo de entre 15 y40 socias o unidades familiares registradas.",
+    "description_3": "La cuota media, de 30 €, corresponde  a grupos de consumo de entre 40 y 80 socias o unidades familiares registradas.",
+    "description_4": "La cuota professional corresponde a grupos grandes de más de 80 unidades familiares registradas. En este tramo, a parte de los 50 euros de cuota se carga a la organización el 1% del volumen de las compras que se realizan en la plataforma."
+  },
+  "producers": {
+    "info": "Si comercializas tus productos en la plataforma a <strong>más de un grupo de consumo</strong>, las cuotas mensuales corresponden tu volumen de facturación mensual.",
+    "question": "Qué volumen de ventas haces a través de la plataforma?",
+    "dot_1": "200€ / mes",
+    "dot_2": "500€ / mes",
+    "dot_3": "1000€ / mes",
+    "dot_4": "+1000€ / mes",
+    "description_1": "Si cada mes facturas menos de 200 euros a través de la plataforma i vendes a más de un grupo de consumo, la cuota que te corresponde es de 2€ al mes.",
+    "description_2": "Si cada mes facturas entre  200 y 500 euros a través de la plataforma i vendes a más de un grupo de consumo, la cuota que te corresponde es de 15€ al mes.",
+    "description_3": "Si cada mes facturas entre  500 y 1000 euros a través de la plataforma i vendes a más de un grupo de consumo, la cuota que te corresponde es de 30€ al mes.",
+    "description_4": "Si cada mes facturas más  de 1000 euros a través de la plataforma la cuota que te corresponde es de 50€ al mes i se te cargará también el 1% de lo que factures."
+  },
+  "prices": {
+    "capital_social": "* 100€ de capital social",
+    "tier_1": "2€ / mes",
+    "tier_2": "15€ / mes",
+    "tier_3": "30€ / mes",
+    "tier_4": "50€ + 1% de ventas / mes"
+  },
+  "features": {
+    "title": "Todos los tramos incluyen:",
+    "unlimited_products": "Productos ilimitados",
+    "shop": "Tienda en Katuma",
+    "additional_profiles": "Opción de gestionar perfiles adicionales ilimitados",
+    "import": "Importación de productos desde un archivo",
+    "support": "Soporte por correo electrónico y teléfono",
+    "subscriptions": "Suscripciones",
+    "embedded_shop": "Tienda incrustada"
+  },
+  "try_it": "Pruébalo",
+  "one_month_trial": "* tienes un mes de prueba",
+  "faq": {
+    "more_questions": "Tengo más preguntas sobre los precios",
+    "write_us": "Si tienes dudas escríbenos a info@katuma.org y trataremos de resolverlas."
   }
 }

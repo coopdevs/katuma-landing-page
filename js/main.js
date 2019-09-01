@@ -24,7 +24,7 @@ function setLanguage(language) {
 
   i18n.init({
     lng: language,
-    fallbackLng: 'ca',
+    fallbackLng: 'en',
     ns: {
       namespaces: ['main', 'description', 'users', 'features', 'sponsors', 'footer', 'faq', 'pricing'],
       defaultNs: 'main'

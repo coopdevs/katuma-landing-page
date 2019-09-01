@@ -1,5 +1,33 @@
 {
   "header": {
-    "slogan": "Frequently asqued questions"
+    "slogan": "Frequently asked questions"
+  },
+  "who_must_be_member": {
+    "q": "Each individual user must be a member of the cooperative?",
+    "a": "No. Katuma is a project aimed at organizations (whether groups, associations, consumer cooperatives, etc. or small producers). While the platform allows individual users to have a user account and place orders, who acts as Katuma's partner are the organizations."
+  },
+  "who_pays_fees": {
+    "q": "Who should pay the fees?",
+    "a": "The fees are directed to the cooperative's partner organizations, not to individual users; You can divide the cost of the fee among all the members of the consumption group / productive project or organize in the way that best suits your needs."
+  },
+  "sell_only_to_one_group": {
+    "q": "If I am a producer and only sell to a consumer group, should I become a member?",
+    "a": "If you only sell to a consumer group, it is not necessary to become a member of the cooperative and you do not have to pay any fees."
+  },
+  "change_tiers": {
+    "q": "What should I do if I change the category from one month to another?",
+    "a": "If the number of members of the consumption group changes or if the volume of turnover of a production company varies significantly, it is not necessary that you notify us, at the end of the month we check the data and we will let you know if the installment of your quota changes."
+  },
+  "free_software": {
+    "q": "If it's free software, why it’s payed?",
+    "a": "Contrary to what is often thought of as \"free software\" does not always mean free of charge. The Open Food Network continues to improve, maintain and develop every week and this requires resources (system administration, backups, development hours of the programmers, etc.). In fact, it has a very high cost to develop software with these characteristics. That is why we intend to pool this cost among all instances of the network."
+  },
+  "money_katuma": {
+    "q": "Where can I find out where the money I pay for being a Katuma member goes?",
+    "a": "Transparency is a fundamental principle for Katuma. Any Katuma member has access, voice and vote on this type of information through the balance sheets, budgets and other documents presented and discussed. You can consult the acts and documents of past assemblies in the community forum."
+  },
+  "non_profit": {
+    "q": "And what does it mean that Katuma is non-profit? What about the fee money, then?",
+    "a": "That Katuma is not for profit does not mean that it cannot receive fees from its associates, but that these cannot be distributed surpluses or benefits of an exercise. If an exercise ends with benefits, among all the members we will decide in which we invest them or what funds we allocate them. This shows that the need is to cover the costs of the organization itself to achieve our social objective and is not subject it to the accumulation of capital."
   }
 }

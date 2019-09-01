@@ -1,5 +1,54 @@
 {
   "header": {
     "slogan": "Pricing"
+  },
+  "tabs": {
+    "groups": "Hubs",
+    "producers": "Producers"
+  },
+  "pin_notice": "If what you want is to be visible as a pushpin on <a href='https://app.katuma.org/map' target='_blank'>the map</a>, but you don't want to make or receive orders through the platform, you can <a href='https://guia.katuma.org/manuals-de-configuracio/productora-nomes-perfil' target='_blank'>register your profile</a>  for free without becoming a member of the cooperative.",
+  "info": "To use the platform, organizations, hubs or producers, you must become members of the cooperative. This entails a contribution of social capital of 100 euros, returnable in case of withdrawal, and a monthly fee that varies according to the characteristics of your organization. You can calculate it below.",
+  "groups": {
+    "info": "The monthly fees are paid by the organization, not to each of its members, and corresponds to the size of the group. Try the calculator to find out how much it will cost.",
+    "question": "How many family units does your consumption group have?",
+    "description_1": "The minimum fee of € 2 corresponds to small consumption groups of up to 15 members or registered family units.",
+    "description_2": "The basic fee of € 15 corresponds to consumption groups of between 15 and 40 members or registered family units.",
+    "description_3": "The medium fee of € 30 corresponds to consumption groups of between 40 and 80 members or registered family units.",
+    "description_4": "The professional fee corresponds to large groups of more than 80 registered family units. In this section, 1% of the volume of purchases made on the platform is charged to the organization in addition to the 50 euros fee."
+  },
+  "producers": {
+    "info": "If you sell your products on the platform to <strong>more than one hub</strong> the monthly fees correspond to your monthly billing volume.",
+    "question": "What volume of sales do you make through the platform?",
+    "dot_1": "200€ / mo",
+    "dot_2": "500€ / mo",
+    "dot_3": "1000€ / mo",
+    "dot_4": "+1000€ / mo",
+    "description_1": "If each month you sell less than 200 euros through the platform and you sell to more than one group of consumption, the corresponding fee is € 2 per month.",
+    "description_2": "If each month your sells are between 200 and 500 euros through the platform and you sell to more than one consumption group, the corresponding fee is € 15 per month.",
+    "description_3": "If each month your sells are between 500 and 1000 euros through the platform and you sell to more than one consumption group, the corresponding fee is € 30 per month.",
+    "description_4": "If each month invoices more than 1000 euros through the platform the fee that corresponds to you is € 50 per month and you will also be charged 1% of your sells value."
+  },
+  "prices": {
+    "capital_social": "* 100€ of social capital",
+    "tier_1": "2€ / mo",
+    "tier_2": "15€ / mo",
+    "tier_3": "30€ / mo",
+    "tier_4": "50€ + 1% of sells / mo"
+  },
+  "features": {
+    "title": "All sections include:",
+    "unlimited_products": "Unlimited products",
+    "shop": "Store in Katuma",
+    "additional_profiles": "Unlimited additional profiles management option",
+    "import": "Importing products from a file",
+    "support": "Support by email and phone",
+    "subscriptions": "Subscriptions",
+    "embedded_shop": "Embedded store"
+  },
+  "try_it": "Try it",
+  "one_month_trial": "* one month trial",
+  "faq": {
+    "more_questions": "I have more questions about prices",
+    "write_us": "If you have doubts write to info@katuma.org and we will try to solve them!"
   }
 }
