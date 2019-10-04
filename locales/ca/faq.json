@@ -24,7 +24,7 @@
   },
   "money_katuma": {
     "q": "On puc saber a què van destinats els diners que pago per ser soci de Katuma?",
-    "a": "La transparència és un principi fonamental per a Katuma. Qualsevol sòcia de Katuma té accés, veu i vot sobre aquest tipus d’informació mitjançant els balanços, pressupostos i altres documents presentats i debatuts. Pots consultar les actes i documents de passades assemblees al fòrum de la comunitat."
+    "a": "La transparència és un principi fonamental per a Katuma. Qualsevol sòcia de Katuma té accés, veu i vot sobre aquest tipus d’informació mitjançant els balanços, pressupostos i altres documents presentats i debatuts. Pots consultar les actes i documents de passades assemblees al <a href='https://community.coopdevs.org/c/katuma'>fòrum de la comunitat</a>."
   },
   "non_profit": {
     "q": "I què significa que Katuma sigui sense ànim de lucre? Què passa amb els diners de les quotes, doncs?",
