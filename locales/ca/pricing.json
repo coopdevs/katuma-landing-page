@@ -11,9 +11,9 @@
   "groups": {
     "info": "Les quotes mensuals es carreguen a la organització, no a cada membre, i corresponen a la mida del grup. Prova la calculadora per saber quan us pertoca.",
     "question": "Quantes unitats familiars té el vostre grup de consum?",
-    "description_1": "La quota mínima, de 2 €, correspon  a grups de consum petits de menys de 15 sòcies o unitats familiars registrades.",
-    "description_2": "La quota bàsica, de 15 €, correspon a grups de consum ja més consolidats d’entre 15 i 40 unitats familiars registrades.",
-    "description_3": "La quota mitja, de 30 €,correspon a grups de consum d’entre 15 i 40 unitats familiars registrades.",
+    "description_1": "La quota mínima, de 2 €, correspon a grups de consum petits de menys de 15 sòcies o unitats familiars registrades.",
+    "description_2": "La quota bàsica, de 15 €, correspon a grups de consum ja més consolidats, d’entre 15 i 40 unitats familiars registrades.",
+    "description_3": "La quota mitja, de 30 €, correspon a grups de consum d’entre 40 i 80 unitats familiars registrades.",
     "description_4": "La quota professional correspon a grups grans de més de 80 unitats familiars registrades. En aquest tram, a part dels 50 euros de quota, es carrega a la organització l’1% del volum de compres fetes a través de la plataforma."
   },
   "producers": {

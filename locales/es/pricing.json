@@ -10,10 +10,10 @@
   "info": "Para usar la plataforma, las organizaciones, grupos de consumo o productoras, deberéis haceros socias de la cooperativa. Esto conlleva una aportación de capital social de 100 euros, retornables en caso de baja, y una cuota mensual que varía según las características de vuestra organización. Podéis calcularla aquí abajo.",
   "groups": {
     "info": "Las cuotas mensuales van a cargo de la organización, no a cada uno de sus miembros, y corresponde al tamaño del grupo. Prueba la calculadora para saber cuánto os pertoca.",
-    "question": "Cuántas unidades familiares tiene vuestro grupo de consumo?",
-    "description_1": "La quota mínima, de 2 €, correspon  a grups de consum petits de menys de 15 sòcies o unitats familiars registrades.",
-    "description_2": "La cuota básica, de 15 €, corresponde  a grupos de consumo de entre 15 y40 socias o unidades familiares registradas.",
-    "description_3": "La cuota media, de 30 €, corresponde  a grupos de consumo de entre 40 y 80 socias o unidades familiares registradas.",
+    "question": "Cuantas unidades familiares tiene vuestro grupo de consumo?",
+    "description_1": "La quota mínima, de 2 €, correspon a grups de consum petits de menys de 15 sòcies o unitats familiars registrades.",
+    "description_2": "La cuota básica, de 15 €, corresponde a grupos de consumo de entre 15 y 40 socias o unidades familiares registradas.",
+    "description_3": "La cuota media, de 30 €, corresponde a grupos de consumo de entre 40 y 80 socias o unidades familiares registradas.",
     "description_4": "La cuota professional corresponde a grupos grandes de más de 80 unidades familiares registradas. En este tramo, a parte de los 50 euros de cuota se carga a la organización el 1% del volumen de las compras que se realizan en la plataforma."
   },
   "producers": {
