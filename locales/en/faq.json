@@ -24,7 +24,7 @@
   },
   "money_katuma": {
     "q": "Where can I find out where the money I pay for being a Katuma member goes?",
-    "a": "Transparency is a fundamental principle for Katuma. Any Katuma member has access, voice and vote on this type of information through the balance sheets, budgets and other documents presented and discussed. You can consult the acts and documents of past assemblies in the community forum."
+    "a": "Transparency is a fundamental principle for Katuma. Any Katuma member has access, voice and vote on this type of information through the balance sheets, budgets and other documents presented and discussed. You can consult the acts and documents of past assemblies in the <a href='https://community.coopdevs.org/c/katuma'>community forum</a>."
   },
   "non_profit": {
     "q": "And what does it mean that Katuma is non-profit? What about the fee money, then?",

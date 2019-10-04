@@ -49,6 +49,6 @@
   "one_month_trial": "* tienes un mes de prueba",
   "faq": {
     "more_questions": "Tengo más preguntas sobre los precios",
-    "write_us": "Si tienes dudas escríbenos a info@katuma.org y trataremos de resolverlas."
+    "write_us": "Si tienes dudas escríbenos a <a href='mailto:info@katuma.org?subject=Dudas con el pricing de Katuma'>info@katuma.org</a> y trataremos de resolverlas."
   }
 }

@@ -26,7 +26,7 @@
   },
   "money_katuma": {
     "q": "Dónde puedo saber a que van destinados dinero que pago por ser socio de Katuma?",
-    "a": "La transparencia es un principio fundamental para Katuma. Cualquier socia de Katuma tiene acceso, voz y voto sobre este tipo de información mediante los balances, presupuestos y otros documentos presentados y debatidos. Puedes consultar las actas y documentos de pasadas asambleas en el foro de la comunidad."
+    "a": "La transparencia es un principio fundamental para Katuma. Cualquier socia de Katuma tiene acceso, voz y voto sobre este tipo de información mediante los balances, presupuestos y otros documentos presentados y debatidos. Puedes consultar las actas y documentos de pasadas asambleas en el <a href='https://community.coopdevs.org/c/katuma'>foro de la comunidad</a>."
   },
   "non_profit": {
     "q": "Y qué significa que Katuma sea sin ánimo de lucro? ¿Qué pasa con el dinero de las cuotas, pues?",
