@@ -1,0 +1,54 @@
+{
+  "header": {
+    "slogan": "Quotes"
+  },
+  "tabs": {
+    "groups": "Grups de consum",
+    "producers": "Productors"
+  },
+  "pin_notice": "Si el que vols és ser visible com a una <a href='https://app.katuma.org/map' target='_blank'>xinxeta al mapa</a>, pero no vols fer ni rebre comandes a través de la plataforma, pots <a href='https://guia.katuma.org/manuals-de-configuracio/productora-nomes-perfil' target='_blank'>registrar el teu perfil</a> de forma gratuïta sense necessitat fer-te sòcia de la cooperativa.",
+  "info": "Per fer ús de la plataforma les organitzacions, grups de consum o productores, haureu de fer-vos sòcies de la cooperativa. Això comporta una aportació de capital social de 100 euros, retornables en cas de baixa, i una quota mensual que varia segons les característiques de la vostra organització, podeu calcular-les aquí a sota.",
+  "groups": {
+    "info": "Les quotes mensuals es carreguen a la organització, no a cada membre, i corresponen a la mida del grup. Prova la calculadora per saber quan us pertoca.",
+    "question": "Quantes unitats familiars té el vostre grup de consum?",
+    "description_1": "La quota mínima, de 2 €, correspon  a grups de consum petits de menys de 15 sòcies o unitats familiars registrades.",
+    "description_2": "La quota bàsica, de 15 €, correspon a grups de consum ja més consolidats d’entre 15 i 40 unitats familiars registrades.",
+    "description_3": "La quota mitja, de 30 €,correspon a grups de consum d’entre 15 i 40 unitats familiars registrades.",
+    "description_4": "La quota professional correspon a grups grans de més de 80 unitats familiars registrades. En aquest tram, a part dels 50 euros de quota, es carrega a la organització l’1% del volum de compres fetes a través de la plataforma."
+  },
+  "producers": {
+    "info": "Si comercialitzes els teus productes a la plataforma a <strong>més d’un grup de consum</strong>, les quotes mensuals corresponen al volum de facturació que tens al mes.",
+    "question": "Quin volum de vendes fas a través de la plataforma?",
+    "dot_1": "200€ / mes",
+    "dot_2": "500€ / mes",
+    "dot_3": "1000€ / mes",
+    "dot_4": "+1000€ / mes",
+    "description_1": "Si cada mes factures menys de 200 euros a través de la plataforma, i vens a més d’un grup de consum, la quota que et correspon és de 2€ al mes.",
+    "description_2": "Si cada mes factures entre  200 i 500 euros a través de la plataforma, i vens a més d’un grup de consum, la quota que et correspon és de 15€ al mes.",
+    "description_3": "Si cada mes factures entre  500 i 1000 euros a través de la plataforma la quota que et correspon és de 30€ al mes.",
+    "description_4": "Si cada mes factures més de 1000 euros a través de la plataforma la quota que et correspon és de 50€ al mes i se’t carregarà també un 1% del que facturis."
+  },
+  "prices": {
+    "capital_social": "* 100€ de capital social",
+    "tier_1": "2€ / mes",
+    "tier_2": "15€ / mes",
+    "tier_3": "30€ / mes",
+    "tier_4": "50€ + 1% de vendes / mes"
+  },
+  "features": {
+    "title": "Tots els trams inclouen:",
+    "unlimited_products": "Productes il·limitats",
+    "shop": "Botiga a Katuma",
+    "additional_profiles": "Opció de gestionar perfils addicionals il·limitats",
+    "import": "Importació de productes des d’un arxiu",
+    "support": "Suport per correu electrònic i telèfon",
+    "subscriptions": "Subscripcions",
+    "embedded_shop": "Botiga incrustada"
+  },
+  "try_it": "Prova-ho",
+  "one_month_trial": "* tens un mes de prova",
+  "faq": {
+    "more_questions": "Tinc més preguntes sobre els preus",
+    "write_us": "Si tens dubtes escriu-nos a <a href='mailto:info@katuma.org?subject=Dubtes amb el pricing de Katuma'>info@katuma.org</a> i tractarem de resoldre’t-els!"
+  }
+}

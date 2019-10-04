@@ -1,0 +1,26 @@
+---
+layout: default
+title: Katuma
+id: pricing
+---
+
+{%- include pricing/header.html -%}
+
+<div class="container k-pricing">
+  <div class="row">
+    <div class="col-lg-10 offset-md-1">
+      {%- include pricing/tabs.html active_tab="groups" -%}
+
+      <div class="k-pricing__tabs-wrapper">
+        {%- include pricing/pin_notice.html -%}
+        {%- include pricing/info.html -%}
+        <p data-i18n="pricing:groups.info"></p>
+
+        {%- include pricing/calculator-groups.html -%}
+      </div>
+
+      {%- include pricing/features.html -%}
+      {%- include pricing/faq.html -%}
+    </div>
+  </div>
+</div>

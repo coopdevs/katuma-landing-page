@@ -1,0 +1,19 @@
+{% assign groups_class = "" %}
+{% assign producers_class = "" %}
+
+{% if include.active_tab == "groups" %}
+  {% assign groups_class = "active" %}
+{% endif %}
+
+{% if include.active_tab == "producers" %}
+  {% assign producers_class = "active" %}
+{% endif %}
+
+<ul class="nav nav-tabs">
+  <li class="nav-item">
+    <a class="nav-link {{ groups_class }}" href="/pricing.html" data-i18n="pricing:tabs.groups">Grups de consum</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link {{ producers_class }}" href="/pricing-productors.html" data-i18n="pricing:tabs.producers">Productors</a>
+  </li>
+</ul>
