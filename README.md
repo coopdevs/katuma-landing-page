@@ -20,3 +20,5 @@ docker-compose up
 ```
 
 Now navigate to `http://127.0.0.1:4000/` to see the site.
+
+Keep in mind that any change in the `Gemfile` will require rebuilding the image running the command `docker-compose up --build`.
