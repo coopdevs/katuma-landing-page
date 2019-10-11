@@ -23,7 +23,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # social
 social_media:
   - service: github
-    user: coopdevs
+    user: openfoodfoundation/openfoodnetwork
     desc: Katuma és codi lliure
   - service: twitter
     user: katuma_org
