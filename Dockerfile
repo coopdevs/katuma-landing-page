@@ -1,4 +1,4 @@
-FROM ruby:2.4-stretch
+FROM ruby:2.6-alpine
 WORKDIR /app
 ADD . /app/
 RUN set -uex; \
