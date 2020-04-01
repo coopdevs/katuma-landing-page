@@ -118,6 +118,25 @@ input {
   }
 }
 
+.news {
+  .fas {
+    padding: 0 .75em;
+  }
+
+  a, a:hover {
+    color: hsl(240, 100%, 95%);
+    font-weight: bold;
+    text-decoration: underline;
+  }
+
+  padding: .5em 0;
+  border-radius: 0;
+  font-size: 16px;
+  background-color: hsl(245, 92%, 60%);
+  color: hsl(240, 100%, 95%);
+  box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+}
+
 @media (min-width: 768px) {
   .modal-body {
     padding: 0 3rem 5rem 3rem;
