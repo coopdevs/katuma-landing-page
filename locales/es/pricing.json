@@ -47,6 +47,7 @@
   },
   "try_it": "Pruébalo",
   "one_month_trial": "* tienes un mes de prueba",
+  "vat_not_included": "** IVA no incluido",
   "faq": {
     "more_questions": "Tengo más preguntas sobre los precios",
     "write_us": "Si tienes dudas escríbenos a <a href='mailto:info@katuma.org?subject=Dudas con el pricing de Katuma'>info@katuma.org</a> y trataremos de resolverlas."

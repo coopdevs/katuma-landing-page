@@ -51,5 +51,9 @@
       display: block;
       font-size: 12px;
     }
+
+    small:last-child {
+       line-height: .5rem;
+    }
   }
 }
