@@ -13,6 +13,12 @@ This website is implemented with [Jekyllrb](https://jekyllrb.com/). After instal
 ```shell
 $ bundle exec jekyll serve
 ```
+The project has [Guard LiveReload](https://github.com/guard/guard-livereload) configured. If you want to use it, once you got the development
+server running, open a new consol terminal in the project root directory and execute:
+
+```shell
+$ bundle exec guard
+```
 
 If you want to develop using Docker instead, install [Docker](https://docs.docker.com/install/) and [docker-compose](https://docs.docker.com/compose/install/) and run:
 ```shell
