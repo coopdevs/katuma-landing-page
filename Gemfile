@@ -21,3 +21,7 @@ gem "ffi", ">= 1.9.24"
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+group :development do
+  gem 'guard-livereload', '~> 2.5', require: false
+end
