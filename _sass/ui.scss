@@ -118,6 +118,12 @@ input {
   }
 }
 
+.quote {
+    &:before, &:after {
+      content: '"';
+    }
+}
+
 @media (min-width: 768px) {
   .modal-body {
     padding: 0 3rem 5rem 3rem;
